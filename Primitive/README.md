@@ -142,7 +142,7 @@ primitive -i cat.jpg -o c_6.jpg -n 750 -m 6 -s 1280 -rep 10 -v
 ```
 primitive -i hamster.jpg -o h_7.jpg -n 500 -m 7 -s 1280 -v
 ```
-![hamster](https://user-images.githubusercontent.com/59083599/134981250-5afb686b-ef4d-4db7-8426-ab0d795cdf17.jpg)
+![h_7](https://user-images.githubusercontent.com/59083599/134982088-b1cc44b5-7395-4a3e-a65a-eb9ff9dda5d9.jpg)
 
 ```
 primitive -i fish.jpg -o f_7.jpg -n 250 -m 7 -s 1280 -v
