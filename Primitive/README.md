@@ -105,7 +105,6 @@ primitive -i dog.jpg -o d_4.jpg -n 500 -m 4 -s 1280 -v
 ![d_4](https://user-images.githubusercontent.com/59083599/134977419-fbac4e68-ba1f-4aff-a766-b4cefc4b6eb7.jpg)
 
 ## rotated rectangle examples
-
 ```
 primitive -i shark.jpg -o s_5.jpg -n 250 -m 5 -s 1280 -v
 ```
@@ -138,3 +137,19 @@ primitive -i wolf.jpg -o w_6.jpg -n 250 -m 6 -s 1280 -rep 10 -v
 primitive -i cat.jpg -o c_6.jpg -n 750 -m 6 -s 1280 -rep 10 -v
 ```
 ![c_6](https://user-images.githubusercontent.com/59083599/134980528-9b346a37-7159-4cb3-b5ea-1be3432f2cc6.jpg)
+
+## rotated ellipses examples
+```
+primitive -i hamster.jpg -o h_7.jpg -n 500 -m 7 -s 1280 -v
+```
+![hamster](https://user-images.githubusercontent.com/59083599/134981250-5afb686b-ef4d-4db7-8426-ab0d795cdf17.jpg)
+
+```
+primitive -i fish.jpg -o f_7.jpg -n 250 -m 7 -s 1280 -v
+```
+![f_7](https://user-images.githubusercontent.com/59083599/134981631-d40bc43d-c84c-4510-91a4-65a08132ba7b.jpg)
+
+```
+primitive -i fish.jpg -o f_7.jpg -n 250 -m 7 -s 1280 -v
+```
+![g_7](https://user-images.githubusercontent.com/59083599/134981981-af0fbc57-36ef-403e-a76d-073d53c9ee29.jpg)
