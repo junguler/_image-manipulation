@@ -69,3 +69,19 @@ primitive -i ostrich.jpg -o o_2.jpg -n 250 -m 2 -s 1280 -v
 primitive -i camel.jpg -o c_2.jpg -n 1000 -m 2 -s 1280 -v
 ```
 ![c_2](https://user-images.githubusercontent.com/59083599/134974054-9683101a-4cdd-4ad3-be77-a106ba7bc641.jpg)
+
+## ellipses examples
+```
+primitive -i panda.jpg -o p_3.jpg -n 750 -m 3 -s 1280 -v
+```
+![p_3](https://user-images.githubusercontent.com/59083599/134974745-1b72e668-e744-46a3-b1dd-3773498a9e11.jpg)
+
+```
+primitive -i elephant.jpg -o e_3.jpg -n 500 -m 3 -s 1280 -v
+```
+![e_3](https://user-images.githubusercontent.com/59083599/134975167-5d66f940-1b15-4000-950d-0a8a53af4d7d.jpg)
+
+```
+primitive -i chicken.jpg -o c_3.jpg -n 1000 -m 3 -s 1280 -v
+```
+![c_3](https://user-images.githubusercontent.com/59083599/134975585-931520d8-6c15-421b-85bd-929c4463662f.jpg)
