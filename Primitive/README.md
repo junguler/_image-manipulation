@@ -120,3 +120,21 @@ primitive -i horse.jpg -o h_5.jpg -n 500 -m 5 -s 1280 -v
 primitive -i penguin.jpg -o p_5.jpg -n 750 -m 5 -s 1280 -v
 ```
 ![p_5](https://user-images.githubusercontent.com/59083599/134979287-abc4073a-07e9-40a9-981c-2d4a5d289755.jpg)
+
+## beziers examples
+for beziers we also use the `-rep 10` switch which multiplies the number of shapes by 10 for each iteration its adding, this is because lines are harder to make out if not many of them are present
+
+```
+primitive -i fox.jpg -o f_6.jpg -n 500 -m 6 -s 1280 -rep 10 -v
+```
+![f_6](https://user-images.githubusercontent.com/59083599/134980064-1eae1049-1038-4ea5-80e7-0c8f4c17ca19.jpg)
+
+```
+primitive -i wolf.jpg -o w_6.jpg -n 250 -m 6 -s 1280 -rep 10 -v
+```
+![w_6](https://user-images.githubusercontent.com/59083599/134980282-f1a43e0c-2f8d-4758-beb8-7ee9d3ef8bbc.jpg)
+
+```
+primitive -i cat.jpg -o c_6.jpg -n 750 -m 6 -s 1280 -rep 10 -v
+```
+![c_6](https://user-images.githubusercontent.com/59083599/134980528-9b346a37-7159-4cb3-b5ea-1be3432f2cc6.jpg)
