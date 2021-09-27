@@ -56,7 +56,12 @@ primitive -i flamingo.jpg -o f_1.jpg -n 750 -m 1 -s 1280 -v
 
 ## rectangle examples
 ```
-primitive -i zebra.jpg -o z_1.jpg -n 500 -m 2 -s 1280 -v
+primitive -i zebra.jpg -o z_2.jpg -n 500 -m 2 -s 1280 -v
 ```
 ![z_1](https://user-images.githubusercontent.com/59083599/134973168-74b107f8-2cbb-4b4b-a25f-aaaead4de70f.jpg)
+
+```
+primitive -i ostrich.jpg -o 0_2.jpg -n 250 -m 2 -s 1280 -v
+```
+![o_2](https://user-images.githubusercontent.com/59083599/134973796-00692ef2-86a3-440e-93f0-dd08689db5f6.jpg)
 
