@@ -19,3 +19,12 @@ everything is downloaded from a royalty free image website [here](https://free-i
 `-s` decides the width of outpot size, if don't passed it outputs at 1024 pixels witdh
 
 `-bg` decides the background color, use a hex value, default is average
+
+`-v` to see verbose log of what's happening
+
+## combo examples
+```
+primitive -i cheetah.jpg -o c_0.jpg -n 1000 -m 0 -s 1280 -v
+```
+![c_0](https://user-images.githubusercontent.com/59083599/134971033-2042574c-545c-452b-b3f4-19592dec42af.jpg)
+
