@@ -85,3 +85,19 @@ primitive -i elephant.jpg -o e_3.jpg -n 500 -m 3 -s 1280 -v
 primitive -i chicken.jpg -o c_3.jpg -n 1000 -m 3 -s 1280 -v
 ```
 ![c_3](https://user-images.githubusercontent.com/59083599/134975585-931520d8-6c15-421b-85bd-929c4463662f.jpg)
+
+## circle examples
+```
+primitive -i bunny.jpg -o b_4.jpg -n 1000 -m 4 -s 1280 -v
+```
+![b_4](https://user-images.githubusercontent.com/59083599/134976622-8e98b641-9d20-42bb-a4af-12492717f630.jpg)
+
+```
+primitive -i crab.jpg -o c_4.jpg -n 250 -m 4 -s 1280 -v
+```
+![c_4](https://user-images.githubusercontent.com/59083599/134977192-96c1d0b4-c996-4613-9d12-5cc9647d5680.jpg)
+
+```
+primitive -i dog.jpg -o d_4.jpg -n 500 -m 4 -s 1280 -v
+```
+![d_4](https://user-images.githubusercontent.com/59083599/134977419-fbac4e68-ba1f-4aff-a766-b4cefc4b6eb7.jpg)
