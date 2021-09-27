@@ -37,3 +37,19 @@ primitive -i lion.jpg -o l_0.jpg -n 500 -m 0 -s 1280 -v
 primitive -i cow.jpg -o c2_0.jpg -n 250 -m 0 -s 1280 -v
 ```
 ![c2_0](https://user-images.githubusercontent.com/59083599/134971626-6c228a14-f4b4-41d9-9c7e-762dda5881df.jpg)
+
+## triangle examples
+```
+primitive -i monkey.jpg -o m_1.jpg -n 500 -m 1 -s 1280 -v
+```
+![m_1](https://user-images.githubusercontent.com/59083599/134972132-dbfe66d5-69bb-4e52-833a-8c0960b562f3.jpg)
+
+```
+primitive -i flamingo.jpg -o f_1.jpg -n 750 -m 1 -s 1280 -v
+```
+![f_1](https://user-images.githubusercontent.com/59083599/134972327-1199f59e-8000-4216-b442-c2e8f21a0541.jpg)
+
+```
+primitive -i flamingo.jpg -o f_1.jpg -n 750 -m 1 -s 1280 -v
+```
+![s_1](https://user-images.githubusercontent.com/59083599/134972589-b1671705-2aa1-43b8-b35f-f32a0199ead6.jpg)
