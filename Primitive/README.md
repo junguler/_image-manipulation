@@ -101,3 +101,5 @@ primitive -i crab.jpg -o c_4.jpg -n 250 -m 4 -s 1280 -v
 primitive -i dog.jpg -o d_4.jpg -n 500 -m 4 -s 1280 -v
 ```
 ![d_4](https://user-images.githubusercontent.com/59083599/134977419-fbac4e68-ba1f-4aff-a766-b4cefc4b6eb7.jpg)
+
+### more examples coming soon
