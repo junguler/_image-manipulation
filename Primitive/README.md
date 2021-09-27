@@ -28,3 +28,12 @@ primitive -i cheetah.jpg -o c_0.jpg -n 1000 -m 0 -s 1280 -v
 ```
 ![c_0](https://user-images.githubusercontent.com/59083599/134971033-2042574c-545c-452b-b3f4-19592dec42af.jpg)
 
+```
+primitive -i lion.jpg -o l_0.jpg -n 500 -m 0 -s 1280 -v
+```
+![l_0](https://user-images.githubusercontent.com/59083599/134971423-39221aa7-505a-4a66-8ec3-49145bead5e2.jpg)
+
+```
+primitive -i cow.jpg -o c2_0.jpg -n 250 -m 0 -s 1280 -v
+```
+![c2_0](https://user-images.githubusercontent.com/59083599/134971626-6c228a14-f4b4-41d9-9c7e-762dda5881df.jpg)
