@@ -53,3 +53,10 @@ primitive -i flamingo.jpg -o f_1.jpg -n 750 -m 1 -s 1280 -v
 primitive -i flamingo.jpg -o f_1.jpg -n 750 -m 1 -s 1280 -v
 ```
 ![s_1](https://user-images.githubusercontent.com/59083599/134972589-b1671705-2aa1-43b8-b35f-f32a0199ead6.jpg)
+
+## rectangle examples
+```
+primitive -i zebra.jpg -o z_1.jpg -n 500 -m 2 -s 1280 -v
+```
+![z_1](https://user-images.githubusercontent.com/59083599/134973168-74b107f8-2cbb-4b4b-a25f-aaaead4de70f.jpg)
+
