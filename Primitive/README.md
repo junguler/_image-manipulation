@@ -153,3 +153,19 @@ primitive -i fish.jpg -o f_7.jpg -n 250 -m 7 -s 1280 -v
 primitive -i fish.jpg -o f_7.jpg -n 250 -m 7 -s 1280 -v
 ```
 ![g_7](https://user-images.githubusercontent.com/59083599/134981981-af0fbc57-36ef-403e-a76d-073d53c9ee29.jpg)
+
+## polygon examples
+```
+primitive -i butterfly.jpg -o b_8.jpg -n 250 -m 8 -s 1280 -v
+```
+![b_8](https://user-images.githubusercontent.com/59083599/134982428-ed22c593-f5f8-4aea-bf09-c1f0e7a9f878.jpg)
+
+```
+primitive -i hawk.jpg -o h_8.jpg -n 100 -m 8 -s 1280 -v
+```
+![h_8](https://user-images.githubusercontent.com/59083599/134982669-962b7272-87be-4ea0-8cfc-66ae7ef82e4e.jpg)
+
+```
+primitive -i deer.jpg -o d_8.jpg -n 500 -m 8 -s 1280 -v
+```
+![d_8](https://user-images.githubusercontent.com/59083599/134982851-1e820bf2-0d91-4fd5-aa4e-0ac26c9577c2.jpg)
