@@ -2,6 +2,17 @@
 Primitive is a cli program that takes your input image(s) make cool looking art with them using basic shapes, find the github page [here](https://github.com/fogleman/primitive), 
 primitive does not come with a binary executable by default, you can either install golang and compile it yourself or download the binary version of windows or linux from my repo [here](https://github.com/junguler/easy-primitive-batch)
 
+### quick links
+ * [combo](https://github.com/junguler/_image-manipulation/blob/main/Primitive/README.md#combo-examples)
+ * [triangle](https://github.com/junguler/_image-manipulation/blob/main/Primitive/README.md#triangle-examples)
+ * [rectangle](https://github.com/junguler/_image-manipulation/blob/main/Primitive/README.md#rectangle-examples)
+ * [ellipses](https://github.com/junguler/_image-manipulation/blob/main/Primitive/README.md#ellipses-examples)
+ * [circle](https://github.com/junguler/_image-manipulation/blob/main/Primitive/README.md#circle-examples)
+ * [rotated rectangle](https://github.com/junguler/_image-manipulation/blob/main/Primitive/README.md#rotated-rectangle-examples)
+ * [beziers](https://github.com/junguler/_image-manipulation/blob/main/Primitive/README.md#beziers-examples)
+ * [rotated ellipses](https://github.com/junguler/_image-manipulation/blob/main/Primitive/README.md#rotated-ellipses-examples)
+ * [polygon](https://github.com/junguler/_image-manipulation/blob/main/Primitive/README.md#polygon-examples)
+
 ## source material
 everything is downloaded from a royalty free image website [here](https://free-images.com/)
 
