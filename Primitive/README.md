@@ -61,7 +61,11 @@ primitive -i zebra.jpg -o z_2.jpg -n 500 -m 2 -s 1280 -v
 ![z_1](https://user-images.githubusercontent.com/59083599/134973168-74b107f8-2cbb-4b4b-a25f-aaaead4de70f.jpg)
 
 ```
-primitive -i ostrich.jpg -o 0_2.jpg -n 250 -m 2 -s 1280 -v
+primitive -i ostrich.jpg -o o_2.jpg -n 250 -m 2 -s 1280 -v
 ```
 ![o_2](https://user-images.githubusercontent.com/59083599/134973796-00692ef2-86a3-440e-93f0-dd08689db5f6.jpg)
 
+```
+primitive -i camel.jpg -o c_2.jpg -n 1000 -m 2 -s 1280 -v
+```
+![c_2](https://user-images.githubusercontent.com/59083599/134974054-9683101a-4cdd-4ad3-be77-a106ba7bc641.jpg)
