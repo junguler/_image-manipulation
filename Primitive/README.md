@@ -22,6 +22,8 @@ everything is downloaded from a royalty free image website [here](https://free-i
 
 `-v` to see verbose log of what's happening
 
+more switches are available and you can find them on the original [repo page](https://github.com/fogleman/primitive)
+
 ## combo examples
 ```
 primitive -i cheetah.jpg -o c_0.jpg -n 1000 -m 0 -s 1280 -v
