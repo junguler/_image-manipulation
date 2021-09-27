@@ -104,4 +104,19 @@ primitive -i dog.jpg -o d_4.jpg -n 500 -m 4 -s 1280 -v
 ```
 ![d_4](https://user-images.githubusercontent.com/59083599/134977419-fbac4e68-ba1f-4aff-a766-b4cefc4b6eb7.jpg)
 
-### more examples coming soon
+## rotated rectangle examples
+
+```
+primitive -i shark.jpg -o s_5.jpg -n 250 -m 5 -s 1280 -v
+```
+![s_5](https://user-images.githubusercontent.com/59083599/134978886-19e04a2f-0eb6-4f1e-a396-26dd6f41b780.jpg)
+
+```
+primitive -i horse.jpg -o h_5.jpg -n 500 -m 5 -s 1280 -v
+```
+![h_5](https://user-images.githubusercontent.com/59083599/134979064-3e9fd0fc-4558-4bd8-9953-55b0ee69e9d1.jpg)
+
+```
+primitive -i penguin.jpg -o p_5.jpg -n 750 -m 5 -s 1280 -v
+```
+![p_5](https://user-images.githubusercontent.com/59083599/134979287-abc4073a-07e9-40a9-981c-2d4a5d289755.jpg)
