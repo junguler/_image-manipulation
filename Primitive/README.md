@@ -182,3 +182,14 @@ primitive -i hawk.jpg -o h_8.jpg -n 100 -m 8 -s 1280 -v
 primitive -i deer.jpg -o d_8.jpg -n 500 -m 8 -s 1280 -v
 ```
 ![d_8](https://user-images.githubusercontent.com/59083599/134982851-1e820bf2-0d91-4fd5-aa4e-0ac26c9577c2.jpg)
+
+## fun with gifs
+each time you convert an image with primitive the output is different even with the same setting switches, this makes creating animated gifs very easy, just duplicate your image a few times, convert them with primitive
+```
+for i in *.jpg ; do echo $i ; primitive -i $i -o p-$i -n 500 -m 0 -v ; done
+```
+and then mux them together
+```
+cat p-bird*.jpg | ffmpeg -framerate 5 -f image2pipe -i - bird.gif
+```
+![bird](https://user-images.githubusercontent.com/59083599/135161040-b15eba7d-8ec3-46a9-bb28-8e3bdde87671.gif)
