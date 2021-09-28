@@ -194,3 +194,6 @@ and then mux them together
 cat p-bird*.jpg | ffmpeg -framerate 5 -f image2pipe -i - bird.gif
 ```
 ![bird](https://user-images.githubusercontent.com/59083599/135161040-b15eba7d-8ec3-46a9-bb28-8e3bdde87671.gif)
+
+## windows bat file and linux bash script
+there is also [my repo](https://github.com/junguler/easy-primitive-batch) with easy to use bat and scripts to make life easier for batch proccessing
