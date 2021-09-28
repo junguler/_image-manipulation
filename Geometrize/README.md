@@ -29,3 +29,9 @@ everything is downloaded from a royalty free image website [here](https://free-i
 `-m` maximum number of times to mutate each candidate shape, default is 100
 
 `-a` The opacity (0-255) of each shape added to the output image, default is 128 for half opacity, 255 for full opacity
+
+## using 2 different shapes
+```
+geometrize -i peach.jpg -o p-2.jpg -s "250" -t "triangle rotated_rectangle"
+```
+![p-2](https://user-images.githubusercontent.com/59083599/135086245-b4cd5369-aee3-47df-ae5c-3e229d86b955.jpg)
