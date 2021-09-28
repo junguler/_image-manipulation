@@ -30,8 +30,18 @@ everything is downloaded from a royalty free image website [here](https://free-i
 
 `-a` The opacity (0-255) of each shape added to the output image, default is 128 for half opacity, 255 for full opacity
 
-## using 2 different shapes
+## combining 2 different shapes
 ```
 geometrize -i peach.jpg -o p-2.jpg -s "250" -t "triangle rotated_rectangle"
 ```
 ![p-2](https://user-images.githubusercontent.com/59083599/135086245-b4cd5369-aee3-47df-ae5c-3e229d86b955.jpg)
+
+```
+geometrize -i grapes.jpg -o g-2.jpg -s "500" -t "circle ellipse"
+```
+![g-2](https://user-images.githubusercontent.com/59083599/135086855-e3032566-5ca2-497b-8111-f201cb3577c7.jpg)
+
+```
+geometrize -i banana.jpg -o b-2.jpg -s "750" -t "rectangle triangle"
+```
+![b-2](https://user-images.githubusercontent.com/59083599/135089254-79fae2bf-3f4a-46b3-9097-75072a5f8027.jpg)
