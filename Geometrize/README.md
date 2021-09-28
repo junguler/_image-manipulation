@@ -92,3 +92,5 @@ unlike primitives, geometrize does not randomize each conversion which is a pick
 cat *.jpg | ffmpeg -framerate 5 -f image2pipe -i - mango.gif
 ```
 ![mango](https://user-images.githubusercontent.com/59083599/135105843-58cb55e3-6095-4051-96f7-a0947b885a37.gif)
+
+other methods for converting the same image with same settings and getting different results in geometrize is adding small amount of noise to the images, slightly change the hue of images, changing the quality of the images or slightly shorten or widen it's width/height.
