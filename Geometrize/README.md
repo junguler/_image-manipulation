@@ -85,3 +85,10 @@ geometrize -i pineapple.jpg -o p-3+.jpg -s 500 -t "rotated_rectangle polyline ro
 geometrize -i fig.jpg -o f-3+.jpg -s 1000 -t "triangle polyline line quadratic_bezier"
 ```
 ![f-3+](https://user-images.githubusercontent.com/59083599/135095727-2421c9e7-840f-459c-a8c4-54c62b3a849f.jpg)
+
+## fun with gifs
+unlike primitives, geometrize does not randomize each conversion which is a pickle for gif makers when working with a single image, not to worry tho as i have my own tricks up my sleeps. an image that is rotated 1 degree or even less to it's either side is seen as a completely different image by geometrize, here i made 2 extra copy of my image and rotated one to -1 degree and the other to +1 degree and made a gif
+```
+cat *.jpg | ffmpeg -framerate 5 -f image2pipe -i - mango.gif
+```
+![mango](https://user-images.githubusercontent.com/59083599/135105843-58cb55e3-6095-4051-96f7-a0947b885a37.gif)
