@@ -12,6 +12,7 @@ primitive does not come with a binary executable by default, you can either inst
  * [beziers](https://github.com/junguler/_image-manipulation/blob/main/Primitive/README.md#beziers-examples)
  * [rotated ellipses](https://github.com/junguler/_image-manipulation/blob/main/Primitive/README.md#rotated-ellipses-examples)
  * [polygon](https://github.com/junguler/_image-manipulation/blob/main/Primitive/README.md#polygon-examples)
+ * [gif making example](https://github.com/junguler/_image-manipulation/blob/main/Primitive/README.md#fun-with-gifs)
 
 ## source material
 everything is downloaded from a royalty free image website [here](https://free-images.com/)
