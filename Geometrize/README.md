@@ -3,7 +3,7 @@ Geometrize is a cli and gui program that takes your input image(s) make cool loo
 unlike primitive geometrize come with a binary executable for cli and gui out of the box, find them [here](https://www.geometrize.co.uk/) for gui and [here](https://s3.amazonaws.com/geometrize-lib-example-bucket/index.html) for the cli
 
 ## what are the differences betwwen primitives and geometrize?
-from the first look these two programs might look familiar but there are enough differences to not consider geometrize just a re-write and i'll try to point some of thme here
+from the first look these two programs might look familiar but there are enough differences to not consider geometrize just a re-write and i'll try to point some of them here
  * geometrize was inspired by primitives
  * geometrize was written in C and C++ bht primitives was written in golang
  * geometerize comes with gui and cli version for windows, linux and ios but primitves only has a gui version for ios (it's multiplatform on the cli)
