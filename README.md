@@ -1,4 +1,4 @@
-cool stuff i found (under construction and in beta status)
+## cool stuff i found (under construction and in beta status)
 
 ![P_banner](https://user-images.githubusercontent.com/59083599/135176222-4264c930-f59c-435c-a32d-b67048dc984d.gif)
 
