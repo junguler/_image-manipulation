@@ -29,6 +29,8 @@ everything is downloaded from a royalty free image website [here](https://free-i
 
 `-s` decides the width of outpot size, if don't passed it outputs at 1024 pixels witdh
 
+`-a` The opacity (0-255) of each shape added to the output image, default is 128 for half opacity, 255 for full opacity
+
 `-bg` decides the background color, use a hex value, default is average
 
 `-v` to see verbose log of what's happening
