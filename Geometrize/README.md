@@ -69,3 +69,19 @@ geometrize -i grapes.jpg -o g-2.jpg -s 500 -t "circle ellipse"
 geometrize -i banana.jpg -o b-2.jpg -s 750 -t "rectangle triangle"
 ```
 ![b-2](https://user-images.githubusercontent.com/59083599/135089254-79fae2bf-3f4a-46b3-9097-75072a5f8027.jpg)
+
+## combining 3 or more different shapes
+```
+geometrize -i watermelon.jpg -o w-3+.jpg -s 750 -t "rectangle circle triangle"
+```
+![w-3+](https://user-images.githubusercontent.com/59083599/135094343-98b5832b-8d6f-4fdb-a783-0c7b3de616fa.jpg)
+
+```
+geometrize -i pineapple.jpg -o p-3+.jpg -s 500 -t "rotated_rectangle polyline rotated_ellipse"
+```
+![p-3+](https://user-images.githubusercontent.com/59083599/135094748-8e94eeb6-a81f-4cbc-93f2-7ee121048582.jpg)
+
+```
+geometrize -i fig.jpg -o f-3+.jpg -s 1000 -t "triangle polyline line quadratic_bezier"
+```
+![f-3+](https://user-images.githubusercontent.com/59083599/135095727-2421c9e7-840f-459c-a8c4-54c62b3a849f.jpg)
