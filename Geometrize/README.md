@@ -30,18 +30,42 @@ everything is downloaded from a royalty free image website [here](https://free-i
 
 `-a` The opacity (0-255) of each shape added to the output image, default is 128 for half opacity, 255 for full opacity
 
+## quadratic bezier example
+```
+geometrize -i apple.jpg -o a-qb.jpg -s 5000 -t quadratic_bezier
+```
+![a-qb](https://user-images.githubusercontent.com/59083599/135091234-c41a5ecd-2d33-4f36-a104-af89f0fe1e2b.jpg)
+
+## polyline example
+```
+geometrize -i kiwi.jpg -o k-pl.jpg -s 2500 -t polyline
+```
+![k-pl](https://user-images.githubusercontent.com/59083599/135092055-95c4754f-417c-4d4a-b80e-3e092c727b6d.jpg)
+
+## line example
+```
+geometrize -i clementine.jpg -o c-li.jpg -s 3750 -t line
+```
+![c-li](https://user-images.githubusercontent.com/59083599/135092968-2308b55e-2d43-4412-ad21-02226b529e17.jpg)
+
+if you found these files are outputed at a very large sizes, just pass them once thru ffmpeg to compress them
+```
+ffmpeg -i c-li.jpg c-li2.jpg
+```
+a 1.5 mb image became 500 kb with hardly any noticable artifcating
+
 ## combining 2 different shapes
 ```
-geometrize -i peach.jpg -o p-2.jpg -s "250" -t "triangle rotated_rectangle"
+geometrize -i peach.jpg -o p-2.jpg -s 250 -t "triangle rotated_rectangle"
 ```
 ![p-2](https://user-images.githubusercontent.com/59083599/135086245-b4cd5369-aee3-47df-ae5c-3e229d86b955.jpg)
 
 ```
-geometrize -i grapes.jpg -o g-2.jpg -s "500" -t "circle ellipse"
+geometrize -i grapes.jpg -o g-2.jpg -s 500 -t "circle ellipse"
 ```
 ![g-2](https://user-images.githubusercontent.com/59083599/135086855-e3032566-5ca2-497b-8111-f201cb3577c7.jpg)
 
 ```
-geometrize -i banana.jpg -o b-2.jpg -s "750" -t "rectangle triangle"
+geometrize -i banana.jpg -o b-2.jpg -s 750 -t "rectangle triangle"
 ```
 ![b-2](https://user-images.githubusercontent.com/59083599/135089254-79fae2bf-3f4a-46b3-9097-75072a5f8027.jpg)
