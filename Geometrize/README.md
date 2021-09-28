@@ -2,6 +2,14 @@
 Geometrize is a cli and gui program that takes your input image(s) make cool looking art with them using basic shapes, find the github page [here](https://github.com/Tw1ddle/geometrize) for gui, [here](https://github.com/Tw1ddle/geometrize-lib-example) for cli,
 unlike primitive geometrize come with a binary executable for cli and gui out of the box, find them [here](https://www.geometrize.co.uk/) for gui and [here](https://s3.amazonaws.com/geometrize-lib-example-bucket/index.html) for the cli
 
+### quick links
+ * [quadratic bezier](https://github.com/junguler/_image-manipulation/tree/main/Geometrize#quadratic-bezier-example)
+ * [polyline](https://github.com/junguler/_image-manipulation/tree/main/Geometrize#polyline-example)
+ * [lines](https://github.com/junguler/_image-manipulation/tree/main/Geometrize#line-example)
+ * [combining 2 shapes](https://github.com/junguler/_image-manipulation/tree/main/Geometrize#combining-2-different-shapes)
+ * [combining multiple shapes](https://github.com/junguler/_image-manipulation/tree/main/Geometrize#combining-3-or-more-different-shapes)
+ * [gif making example](https://github.com/junguler/_image-manipulation/tree/main/Geometrize#fun-with-gifs)
+
 ## what are the differences betwwen primitives and geometrize?
 from the first look these two programs might look familiar but there are enough differences to not consider geometrize just a re-write and i'll try to point some of them here
  * geometrize was inspired by primitives
