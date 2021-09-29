@@ -221,5 +221,16 @@ the outpot gif was quite large so i decided to add this as a mp4 video, you can 
 
 https://user-images.githubusercontent.com/59083599/135197513-41fc5780-aca8-42d0-998a-f57348f6ebaf.mp4
 
+## iterate over an image with progressing shape numbers X 5
+lets convert this image 100 times, starting with 1 shape and then 6 and 11 and 16 etc to get to 500 shapes in the 100th picture ...
+```
+for t in {001..500..5} ; do echo $t ; primitive -i buffalo.jpg -o b-$t.jpg -n $t -m 5 -v ; done
+```
+and mux the images
+```
+cat b-* | ffmpeg -framerate 15 -f image2pipe -i - buffalo.mp4
+```
+https://user-images.githubusercontent.com/59083599/135261003-5ac31f0f-8bcf-4b3c-9859-136a41728cc1.mp4
+
 ## windows bat file and linux bash script
 there is also [my repo](https://github.com/junguler/easy-primitive-batch) with easy to use bat and scripts to make life easier for batch proccessing
