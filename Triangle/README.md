@@ -9,6 +9,19 @@ and lets go.
 everything is downloaded from a royalty free image website [here](https://free-images.com/)
 
 ## explanation of the switches and how the program works
-`-i` imports your source image
-
-`-o` specifies output image
+| Flag | Default | Description |
+| --- | --- | --- |
+| `in` | n/a | Source image |
+| `out` | n/a | Destination image |
+| `blur` | 4 | Blur radius |
+| `pts` | 2500 | Maximum number of points |
+| `noise` | 0 | Noise factor |
+| `th` | 20 | Points threshold |
+| `sobel` | 10 | Sobel filter threshold |
+| `solid` | false | Use solid stroke color (yes/no) |
+| `wf` | 0 | Wireframe mode (0: without stroke, 1: with stroke, 2: stroke only) |
+| `stroke` | 1 | Stroke width |
+| `gray` | false | Output in grayscale mode |
+| `web` | false | Open the SVG file in the web browser |
+| `bg` | ' ' | Background color (specified as hex value) |
+| `c` | system spec. | Number of files to process concurrently (workers)
