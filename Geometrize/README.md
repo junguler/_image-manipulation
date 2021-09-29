@@ -23,7 +23,7 @@ since there are similarities between the two programs i try to focus on the diff
 ## source material
 everything is downloaded from a royalty free image website [here](https://free-images.com/)
 
-## explainiation of the switches and how the program works
+## explanation of the switches and how the program works
 `-i` imports your source image
 
 `-o` specifies output image
