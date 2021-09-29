@@ -42,3 +42,15 @@ specify point numbers
 triangle -in lamp.jpg -out la.jpg -pts 1000
 ```
 ![la](https://user-images.githubusercontent.com/59083599/135362572-31506188-c9a6-458e-9627-b8777302a1a2.jpg)
+
+## with strokes
+for adding strokes we need 2 flags, first is `-wf` which is set to 0 by default which is without stroke so set it to 1 for having strokes, and `-stroke` for specifing how think the stroke must be.
+```
+triangle -in chair.jpg -out ch.jpg -pts 1000 -wf 1 -stroke 3
+```
+![ch](https://user-images.githubusercontent.com/59083599/135362924-e5cd542a-e4e1-4ad4-a0ca-ea21e763aab8.jpg)
+
+```
+triangle -in keys.jpg -out ke.jpg -pts 3000 -wf 1 -stroke 1
+```
+![ke](https://user-images.githubusercontent.com/59083599/135363060-e553049a-31f4-4286-809e-082c1711ce29.jpg)
