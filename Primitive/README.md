@@ -195,5 +195,29 @@ cat p-bird*.jpg | ffmpeg -framerate 5 -f image2pipe -i - bird.gif
 ```
 ![bird](https://user-images.githubusercontent.com/59083599/135161040-b15eba7d-8ec3-46a9-bb28-8e3bdde87671.gif)
 
+## iterate over an image with the same settings multiple times
+lets convert this image 10 times with the same settings in one command
+```
+for t in {1..10} ; do echo $t ; primitive -i koala.jpg -o k-$t.jpg -n 500 -m 1 -v ; done
+```
+and mux the images
+```
+cat k-* | ffmpeg -framerate 10 -f image2pipe -i - koala.gif
+```
+![koala](https://user-images.githubusercontent.com/59083599/135194947-18748658-73cc-4a2d-9b28-d02defd3da6b.gif)
+
+## iterate over an image with progressing shape numbers
+lets convert this image 100 times with every image having 1 shape count more than the last one, starting at 1 shapes count and ending on 100
+```
+for t in {1..100} ; do echo $t ; primitive -i spider.jpg -o s-$t.jpg -n $t -m 0 -v ; done
+```
+and mux the images
+```
+cat s-* | ffmpeg -framerate 15 -f image2pipe -i - spider.mp4
+```
+the outpot gif was quite large so i decided to add this as a mp4 video, you can have the video looped forever by right clicking on it and tick on loop
+
+https://user-images.githubusercontent.com/59083599/135197513-41fc5780-aca8-42d0-998a-f57348f6ebaf.mp4
+
 ## windows bat file and linux bash script
 there is also [my repo](https://github.com/junguler/easy-primitive-batch) with easy to use bat and scripts to make life easier for batch proccessing
