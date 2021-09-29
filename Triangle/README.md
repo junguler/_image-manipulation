@@ -63,6 +63,7 @@ triangle -in cd.jpg -out cd+.jpg -pts 1000 -wf 2 -stroke 10
 ![cd+](https://user-images.githubusercontent.com/59083599/135363494-9fbecb92-cece-4b42-9c54-af8b0b77e10a.jpg)
 
 ```
-triangle -in sunglasses.jpg -out su.jpg -pts 1000 -wf 2 -stroke 15
+triangle -in sunglasses.jpg -out su.jpg -pts 2000 -wf 2 -stroke 15
 ```
-![su](https://user-images.githubusercontent.com/59083599/135363580-2ccbd7a8-1d6a-4df3-a5e8-f5a2fe63cb9e.jpg)
+![su](https://user-images.githubusercontent.com/59083599/135363732-c878a882-b3d0-47d4-88fc-f025cb298e41.jpg)
+
