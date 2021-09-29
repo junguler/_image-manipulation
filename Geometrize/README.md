@@ -13,7 +13,7 @@ unlike primitive geometrize come with a binary executable for cli and gui out of
 ## what are the differences betwwen primitives and geometrize?
 from the first look these two programs might look familiar but there are enough differences to not consider geometrize just a re-write and i'll try to point some of them here
  * geometrize was inspired by primitives
- * geometrize was written in C and C++ bht primitives was written in golang
+ * geometrize was written in C and C++ but primitives was written in golang
  * geometerize comes with gui and cli version for windows, linux and ios but primitves only has a gui version for ios (it's multiplatform on the cli)
  * geometrize allows you to combine different shapes together but primitives does not, it has a combo mode for using all available shapes tho
  * geometrize gives you more control for opacity of each shape and number of candidate shapes to go thru before deciding a shape, it's more accurate but slower than primitives 
