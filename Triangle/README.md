@@ -25,3 +25,20 @@ everything is downloaded from a royalty free image website [here](https://free-i
 | `web` | false | Open the SVG file in the web browser |
 | `bg` | ' ' | Background color (specified as hex value) |
 | `c` | system spec. | Number of files to process concurrently (workers)
+
+## basic usage
+```
+triangle -in thread.jpg -out th.jpg
+```
+![th](https://user-images.githubusercontent.com/59083599/135362340-03f17cb5-704b-41ff-9ffc-d755afea491c.jpg)
+
+specify point numbers
+```
+ triangle -in hanger.jpg -out ha.jpg -pts 500
+```
+![ha](https://user-images.githubusercontent.com/59083599/135362476-5577a3f0-020b-4060-96ac-84625a939e61.jpg)
+
+```
+triangle -in lamp.jpg -out la.jpg -pts 1000
+```
+![la](https://user-images.githubusercontent.com/59083599/135362572-31506188-c9a6-458e-9627-b8777302a1a2.jpg)
