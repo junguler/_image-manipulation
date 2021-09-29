@@ -15,6 +15,7 @@ primitive does not come with a binary executable by default, you can either inst
  * [gif making example](https://github.com/junguler/_image-manipulation/blob/main/Primitive/README.md#fun-with-gifs)
  * [iterate with same settings](https://github.com/junguler/_image-manipulation/blob/main/Primitive/README.md#iterate-over-an-image-with-the-same-settings-multiple-times)
  * [iterate with progressive shapes](https://github.com/junguler/_image-manipulation/blob/main/Primitive/README.md#iterate-over-an-image-with-progressing-shape-numbers)
+ * [iterate with progressive shapes X 5](https://github.com/junguler/_image-manipulation/blob/main/Primitive/README.md#iterate-over-an-image-with-progressing-shape-numbers-x-5)
 
 ## source material
 everything is downloaded from a royalty free image website [here](https://free-images.com/)
