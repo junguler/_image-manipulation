@@ -21,25 +21,21 @@ primitive does not come with a binary executable by default, you can either inst
 everything is downloaded from a royalty free image website [here](https://free-images.com/)
 
 ## explanation of the switches and how the program works
-`-i` imports your source image
-
-`-o` specifies output image
-
-`-n` number of shapes generated for each image, more produced more clear image but is slower
-
-`-m` decides the which shape is used for each images: 0=combo, 1=triangle, 2=rect, 3=ellipse, 4=circle, 5=rotatedrect, 6=beziers, 7=rotatedellipse, 8=polygon . use the number only, for example 1 for triangle
-
-`-r` resizes your input image to 256 pixel by default to make the converting process faster pass 0 to it to skip this process
-
-`-s` decides the width of outpot size, if don't passed it outputs at 1024 pixels witdh
-
-`-a` The opacity (0-255) of each shape added to the output image, default is 128 for half opacity, 255 for full opacity
-
-`-bg` decides the background color, use a hex value, default is average
-
-`-v` to see verbose log of what's happening
-
-more switches are available and you can find them on the original [repo page](https://github.com/fogleman/primitive)
+| Flag | Default | Description |
+| --- | --- | --- |
+| `i` | n/a | input file |
+| `o` | n/a | output file |
+| `n` | n/a | number of shapes |
+| `m` | 1 | mode: 0=combo, 1=triangle, 2=rect, 3=ellipse, 4=circle, 5=rotatedrect, 6=beziers, 7=rotatedellipse, 8=polygon |
+| `rep` | 0 | add N extra shapes each iteration with reduced search (mostly good for beziers) |
+| `nth` | 1 | save every Nth frame (only when `%d` is in output path) |
+| `r` | 256 | resize large input images to this size before processing |
+| `s` | 1024 | output image size |
+| `a` | 128 | color alpha (use `0` to let the algorithm choose alpha for each shape) |
+| `bg` | avg | starting background color (hex) |
+| `j` | 0 | number of parallel workers (default uses all cores) |
+| `v` | off | verbose output |
+| `vv` | off | very verbose output |
 
 ## combo examples
 ```
