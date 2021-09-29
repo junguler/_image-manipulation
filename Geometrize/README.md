@@ -24,19 +24,15 @@ since there are similarities between the two programs i try to focus on the diff
 everything is downloaded from a royalty free image website [here](https://free-images.com/)
 
 ## explanation of the switches and how the program works
-`-i` imports your source image
-
-`-o` specifies output image
-
-`-t` the types of shapes to use, multiple shapes are usable: rectangle, rotated_rectangle, triangle, ellipse, rotated_ellipse, circle, line, quadratic_bezier, polyline
-
-`-s` number of shapes generated for each image, more produces more clear image but its slower, default value is 250
-
-`-c` number of candidate shapes per shape added to the output image, default is 50
-
-`-m` maximum number of times to mutate each candidate shape, default is 100
-
-`-a` The opacity (0-255) of each shape added to the output image, default is 128 for half opacity, 255 for full opacity
+Flag            | Description    | Default    |
+--------------- | ---------------| ---------|
+i               | The filepath to load the input image from | n/a
+o               | The filepath to save the output image, JSON data or SVG | n/a
+t               | The types of shapes to use | One or more of: rectangle, rotated_rectangle, triangle, ellipse, rotated_ellipse, circle, line, quadratic_bezier, polyline
+s               | Number of shapes to use in the output image | 250
+c               | The number of candidate shapes per shape added to the output image | 500
+m               | The maximum number of times to mutate each candidate shape | 100
+a               | The opacity (0-255) of each shape added to the output image | 128
 
 ## quadratic bezier example
 ```
