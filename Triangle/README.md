@@ -54,3 +54,15 @@ triangle -in chair.jpg -out ch.jpg -pts 1000 -wf 1 -stroke 3
 triangle -in keys.jpg -out ke.jpg -pts 3000 -wf 1 -stroke 1
 ```
 ![ke](https://user-images.githubusercontent.com/59083599/135363060-e553049a-31f4-4286-809e-082c1711ce29.jpg)
+
+## strokes only
+same as above but this time we set `-wf` to 2 for stroke only and also make the stroke lines bigger to make it easier to make out the image
+```
+triangle -in cd.jpg -out cd+.jpg -pts 1000 -wf 2 -stroke 10
+```
+![cd+](https://user-images.githubusercontent.com/59083599/135363494-9fbecb92-cece-4b42-9c54-af8b0b77e10a.jpg)
+
+```
+triangle -in sunglasses.jpg -out su.jpg -pts 1000 -wf 2 -stroke 15
+```
+![su](https://user-images.githubusercontent.com/59083599/135363580-2ccbd7a8-1d6a-4df3-a5e8-f5a2fe63cb9e.jpg)
