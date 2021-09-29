@@ -20,7 +20,7 @@ primitive does not come with a binary executable by default, you can either inst
 ## source material
 everything is downloaded from a royalty free image website [here](https://free-images.com/)
 
-## explainiation of the switches and how the program works
+## explanation of the switches and how the program works
 `-i` imports your source image
 
 `-o` specifies output image
