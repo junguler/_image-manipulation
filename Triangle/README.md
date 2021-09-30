@@ -119,3 +119,14 @@ and mux the images
 cat b-*.jpg | ffmpeg -framerate 8 -f image2pipe -i - button.mp4
 ```
 https://user-images.githubusercontent.com/59083599/135365795-7aa35cbb-5b38-4a91-b6cf-79759e128f81.mp4
+
+## iterate over an image with progressing shape numbers
+lets convert this image 100 times, starting with 1 shape and then 6 and 11 and 16 etc to get to 500 shapes in the 100th picture ...
+```
+for t in {001..500..5} ; do echo $t ; triangle -in headphones.jpg -out h-$t.jpg -pts $t ; done
+```
+and mux the images
+```
+cat h-*.jpg | ffmpeg -framerate 15 -f image2pipe -i - headset.mp4
+```
+https://user-images.githubusercontent.com/59083599/135366867-92af9368-7f0b-4b42-a85c-694e5876ef0f.mp4
