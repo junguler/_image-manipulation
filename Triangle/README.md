@@ -82,7 +82,7 @@ triangle -in licenceP.jpg -out lp-25b.jpg -pts 1000 -blur 25
 ```
 ![lp-25b](https://user-images.githubusercontent.com/59083599/135364469-68c036e4-4ab8-4adc-ba16-9504b4605f53.jpg)
 
-## Sobel filter
+## sobel filter
 the higher the value the less detail the image have
 ```
 triangle -in clamp.jpg -out cl-s50.jpg -pts 1000 -sobel 50
@@ -93,7 +93,7 @@ triangle -in clamp.jpg -out cl-s250.jpg -pts 1000 -sobel 250
 ```
 ![cl-s250](https://user-images.githubusercontent.com/59083599/135364821-f2fbe148-c10a-447f-9b35-3188016f4ed2.jpg)
 
-## Points threshold
+## points threshold
 less is more polygonal and trianglated, more is longer and more uniform
 ```
 triangle -in pen.jpg -out pe-t1.jpg -pts 1000 -th 1
@@ -103,3 +103,9 @@ triangle -in pen.jpg -out pe-t1.jpg -pts 1000 -th 1
 triangle -in pen.jpg -out pe-t100.jpg -pts 1000 -th 100
 ```
 ![pe-t100](https://user-images.githubusercontent.com/59083599/135365075-e8529674-c8fe-4634-b891-e077909eda7f.jpg)
+
+## noise
+```
+triangle -in socks.jpg -out so-n100.jpg -pts 500 -noise 50
+```
+![so-n100](https://user-images.githubusercontent.com/59083599/135365320-77ee675b-a319-4599-96e4-78b77daf8ecc.jpg)
