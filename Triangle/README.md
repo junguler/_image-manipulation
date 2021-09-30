@@ -92,3 +92,14 @@ triangle -in clamp.jpg -out cl-s50.jpg -pts 1000 -sobel 50
 triangle -in clamp.jpg -out cl-s250.jpg -pts 1000 -sobel 250
 ```
 ![cl-s250](https://user-images.githubusercontent.com/59083599/135364821-f2fbe148-c10a-447f-9b35-3188016f4ed2.jpg)
+
+## Points threshold
+less is more polygonal and trianglated, more is longer and more uniform
+```
+triangle -in pen.jpg -out pe-t1.jpg -pts 1000 -th 1
+```
+![pe-t1](https://user-images.githubusercontent.com/59083599/135365066-a0f58ca3-eeaf-4108-ab23-45ae4555b4d9.jpg)
+```
+triangle -in pen.jpg -out pe-t100.jpg -pts 1000 -th 100
+```
+![pe-t100](https://user-images.githubusercontent.com/59083599/135365075-e8529674-c8fe-4634-b891-e077909eda7f.jpg)
