@@ -55,7 +55,7 @@ triangle -in lamp.jpg -out la.jpg -pts 1000
 ![la](https://user-images.githubusercontent.com/59083599/135362572-31506188-c9a6-458e-9627-b8777302a1a2.jpg)
 
 ## with strokes
-for adding strokes we need 2 flags, first is `-wf` which is set to 0 by default which is without stroke so set it to 1 for having strokes, and `-stroke` for specifing how think the stroke must be.
+for adding strokes we need 2 flags, first is `-wf` which is set to 0 by default which is without stroke so set it to 1 for having strokes, and `-stroke` for specifing how thick the stroke must be.
 ```
 triangle -in chair.jpg -out ch.jpg -pts 1000 -wf 1 -stroke 3
 ```
