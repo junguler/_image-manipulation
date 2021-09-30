@@ -117,7 +117,7 @@ triangle -in pen.jpg -out pe-t100.jpg -pts 1000 -th 100
 
 ## noise
 ```
-triangle -in socks.jpg -out so-n100.jpg -pts 500 -noise 50
+triangle -in socks.jpg -out so-n50.jpg -pts 500 -noise 50
 ```
 ![so-n100](https://user-images.githubusercontent.com/59083599/135365320-77ee675b-a319-4599-96e4-78b77daf8ecc.jpg)
 
