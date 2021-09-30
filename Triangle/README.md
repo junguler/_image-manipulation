@@ -67,3 +67,17 @@ triangle -in sunglasses.jpg -out su.jpg -pts 2000 -wf 2 -stroke 15
 ```
 ![su](https://user-images.githubusercontent.com/59083599/135363732-c878a882-b3d0-47d4-88fc-f025cb298e41.jpg)
 
+## blur
+the higher the blur value the more washed out the polygons will look but the overal image is easier to make out
+```
+triangle -in licenceP.jpg -out lp-1b.jpg -pts 1000 -blur 1
+```
+![lp-1b](https://user-images.githubusercontent.com/59083599/135364392-8f6fe809-01d0-4cc1-a449-ad7f7ce19a82.jpg)
+```
+triangle -in licenceP.jpg -out lp-10b.jpg -pts 1000 -blur 10
+```
+![lp-10b](https://user-images.githubusercontent.com/59083599/135364460-e779b927-49b4-471c-bbe3-e24141d6f85a.jpg)
+```
+triangle -in licenceP.jpg -out lp-25b.jpg -pts 1000 -blur 25
+```
+![lp-25b](https://user-images.githubusercontent.com/59083599/135364469-68c036e4-4ab8-4adc-ba16-9504b4605f53.jpg)
