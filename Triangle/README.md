@@ -141,3 +141,14 @@ and mux the images
 cat h-*.jpg | ffmpeg -framerate 15 -f image2pipe -i - headset.mp4
 ```
 https://user-images.githubusercontent.com/59083599/135366867-92af9368-7f0b-4b42-a85c-694e5876ef0f.mp4
+
+## trianglify a video
+lets apply what we learned to a video, i have made a example of how to download a free video, make image sequence, apply filter and mux it back [here](https://github.com/junguler/ffmpeg-examples/tree/main/sequence%2C%20manipulate%20%26%20mux%20images)
+```
+for i in *.jpg ; do echo $i ; triangle -in $i -out h-$i -pts 2500 -th 5 ; done
+```
+and mux the images
+```
+cat h*.jpg | ffmpeg -framerate 29 -f image2pipe -i - triangulated_welder.mp4
+```
+https://user-images.githubusercontent.com/59083599/135466872-1d7fdff1-0315-4606-a5a7-a7a545f6b361.mp4
