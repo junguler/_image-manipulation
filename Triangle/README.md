@@ -5,6 +5,17 @@ download the binary executable for you os [here](https://github.com/esimov/trian
 from everywhere in the terminal
 and lets go.
 
+### quick links
+ * [basic usage](https://github.com/junguler/_image-manipulation/tree/main/Triangle#basic-usage)
+ * [with strokes](https://github.com/junguler/_image-manipulation/tree/main/Triangle#with-strokes)
+ * [strokes only](https://github.com/junguler/_image-manipulation/tree/main/Triangle#strokes-only)
+ * [blur](https://github.com/junguler/_image-manipulation/tree/main/Triangle#blur)
+ * [sobel filter](https://github.com/junguler/_image-manipulation/tree/main/Triangle#sobel-filter)
+ * [point threshold](https://github.com/junguler/_image-manipulation/tree/main/Triangle#points-threshold)
+ * [noise](https://github.com/junguler/_image-manipulation/tree/main/Triangle#noise)
+ * [gif and video](https://github.com/junguler/_image-manipulation/tree/main/Triangle#gifsvideos-iterate-over-an-image-with-the-same-settings-multiple-times)
+ * [iterative gifs or videos](https://github.com/junguler/_image-manipulation/tree/main/Triangle#iterate-over-an-image-with-progressing-shape-numbers)
+
 ## source material
 everything is downloaded from a royalty free image website [here](https://free-images.com/)
 
