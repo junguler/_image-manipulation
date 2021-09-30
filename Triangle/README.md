@@ -110,12 +110,12 @@ triangle -in socks.jpg -out so-n100.jpg -pts 500 -noise 50
 ```
 ![so-n100](https://user-images.githubusercontent.com/59083599/135365320-77ee675b-a319-4599-96e4-78b77daf8ecc.jpg)
 
-## gifs, iterate over an image with the same settings multiple times
+## gifs|videos, iterate over an image with the same settings multiple times
 ```
 for t in {01..10} ; do echo $t ; triangle -in button.jpg -out b-$t.jpg -pts 750 ; done
 ```
 and mux the images
 ```
-cat b-*.jpg | ffmpeg -framerate 8 -f image2pipe -i - -vf format=yuv420p button.mp4
+cat b-*.jpg | ffmpeg -framerate 8 -f image2pipe -i - button.mp4
 ```
 https://user-images.githubusercontent.com/59083599/135365795-7aa35cbb-5b38-4a91-b6cf-79759e128f81.mp4
