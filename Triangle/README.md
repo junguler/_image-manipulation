@@ -81,3 +81,14 @@ triangle -in licenceP.jpg -out lp-10b.jpg -pts 1000 -blur 10
 triangle -in licenceP.jpg -out lp-25b.jpg -pts 1000 -blur 25
 ```
 ![lp-25b](https://user-images.githubusercontent.com/59083599/135364469-68c036e4-4ab8-4adc-ba16-9504b4605f53.jpg)
+
+## Sobel filter
+the higher the value the less detail the image have
+```
+triangle -in clamp.jpg -out cl-s50.jpg -pts 1000 -sobel 50
+```
+![cl-s50](https://user-images.githubusercontent.com/59083599/135364805-547eda35-6a79-49f2-8d02-0565e5799ff8.jpg)
+```
+triangle -in clamp.jpg -out cl-s250.jpg -pts 1000 -sobel 250
+```
+![cl-s250](https://user-images.githubusercontent.com/59083599/135364821-f2fbe148-c10a-447f-9b35-3188016f4ed2.jpg)
