@@ -17,6 +17,7 @@ primitive does not come with a binary executable by default, you can either inst
  * [iterate with progressive shapes](https://github.com/junguler/_image-manipulation/blob/main/Primitive/README.md#iterate-over-an-image-with-progressing-shape-numbers)
  * [iterate with progressive shapes X 5](https://github.com/junguler/_image-manipulation/blob/main/Primitive/README.md#iterate-over-an-image-with-progressing-shape-numbers-x-5)
  * [primitify a video](https://github.com/junguler/_image-manipulation/tree/main/Primitive#primitify-a-video)
+ * [bat file and batch script](https://github.com/junguler/_image-manipulation/tree/main/Primitive#windows-bat-file-and-linux-bash-script)
 
 ## source material
 everything is downloaded from a royalty free image website [here](https://free-images.com/)
