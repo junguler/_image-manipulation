@@ -1,9 +1,8 @@
 ## what is needed to get started?
 Triangle is a very fast and efficient program that takes your image(s) make cool looking polygonal art out of them. find the github repo 
-[here](https://github.com/esimov/triangle).
-download the binary executable for you os [here](https://github.com/esimov/triangle/releases) and put it somewhere in your $PATH to be accessable 
-from everywhere in the terminal
-and lets go.
+[here](https://github.com/esimov/triangle),
+download the binary executable for your os [here](https://github.com/esimov/triangle/releases) and put it somewhere in your $PATH to be accessable 
+from everywhere in the terminal and lets go.
 
 ### quick links
  * [basic usage](https://github.com/junguler/_image-manipulation/tree/main/Triangle#basic-usage)
