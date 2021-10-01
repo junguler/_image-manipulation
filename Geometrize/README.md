@@ -9,6 +9,7 @@ unlike primitive geometrize come with a binary executable for cli and gui out of
  * [combining 2 shapes](https://github.com/junguler/_image-manipulation/tree/main/Geometrize#combining-2-different-shapes)
  * [combining multiple shapes](https://github.com/junguler/_image-manipulation/tree/main/Geometrize#combining-3-or-more-different-shapes)
  * [gif making example](https://github.com/junguler/_image-manipulation/tree/main/Geometrize#fun-with-gifs)
+ * [bat files and bash scripts](https://github.com/junguler/_image-manipulation/tree/main/Geometrize#windows-bat-file-and-linux-bash-script)
 
 ## what are the differences betwwen primitives and geometrize?
 from the first look these two programs might look familiar but there are enough differences to not consider geometrize just a re-write and i'll try to point some of them here
