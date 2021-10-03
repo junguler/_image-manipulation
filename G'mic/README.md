@@ -1,7 +1,5 @@
 this repo tries to show examples of using [G'mic](https://gmic.eu/) which is a free and open source framework for image processing, it is multi platform with gui and cli versions, we'll use the gui on gimp or krita to get a feel for how the filters look and use the cli version for batch processing as our goal is making animated gifs
 
-these stuff is from one of my other repos but i figured this would be a better place for it, that repo is going to be deleted in the near future.
-
 ### quick links
  * [brushify](https://github.com/junguler/_image-manipulation/tree/main/G'mic#brushify)
  * [cartoon](https://github.com/junguler/_image-manipulation/tree/main/G'mic#cartoon)
