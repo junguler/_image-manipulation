@@ -1,4 +1,5 @@
-## cool stuff i found (under construction and in beta status)
+## cool stuff i found (under construction and in beta status) 
+open an issue or email me at junguler@yahoo.com to suggest a new program for this repo 
 
 [![P_banner](https://user-images.githubusercontent.com/59083599/135177535-ce475d39-de62-4d85-b108-68a2a0cdc0f0.gif)](https://github.com/junguler/_image-manipulation/tree/main/Primitive)
 
