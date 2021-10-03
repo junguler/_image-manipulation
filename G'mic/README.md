@@ -30,7 +30,7 @@ more comprehensive examples of the filters can be found in the G'mic website [he
  * [wiremap](https://github.com/junguler/_image-manipulation/tree/main/G'mic#wiremap)
 
 ## how the gui looks and where to get the code to run on cli
-![gmic_gui](https://github.com/junguler/gmic-examples/blob/main/examples/01.png)
+![gmic_gui](examples/01.png)
 
 when you found a filter you are happy with click the button highlighted in above picture to copy the code for batch proccessing
 
