@@ -5,3 +5,5 @@
 [![G_banner](https://user-images.githubusercontent.com/59083599/135176240-8a1688e9-c8a5-4635-a932-71a5ab97332b.gif)](https://github.com/junguler/_image-manipulation/tree/main/Geometrize)
 
 [![T_banner](https://user-images.githubusercontent.com/59083599/135368006-a6640b60-d5f8-424e-84f0-259fccc99d79.gif)](https://github.com/junguler/_image-manipulation/tree/main/Triangle)
+
+[![Gi_banner](https://user-images.githubusercontent.com/59083599/135736885-882086c9-34be-458f-90e7-6bf6be0eae9c.gif)](https://github.com/junguler/_image-manipulation/tree/main/G'mic)
