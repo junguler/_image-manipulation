@@ -138,7 +138,7 @@ cat T-* | ffmpeg -framerate 10 -f image2pipe -i - katana.gif
 ```
 ![katana](https://user-images.githubusercontent.com/59083599/135897696-1176d7c7-53fb-4563-ad43-92cc94225ad0.gif)
 
-if you want to randomize the frames pass use this command
+if you want to randomize the frames use this command
 ```
 for file in T-* ; do mv -- "$file" "$(mktemp --dry-run XXXXXX.png)" ; done
 ```
