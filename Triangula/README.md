@@ -9,6 +9,7 @@ Triangula is a gui and cli program that takes your image(s) make cool looking tr
  * [polygons](https://github.com/junguler/_image-manipulation/tree/main/Triangula#use-polygans-instead-of-triangles)
  * [iterate an image to make gif](https://github.com/junguler/_image-manipulation/tree/main/Triangula#making-a-animated-gif-out-of-an-still-image)
  * [triangulafy a video](https://github.com/junguler/_image-manipulation/tree/main/Triangula#triangulafy-a-video)
+ * [glitch it](https://github.com/junguler/_image-manipulation/tree/main/Triangula#glitch-it)
 
 ## what are the differences betwwen triangula and triangle?
 these two programs look somewhat the same in first glance but there are enough difference to warrent both existing and we using them both in different cases, here are some of them:
@@ -169,7 +170,7 @@ like i said at the beggining of this page, this program takes an image and makes
 
 lets use run to make a json file
 ```
-triangula run -img image-000273.jpg -out g.json -p 1000
+triangula run -img image.jpg -out g.json -p 1000
 ```
 now lets loop every image with that same json file 
 ```
