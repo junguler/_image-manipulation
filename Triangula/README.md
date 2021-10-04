@@ -11,7 +11,7 @@ these two programs look somewhat the same in first glance but there are enough d
  * triangula outpot images that more closely resemble low poly art we see in pop culture
  * triangula's outpots are more cleaner and need less points to be able to make out the image
 
-i've seen triangula compared to other programs like primitive and geometrize but i think this comparisen is not valid so i won't go into it at all
+triangula also gets compared to other programs like primitive and geometrize but i think this comparison is not valid as these programs are not meant to be used for the same purposes
 
 ## source material
 everything is downloaded from a royalty free image website [here](https://free-images.com/)
