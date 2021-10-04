@@ -3,3 +3,9 @@ Triangula is a gui and cli program that takes your image(s) make cool looking tr
 
 ## source material
 everything is downloaded from a royalty free image website [here](https://free-images.com/)
+
+## gui version
+there is a gui version available with simplified usage [here](https://github.com/RH12503/triangula/releases/tag/v1.2.0) while perfectly usable i'm more interested in the cli version as we want to be able to re-produce same types of results automatically and batch convert them
+![T_gui](https://user-images.githubusercontent.com/59083599/135850973-abd1274e-92f4-46f1-99cd-2a503739b552.jpg)
+
+## explanation of the switches and how the program works
