@@ -82,3 +82,10 @@ for d in *.jpg ; do timeout 25s triangula run -img $d -out j.json ; triangula re
 ![T-stop](https://user-images.githubusercontent.com/59083599/135858902-cf29ac88-70e3-4ac3-9170-ec038266df5b.png)
 
 ![T-umbrella](https://user-images.githubusercontent.com/59083599/135858951-dec0df65-6aac-4ea0-a454-cf391022fe96.png)
+
+## change points/shape numbers
+so far we have been using the default settings, lets change that, we will use `-p` switch for this
+```
+for d in piratesF.jpg ; do timeout 25s triangula run -img $d -out j.json -p 250 ; triangula render -in j.json -out T-${d%%.*} -img $d png ; rm j.json ; done
+```
+![T-piratesF](https://user-images.githubusercontent.com/59083599/135860752-d48bbd75-0a7c-4611-815f-5a1ab017dafa.png)
