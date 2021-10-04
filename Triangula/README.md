@@ -101,3 +101,16 @@ for d in telephone.jpg ; do timeout 60s triangula run -img $d -out j.json -p 250
 ![T-telephone](https://user-images.githubusercontent.com/59083599/135861933-eb68781b-3dbe-4ebe-946f-fe1b68b18d06.png)
 
 notice we had to increase the timeout timer to 60 seconds as we needed more points to calculate/generate
+
+## output svg
+to get svg output instead of png, just omit the png in the command
+```
+for d in axe2.jpg ; do timeout 25s triangula run -img $d -out j.json -p 500 ; triangula render -in j.json -out T-${d%%.*} -img $d ; rm j.json ; done
+```
+
+## use polygans instead of triangles
+we need to insert `-s "polygons"` in both run and render commands
+```
+for d in belt.jpg ; do timeout 25s triangula run -img $d -out j.json -p 1000 -s "polygons" ; triangula render -in j.json -out T-${d%%.*} -img $d -s "polygons" png ; rm j.json ; done
+```
+![T-belt](https://user-images.githubusercontent.com/59083599/135863708-3a1fbbf7-73a5-42f7-9b47-4dc1288a80ba.png)
