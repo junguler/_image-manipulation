@@ -140,6 +140,17 @@ cat T-* | ffmpeg -framerate 10 -f image2pipe -i - katana.gif
 
 if you want to randomize the frames use this command
 ```
-for file in T-* ; do mv -- "$file" "$(mktemp --dry-run XXXXXX.png)" ; done
+for file in T-*.png ; do mv -- "$file" "$(mktemp --dry-run XXXXXX.png)" ; done
 ```
 ![katana++](https://user-images.githubusercontent.com/59083599/135898185-d2fdc49a-936c-49c6-925d-44c0db9a93c7.gif)
+
+## triangulafy a video
+lets apply what we learned to a video, i have made a example of how to download a free video, make image sequence, apply filter and mux it back [here](https://github.com/junguler/ffmpeg-examples/tree/main/sequence%2C%20manipulate%20%26%20mux%20images)
+```
+for d in *.jpg ; do timeout 10s triangula run -img $d -out j.json -p 250 ; triangula render -in j.json -out T-${d%%.*} -img $d png ; rm j.json ; done
+```
+and mux the images
+```
+cat T-*.png | ffmpeg -framerate 20 -f image2pipe -i - triangula_lemons.mp4 
+```
+https://user-images.githubusercontent.com/59083599/135905716-3f703049-a807-4f37-b70a-b0b473d1d623.mp4
