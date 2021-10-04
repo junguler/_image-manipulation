@@ -1,6 +1,18 @@
 ## what is needed to get started?
 Triangula is a gui and cli program that takes your image(s) make cool looking triangular and polygonal art out of them. find the github repo [here for gui](https://github.com/RH12503/triangula) and [here for cli](https://github.com/RH12503/Triangula-CLI) the cli version does not come pre-comiled and you have to install golang and compile it yourself, i'll include the linux binary i've made for myself in this repo and if you have a macos or windows binary contact me to include it as well, i also started an issue in the cli repo and we might get and official build as well
 
+## what are the differences betwwen triangula and triangle?
+these two programs look somewhat the same in first glance but there are enough difference to warrent both existing and we using them both in different cases, here are some of them:
+ * triangula tries to produce a more uniformed look with triangle sizes roughly the same size
+ * triangula does not overlap these triangles and only push them to different directions
+ * triangula wants to more closely recreate the image which makes it very slower than triangle
+ * triangula comes with gui option in addition to cli but triangle does not
+ * triangula has a two step process for recreating the image but triangle does it in 1 step
+ * triangula outpot images that more closely resemble low poly art we see in pop culture
+ * triangula's outpots are more cleaner and need less points to be able to make out the image
+
+i've seen triangula compared to other programs like primitive and geometrize but i think this comparisen is not valid so i won't go into it at all
+
 ## source material
 everything is downloaded from a royalty free image website [here](https://free-images.com/)
 
