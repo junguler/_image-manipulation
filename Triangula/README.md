@@ -127,4 +127,19 @@ for d in belt.jpg ; do timeout 25s triangula run -img $d -out j.json -p 1000 -s 
 ```
 ![T-belt](https://user-images.githubusercontent.com/59083599/135863708-3a1fbbf7-73a5-42f7-9b47-4dc1288a80ba.png)
 
-### more stuff inclduing making animated gifs from still images and videos from clips coming soon, we also will go over making glitched art using the same json file for different images 
+## making a animated gif out of an still image
+since there is no randomization with the same shape counts we will iterate thru the shape numbers, starting at 50 shapes and convert a frame every 50 frames, so 50, 100, ... 500 shapes
+```
+for d in {050..100..50} ; do timeout 20s triangula run -img katana3.jpg -out j.json -p $d ; triangula render -in j.json -out T-$d -img katana3.jpg png ; rm j.json ; done
+```
+mux the images to a gif
+```
+cat T-* | ffmpeg -framerate 10 -f image2pipe -i - katana.gif
+```
+![katana](https://user-images.githubusercontent.com/59083599/135897696-1176d7c7-53fb-4563-ad43-92cc94225ad0.gif)
+
+if you want to randomize the frames pass use this command
+```
+for file in T-* ; do mv -- "$file" "$(mktemp --dry-run XXXXXX.png)" ; done
+```
+![katana++](https://user-images.githubusercontent.com/59083599/135898185-d2fdc49a-936c-49c6-925d-44c0db9a93c7.gif)
