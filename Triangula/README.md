@@ -170,7 +170,7 @@ like i said at the beggining of this page, this program takes an image and makes
 
 lets use run to make a json file
 ```
-triangula run -img image.jpg -out g.json -p 1000
+triangula run -img image.jpg -out g.json -p 500
 ```
 now lets loop every image with that same json file 
 ```
@@ -178,6 +178,6 @@ for d in *.jpg ; do triangula render -in g.json -out T-${d%%.*} -img $d png ;  d
 ```
 and mux the images
 ```
-cat *.png | ffmpeg -framerate 30 -f image2pipe -i - glitch_dance.mp4  
+cat *.png | ffmpeg -framerate 30 -f image2pipe -i - glitch2_dance2.mp4  
 ```
-https://user-images.githubusercontent.com/59083599/135912470-e69ec437-f7d1-4f4b-8bbb-4838666e5e3c.mp4
+https://user-images.githubusercontent.com/59083599/135914163-f0f2575c-392c-4569-83c4-10d514ed39cb.mp4
