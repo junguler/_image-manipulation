@@ -6,6 +6,15 @@ everything is downloaded from a royalty free image website [here](https://free-i
 
 ## gui version
 there is a gui version available with simplified usage [here](https://github.com/RH12503/triangula/releases/tag/v1.2.0) while perfectly usable i'm more interested in the cli version as we want to be able to re-produce same types of results automatically and batch convert them
+
 ![T_gui](https://user-images.githubusercontent.com/59083599/135850973-abd1274e-92f4-46f1-99cd-2a503739b552.jpg)
 
 ## explanation of the switches and how the program works
+triangula cli is made of two seperate sub commands, first one is `run` which takes your image and makes a json file out of the information inside it, this is the main step we are interested in, here are the switches for it
+
+| Flag | Default | Description |
+| --- | --- | --- |
+| `--img`, `--image` | n/a | the image file to triangulate |
+| `--out`, `--output` | n/a | the file to write output to |
+
+second step is `render` which takes the input image and applies the information from the json file to it and convert it to an svg or png picture, here are the switches for that
