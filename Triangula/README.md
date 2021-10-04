@@ -114,3 +114,5 @@ we need to insert `-s "polygons"` in both run and render commands
 for d in belt.jpg ; do timeout 25s triangula run -img $d -out j.json -p 1000 -s "polygons" ; triangula render -in j.json -out T-${d%%.*} -img $d -s "polygons" png ; rm j.json ; done
 ```
 ![T-belt](https://user-images.githubusercontent.com/59083599/135863708-3a1fbbf7-73a5-42f7-9b47-4dc1288a80ba.png)
+
+### more stuff inclduing making animated gifs from still images and videos from clips coming soon, we also will go over making glitched art using the same json file for different images 
