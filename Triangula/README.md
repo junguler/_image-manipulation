@@ -41,4 +41,17 @@ second step is `render` which takes the input image and applies the information 
 triangula run -img bottle.jpg -out b.json
 ```
 this process will go on forever, there is no end point which exists and we have to intruppt it manually with `ctrl+c`, by default every 500 generations (which are calculations triangula makes) saves the information to the json file
-![run+](https://user-images.githubusercontent.com/59083599/135855766-4b5ee320-4d34-4c3f-9ace-9b6bcd215929.jpg)
+
+![run+](https://user-images.githubusercontent.com/59083599/135856002-baa8d9ae-5ab9-4663-90cb-ff09a78860e9.jpg)
+
+we can automate this with the `timeout` command, we just specify how long we want this command to last, let do it for 20 seconds
+```
+timeout 20s triangula run -img bottle.jpg -out b.json
+```
+now render the image to png with render command
+```
+triangula render -in b.json -out T-bottle -img bottle.jpg png 
+```
+![bottle](https://user-images.githubusercontent.com/59083599/135856516-71402ea8-1d2f-45d1-ac68-7ab12fe96890.png)
+
+notice that we didn't specify extension for our outpot image T-bottle as the program adds that automatically
