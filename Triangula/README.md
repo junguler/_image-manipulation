@@ -35,3 +35,10 @@ second step is `render` which takes the input image and applies the information 
 | `-o`,  `--out`,  `--output` | the name of the file to be outputted |
 | `--img`,  `--image`| the image to use |
 | `-s`,  `--shape`| the type of shape to use, either triangles or polygons (default: "triangles") |
+
+## basic usage
+```
+triangula run -img bottle.jpg -out b.json
+```
+this process will go on forever, there is no end point which exists and we have to intruppt it manually with `ctrl+c`, by default every 500 generations (which are calculations triangula makes) saves the information to the json file
+![run+](https://user-images.githubusercontent.com/59083599/135855766-4b5ee320-4d34-4c3f-9ace-9b6bcd215929.jpg)
