@@ -40,7 +40,7 @@ second step is `render` which takes the input image and applies the information 
 ```
 triangula run -img bottle.jpg -out b.json
 ```
-this process will go on forever, there is no end point which exists and we have to intruppt it manually with `ctrl+c`, by default every 500 generations (which are calculations triangula makes) saves the information to the json file
+this process will go on forever, there is no end point which exits and we have to intruppt it manually with `ctrl+c`, by default every 500 generations (which are calculations triangula makes) saves the information to the json file
 
 ![run+](https://user-images.githubusercontent.com/59083599/135856002-baa8d9ae-5ab9-4663-90cb-ff09a78860e9.jpg)
 
