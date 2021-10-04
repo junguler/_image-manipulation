@@ -1,6 +1,15 @@
 ## what is needed to get started?
 Triangula is a gui and cli program that takes your image(s) make cool looking triangular and polygonal art out of them. find the github repo [here for gui](https://github.com/RH12503/triangula) and [here for cli](https://github.com/RH12503/Triangula-CLI) the cli version does not come pre-comiled and you have to install golang and compile it yourself, i'll include the linux binary i've made for myself in this repo and if you have a macos or windows binary contact me to include it as well, i also started an issue in the cli repo and we might get and official build as well
 
+### quick links
+ * [basic usage](https://github.com/junguler/_image-manipulation/tree/main/Triangula#basic-usage)
+ * [for loop](https://github.com/junguler/_image-manipulation/tree/main/Triangula#for-loop)
+ * [batch converting](https://github.com/junguler/_image-manipulation/tree/main/Triangula#batch-converting)
+ * [shape counts](https://github.com/junguler/_image-manipulation/tree/main/Triangula#change-pointsshape-numbers)
+ * [polygons](https://github.com/junguler/_image-manipulation/tree/main/Triangula#use-polygans-instead-of-triangles)
+ * [iterate an image to make gif](https://github.com/junguler/_image-manipulation/tree/main/Triangula#making-a-animated-gif-out-of-an-still-image)
+ * [triangulafy a video](https://github.com/junguler/_image-manipulation/tree/main/Triangula#triangulafy-a-video)
+
 ## what are the differences betwwen triangula and triangle?
 these two programs look somewhat the same in first glance but there are enough difference to warrent both existing and we using them both in different cases, here are some of them:
  * triangula tries to produce a more uniformed look with triangle sizes roughly the same size
