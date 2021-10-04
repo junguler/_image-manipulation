@@ -89,3 +89,15 @@ so far we have been using the default settings, lets change that, we will use `-
 for d in piratesF.jpg ; do timeout 25s triangula run -img $d -out j.json -p 250 ; triangula render -in j.json -out T-${d%%.*} -img $d png ; rm j.json ; done
 ```
 ![T-piratesF](https://user-images.githubusercontent.com/59083599/135860752-d48bbd75-0a7c-4611-815f-5a1ab017dafa.png)
+
+```
+for d in match.jpg ; do timeout 25s triangula run -img $d -out j.json -p 1000 ; triangula render -in j.json -out T-${d%%.*} -img $d png ; rm j.json ; done
+```
+![T-match](https://user-images.githubusercontent.com/59083599/135861284-46255a7a-9587-45b5-aaaf-7c789e6f8ad8.png)
+
+```
+for d in telephone.jpg ; do timeout 60s triangula run -img $d -out j.json -p 2500 ; triangula render -in j.json -out T-${d%%.*} -img $d png ; rm j.json ; done
+```
+![T-telephone](https://user-images.githubusercontent.com/59083599/135861933-eb68781b-3dbe-4ebe-946f-fe1b68b18d06.png)
+
+notice we had to increase the timeout timer to 60 seconds as we needed more points to calculate/generate
