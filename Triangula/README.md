@@ -60,3 +60,12 @@ here is a one liner of our two command, we also remove the json file as we don't
 ```
 timeout 20s triangula run -img bottle.jpg -out b.json ; triangula render -in b.json -out bottle -img bottle.jpg png ; rm b.json
 ```
+
+## for loop, batch converting
+it might get a little annoying having to fill the names every time so we will use a for loop that does it for us
+```
+for d in knife2.jpg ; do timeout 25s triangula run -img $d -out j.json ; triangula render -in j.json -out T-${d%%.*} -img $d png ; rm j.json ; done
+```
+![T-knife2](https://user-images.githubusercontent.com/59083599/135857650-5c00a567-3d1e-43ab-ab05-36f286107611.png)
+
+we applied the name of our input image with the for loop as it was the only image we wanted to convert, since we have an image with `.jpg` extension and triangula automatically insert png extension to our image name we use `${d%%.*}` to remove the file extension in the render part and we add a `T-` before it to differentiate the input and outpot images
