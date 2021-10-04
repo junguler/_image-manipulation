@@ -163,3 +163,20 @@ and mux the images
 cat T-*.png | ffmpeg -framerate 20 -f image2pipe -i - triangula_lemons.mp4 
 ```
 https://user-images.githubusercontent.com/59083599/135906204-47bb3a61-1cf7-42dc-ad98-999973618fa9.mp4
+
+## glitch it
+like i said at the beggining of this page, this program takes an image and makes a json file out of it to produce triangulated images out of, what happens if we supply the same json file over and over for different images? glitch happens
+
+lets use run to make a json file
+```
+triangula run -img image-000273.jpg -out g.json -p 1000
+```
+now lets loop every image with that same json file 
+```
+for d in *.jpg ; do triangula render -in g.json -out T-${d%%.*} -img $d png ;  done 
+```
+and mux the images
+```
+cat *.png | ffmpeg -framerate 30 -f image2pipe -i - glitch_dance.mp4  
+```
+https://user-images.githubusercontent.com/59083599/135912470-e69ec437-f7d1-4f4b-8bbb-4838666e5e3c.mp4
