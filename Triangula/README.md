@@ -55,3 +55,8 @@ triangula render -in b.json -out T-bottle -img bottle.jpg png
 ![bottle](https://user-images.githubusercontent.com/59083599/135856516-71402ea8-1d2f-45d1-ac68-7ab12fe96890.png)
 
 notice that we didn't specify extension for our outpot image T-bottle as the program adds that automatically
+
+here is a one liner of our two command, we also remove the json file as we don't need it anymore
+```
+timeout 20s triangula run -img bottle.jpg -out b.json ; triangula render -in b.json -out bottle -img bottle.jpg png ; rm b.json
+```
