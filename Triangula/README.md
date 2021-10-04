@@ -26,7 +26,6 @@ triangula cli is made of two seperate sub commands, first one is `run` which tak
 | `--cut`,  `--cutoff` | 5 | the size of the blocks used when rendering |
 | `-r`,  `--reps` | 500 | the number of generations before saving to the output file |
 | `-t`,  `--threads` | 0 | the number of threads to use or 0 to use all cores |
-| `-h`,  `--help` | false | show help |
 
 second step is `render` which takes the input image and applies the information from the json file to it and convert it to an svg or png picture, here are the switches for that
 
@@ -36,4 +35,3 @@ second step is `render` which takes the input image and applies the information 
 | `-o`,  `--out`,  `--output` | the name of the file to be outputted |
 | `--img`,  `--image`| the image to use |
 | `-s`,  `--shape`| the type of shape to use, either triangles or polygons (default: "triangles") |
-| `-h`,  `--help` | show help (default: false) |
