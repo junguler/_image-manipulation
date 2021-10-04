@@ -14,18 +14,18 @@ triangula cli is made of two seperate sub commands, first one is `run` which tak
 
 | Flag | Default | Description |
 | --- | --- | --- |
-| `--img`  `--image` | n/a | the image file to triangulate |
-| `--out`  `--output` | n/a | the file to write output to |
-| `-p`  `--points` | 300 | the number of points to use in the triangulation |
-| `-s`  `--shape` | "triangles" | the type of shape to use, either triangles or polygons |
-| `-m`  `--mut`, `--mutations` | 2 | the number of mutations to make |
-| `-v`  `--variation` | 0.3 | the variation each mutation causes |
-| `--pop`  `--size`, `--population` | 400 | the population size in the algorithm |
-| `-c`  `--cache` | 22 | the cache size as a power of 2 |
-| `-b`  `--block` | 5 | the size of the blocks used when rendering |
-| `--cut`  `--cutoff` | 5 | the size of the blocks used when rendering |
-| `-r`  `--reps` | 500 | the number of generations before saving to the output file |
-| `-t`  `--threads` | 0 | the number of threads to use or 0 to use all cores |
-| `-h`  `--help` | false| show help |
+| `--img`,  `--image` | n/a | the image file to triangulate |
+| `--out`,  `--output` | n/a | the file to write output to |
+| `-p`,  `--points` | 300 | the number of points to use in the triangulation |
+| `-s`,  `--shape` | "triangles" | the type of shape to use, either triangles or polygons |
+| `-m`,  `--mut`, `--mutations` | 2 | the number of mutations to make |
+| `-v`,  `--variation` | 0.3 | the variation each mutation causes |
+| `--pop`,  `--size`, `--population` | 400 | the population size in the algorithm |
+| `-c`,  `--cache` | 22 | the cache size as a power of 2 |
+| `-b`,  `--block` | 5 | the size of the blocks used when rendering |
+| `--cut`,  `--cutoff` | 5 | the size of the blocks used when rendering |
+| `-r`,  `--reps` | 500 | the number of generations before saving to the output file |
+| `-t`,  `--threads` | 0 | the number of threads to use or 0 to use all cores |
+| `-h`,  `--help` | false| show help |
 
 second step is `render` which takes the input image and applies the information from the json file to it and convert it to an svg or png picture, here are the switches for that
