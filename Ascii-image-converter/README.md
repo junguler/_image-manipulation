@@ -69,3 +69,9 @@ ascii-image-converter newspaper.jpg -C -s . -W 200 --only-save -m ".oO01"
 ```
 ![newspaper-ascii-art](https://user-images.githubusercontent.com/59083599/136247425-2e30dac0-4ef8-4cd3-a3f0-5e80f5c5fee4.jpg)
 
+## using nerd fonts
+[nerd fonts](https://www.nerdfonts.com/#home) are a collection of free and open sort fonts that have many extra glyphs patched into them, download one of them [here](https://www.nerdfonts.com/font-downloads), use windows compatible mono varient even if you are in linux like me or on macos, lets rename it to `NerdMono.ttf` so it's easier to link and put inside the folder you want to convert your images on. we'll use the `--font` flag to use it.
+```
+ascii-image-converter github.png -C -s . -W 48 --only-save -m "" --font NerdMono.ttf
+```
+![github-ascii-art](https://user-images.githubusercontent.com/59083599/136251026-38ed8fea-8ec9-40e3-bd24-b614ba724315.png)
