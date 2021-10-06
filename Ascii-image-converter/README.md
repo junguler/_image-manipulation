@@ -74,4 +74,5 @@ ascii-image-converter newspaper.jpg -C -s . -W 200 --only-save -m ".oO01"
 ```
 ascii-image-converter github.png -C -s . -W 48 --only-save -m "" --font NerdMono.ttf
 ```
-![github-ascii-art](https://user-images.githubusercontent.com/59083599/136251026-38ed8fea-8ec9-40e3-bd24-b614ba724315.png)
+![github-ascii-art](https://user-images.githubusercontent.com/59083599/136251225-edfe33a8-ab77-409c-873a-4baf43abcf7f.png)
+
