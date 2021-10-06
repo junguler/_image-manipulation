@@ -51,3 +51,16 @@ ascii-image-converter rubikQ.jpg -C -s . -W 96 --only-save
 ascii-image-converter sneaker.jpg -C -s . -W 128 --only-save
 ```
 ![sneaker-ascii-art](https://user-images.githubusercontent.com/59083599/136244547-8cf39735-1578-4c05-855c-9c84a6fe2b4b.jpg)
+
+## using custom characters
+using the `-m` flag we can use our own string of characters
+```
+ascii-image-converter paint2.jpg -C -s . -W 104 --only-save -m "-_\|/"
+```
+![paint2-ascii-art](https://user-images.githubusercontent.com/59083599/136245496-4627865c-4014-435e-9425-ce9f7828c512.jpg)
+
+```
+ascii-image-converter sofa.jpg -C -s . -W 96 --only-save -m "[]{}|()"
+```
+![sofa-ascii-art](https://user-images.githubusercontent.com/59083599/136246162-8a082015-4197-480f-a74e-6c893edbe9ca.png)
+
