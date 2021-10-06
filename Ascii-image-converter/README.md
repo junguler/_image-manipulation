@@ -76,3 +76,4 @@ ascii-image-converter github.png -C -s . -W 48 --only-save -m "" --font NerdM
 ```
 ![github-ascii-art](https://user-images.githubusercontent.com/59083599/136251225-edfe33a8-ab77-409c-873a-4baf43abcf7f.png)
 
+the glyph probably doesn't show in this markdown file but if you copy the link it will work
