@@ -97,7 +97,7 @@ this will give us 36 copies of our image, now lets convert them
 ```
 for a in *.jpg ; do ascii-image-converter $a -C -s . -W ${a%%.*} --only-save ; done
 ```
-`${a%%.*}` here remove the jpg extension from our images as the program only wants to see numbers here, note that because every image has different width and height we need to unify all of them to be the exact resoulotion
+`${a%%.*}` here remove the jpg extension from our images as the program only wants to see numbers here, we also need to add a 0 before pictures with 2 digits, note that because every image has different width and height we need to unify all of them to be the exact resoulotion
 ```
 for f in *.png; do ffmpeg -i "$f" -vf scale=1200:720 "./${f%%.png}.png"; done 
 ```
@@ -106,3 +106,10 @@ and mux them
 cat *.png | ffmpeg -framerate 10 -f image2pipe -i - -vf format=yuv420p ascii_ice_cream+.mp4 
 ```
 https://user-images.githubusercontent.com/59083599/136264260-eea39184-9d06-4d66-ae7a-8fafd2b18380.mp4
+
+## asciify a video
+lets apply what we learned to a video, i have made a example of how to download a free video, make image sequence, apply filter and mux it back [here](https://github.com/junguler/ffmpeg-examples/tree/main/sequence%2C%20manipulate%20%26%20mux%20images)
+```
+cat *.png | ffmpeg -framerate 20 -f image2pipe -i - -vf format=yuv420p ascii_parkour.mp4 
+```
+https://user-images.githubusercontent.com/59083599/136268364-35ceb0bc-acd7-4d66-b6df-059c7ba5eb88.mp4
