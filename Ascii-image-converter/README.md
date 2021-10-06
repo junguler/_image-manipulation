@@ -62,7 +62,7 @@ ascii-image-converter paint2.jpg -C -s . -W 104 --only-save -m "-_\|/"
 ```
 ascii-image-converter sofa.jpg -C -s . -W 96 --only-save -m "[]{}|()"
 ```
-![sofa-ascii-art](https://user-images.githubusercontent.com/59083599/136246162-8a082015-4197-480f-a74e-6c893edbe9ca.png)
+![sofa-ascii-art](https://user-images.githubusercontent.com/59083599/136248549-f60c32fe-089e-4e83-a7f1-02de30f0cbb9.jpg)
 
 ```
 ascii-image-converter newspaper.jpg -C -s . -W 200 --only-save -m ".oO01"
