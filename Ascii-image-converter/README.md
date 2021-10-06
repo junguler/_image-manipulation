@@ -1,8 +1,5 @@
 ## what is needed to get started?
-ascii-image-converter is a cli program that takes your image(s) make cool looking ascii art out of them on the terminal and externally. 
-find the github repo [here for gui](https://github.com/TheZoraiz/ascii-image-converter) download the binary version for your os [here](https://github.com/TheZoraiz/ascii-image-converter/releases/tag/v1.11.0)
-put it in your @PATH and open the terminal. this program is mainly designed to output the ascii art in the terminal but i'm more interested in getting external outputs from it, 
-check the [README.md](https://github.com/TheZoraiz/ascii-image-converter/blob/master/README.md) of the original repo for more detailed visual representation of the program in the terminal
+ascii-image-converter is a cli program that takes your image(s) make cool looking ascii art out of them on the terminal and externally. find the github repo [here for gui](https://github.com/TheZoraiz/ascii-image-converter) download the binary version for your os [here](https://github.com/TheZoraiz/ascii-image-converter/releases/tag/v1.11.0) put it in your @PATH and open the terminal. this program is mainly designed to output the ascii art in the terminal but i'm more interested in getting external outputs from it, check the [README.md](https://github.com/TheZoraiz/ascii-image-converter/blob/master/README.md) of the original repo for more detailed visual representation of the program in the terminal
 
 ## source material
 everything is downloaded from a royalty free image website [here](https://free-images.com/) and some royalti free stock footage from youtube
@@ -35,3 +32,11 @@ everything is downloaded from a royalty free image website [here](https://free-i
 | `--formats` | display supported input formats |
 
 note: for the sake of keeping the table orginized, the description is not as verbose as the original repo page.
+
+## basic usage
+```
+ascii-image-converter yin_yang.jpg -s . -W 64 --only-save
+```
+![yin_yang-ascii-art](https://user-images.githubusercontent.com/59083599/136243139-541425e3-82d0-4222-9cf9-c1ed8f3e7796.png)
+
+`-s .` output external image `-W 64` set 64 character width `--only-save` to not print the ascii art in the terminal
