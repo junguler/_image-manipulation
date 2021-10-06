@@ -40,3 +40,14 @@ ascii-image-converter yin_yang.jpg -s . -W 64 --only-save
 ![yin_yang-ascii-art](https://user-images.githubusercontent.com/59083599/136243139-541425e3-82d0-4222-9cf9-c1ed8f3e7796.png)
 
 `-s .` output external image `-W 64` set 64 character width `--only-save` to not print the ascii art in the terminal
+
+### with color
+```
+ascii-image-converter rubikQ.jpg -C -s . -W 96 --only-save
+```
+![rubikQ-ascii-art](https://user-images.githubusercontent.com/59083599/136244404-95ad4260-1e7f-4f2b-b8bb-5e429703a110.jpg)
+
+```
+ascii-image-converter sneaker.jpg -C -s . -W 128 --only-save
+```
+![sneaker-ascii-art](https://user-images.githubusercontent.com/59083599/136244547-8cf39735-1578-4c05-855c-9c84a6fe2b4b.jpg)
