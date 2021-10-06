@@ -1,6 +1,15 @@
 ## what is needed to get started?
 ascii-image-converter is a cli program that takes your image(s) make cool looking ascii art out of them on the terminal and externally. find the github repo [here for gui](https://github.com/TheZoraiz/ascii-image-converter) download the binary version for your os [here](https://github.com/TheZoraiz/ascii-image-converter/releases/tag/v1.11.0) put it in your @PATH and open the terminal. this program is mainly designed to output the ascii art in the terminal but i'm more interested in getting external outputs from it, check the [README.md](https://github.com/TheZoraiz/ascii-image-converter/blob/master/README.md) of the original repo for more detailed visual representation of the program in the terminal
 
+### quick links
+ * [basic usage](https://github.com/junguler/_image-manipulation/blob/main/Ascii-image-converter/README.md#basic-usage)
+ * [with color](https://github.com/junguler/_image-manipulation/blob/main/Ascii-image-converter/README.md#with-color)
+ * [custom characters](https://github.com/junguler/_image-manipulation/blob/main/Ascii-image-converter/README.md#using-custom-characters)
+ * [nerd fonts](https://github.com/junguler/_image-manipulation/blob/main/Ascii-image-converter/README.md#using-nerd-fonts)
+ * [braille art](https://github.com/junguler/_image-manipulation/blob/main/Ascii-image-converter/README.md#braille-art)
+ * [iterate over the same image](https://github.com/junguler/_image-manipulation/blob/main/Ascii-image-converter/README.md#iterate-over-an-image-with-progressing-width-size)
+ * [asciify video](https://github.com/junguler/_image-manipulation/blob/main/Ascii-image-converter/README.md#asciify-a-video)
+
 ## source material
 everything is downloaded from a royalty free image website [here](https://free-images.com/) and some royalti free stock footage from youtube
 
