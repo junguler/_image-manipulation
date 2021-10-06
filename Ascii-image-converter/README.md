@@ -84,5 +84,6 @@ ascii-image-converter earth.jpg -C -s . -W 96 --only-save -b --dither
 ```
 ![earth-ascii-art](https://user-images.githubusercontent.com/59083599/136256903-0545bc11-273b-4c8a-985f-bf274a72c81b.jpg)
 
+with braille we also pass `--dither` flag to have more details in the output image
 
 ### more examples coming soon, we'll also go over making animated gifs and videos too
