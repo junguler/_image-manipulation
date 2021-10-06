@@ -65,6 +65,7 @@ ascii-image-converter sofa.jpg -C -s . -W 96 --only-save -m "[]{}|()"
 ![sofa-ascii-art](https://user-images.githubusercontent.com/59083599/136246162-8a082015-4197-480f-a74e-6c893edbe9ca.png)
 
 ```
-ascii-image-converter newspaper.jpg -C -s . -W 124 --only-save -m ".oO01"
+ascii-image-converter newspaper.jpg -C -s . -W 200 --only-save -m ".oO01"
 ```
-![newspaper-ascii-art](https://user-images.githubusercontent.com/59083599/136247187-2dc19301-8f71-470e-a1d8-f00645414cbc.jpg)
+![newspaper-ascii-art](https://user-images.githubusercontent.com/59083599/136247425-2e30dac0-4ef8-4cd3-a3f0-5e80f5c5fee4.jpg)
+
