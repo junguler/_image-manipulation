@@ -97,7 +97,11 @@ this will give us 36 copies of our image, now lets convert them
 ```
 for a in *.jpg ; do ascii-image-converter $a -C -s . -W ${a%%.*} --only-save ; done
 ```
-`${a%%.*}` here remove the jpg extension from our images as the program only wants to see numbers here, and mux them
+`${a%%.*}` here remove the jpg extension from our images as the program only wants to see numbers here, note that because every image has different width and height we need to unify all of them to be the exact resoulotion
+```
+for f in *.png; do ffmpeg -i "$f" -vf scale=1200:720 "./${f%%.png}.png"; done 
+```
+and mux them
 ```
 cat *.png | ffmpeg -framerate 10 -f image2pipe -i - -vf format=yuv420p ascii_ice_cream+.mp4 
 ```
