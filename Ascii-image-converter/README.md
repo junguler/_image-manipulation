@@ -86,4 +86,19 @@ ascii-image-converter earth.jpg -C -s . -W 96 --only-save -b --dither
 
 with braille we also pass `--dither` flag to have more details in the output image
 
-### more examples coming soon, we'll also go over making animated gifs and videos too
+## iterate over an image with progressing width size
+lets convert this image 36 times, starting with 25 width and then 30 and 35 and 40 etc to get to 200 shapes in the 30th picture ...
+
+since this program does not accept changing output name lets first copy our image and apply these values as name to it 36 times
+```
+for a in {25..200..5} ; do cp ice_cream.jpg $a.jpg ; done 
+```
+this will give us 36 copies of our image, now lets convert them
+```
+for a in *.jpg ; do ascii-image-converter $a -C -s . -W ${a%%.*} --only-save ; done
+```
+`${a%%.*}` here remove the jpg extension from our images as the program only wants to see numbers here, and mux them
+```
+cat *.png | ffmpeg -framerate 10 -f image2pipe -i - -vf format=yuv420p ascii_ice_cream+.mp4 
+```
+https://user-images.githubusercontent.com/59083599/136264260-eea39184-9d06-4d66-ae7a-8fafd2b18380.mp4
