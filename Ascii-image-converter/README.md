@@ -121,6 +121,10 @@ https://user-images.githubusercontent.com/59083599/136264260-eea39184-9d06-4d66-
 ## asciify a video
 lets apply what we learned to a video, i have made a example of how to download a free video, make image sequence, apply filter and mux it back [here](https://github.com/junguler/ffmpeg-examples/tree/main/sequence%2C%20manipulate%20%26%20mux%20images)
 ```
+for a in *.jpg ; do ascii-image-converter $a -C -s . -W 128 --only-save -m ".oO0" ; done 
+```
+and mux the images
+```
 cat *.png | ffmpeg -framerate 20 -f image2pipe -i - -vf format=yuv420p ascii_parkour.mp4 
 ```
 https://user-images.githubusercontent.com/59083599/136268364-35ceb0bc-acd7-4d66-b6df-059c7ba5eb88.mp4
