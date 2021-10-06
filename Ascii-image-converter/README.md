@@ -78,4 +78,11 @@ ascii-image-converter github.png -C -s . -W 48 --only-save -m "" --font NerdM
 
 the glyph probably doesn't show in this markdown file but if you copy the link it will work
 
+## braille art
+```
+ascii-image-converter earth.jpg -C -s . -W 96 --only-save -b --dither
+```
+![earth-ascii-art](https://user-images.githubusercontent.com/59083599/136256903-0545bc11-273b-4c8a-985f-bf274a72c81b.jpg)
+
+
 ### more examples coming soon, we'll also go over making animated gifs and videos too
