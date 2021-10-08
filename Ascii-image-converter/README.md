@@ -100,7 +100,7 @@ with braille we also pass `--dither` flag to have more details in the output ima
 ## iterate over an image with progressing width size
 lets convert this image 36 times, starting with 25 width and then 30 and 35 and 40 etc to get to 200 shapes in the 30th picture ...
 
-since this program does not accept changing output names and we know it's going to add a `-ascii-art.png` at the end of the image lets just renmae the outputs ourselves
+since this program does not accept changing output names and we know it's going to add a `-ascii-art.png` at the end of the image lets just rename the outputs ourselves
 ```
 for a in {050..200..5} ; do ascii-image-converter ice_cream.jpg -C -s . -W $a --only-save ; mv ice_cream-ascii-art.png i-$a.png ; done
 ```
