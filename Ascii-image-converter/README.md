@@ -102,7 +102,7 @@ lets convert this image 36 times, starting with 25 width and then 30 and 35 and 
 
 since this program does not accept changing output names and we know it's going to add a `-ascii-art.png` at the end of the image lets just rename the outputs ourselves
 ```
-for a in {050..200..5} ; do ascii-image-converter ice_cream.jpg -C -s . -W $a --only-save ; mv ice_cream-ascii-art.png i-$a.png ; done
+for a in {50..200..5} ; do ascii-image-converter ice_cream.jpg -C -s . -W $a --only-save ; mv ice_cream-ascii-art.png i-$a.png ; done
 ```
 we used the numbers we created as the width of our images, and used the same numbers to change the output names because if we didn't the program would just overwrite the image 36 times and we end up with one output image
 
@@ -110,9 +110,9 @@ since these images are all in different resoloutions and we can't make a gif or 
 ```
 for f in *.png; do ffmpeg -i "$f" -vf scale=1200:720 "./${f%%.png}.png"; done 
 ```
-and mux them
+and mux them, because we have both 2 digit and 3 digits numbers and we want to sort them numerically we first use ls in our folder to find every png file and then pipe it to cat and convert
 ```
-cat *.png | ffmpeg -framerate 10 -f image2pipe -i - -vf format=yuv420p ascii_ice_cream+.mp4 
+ls -v *.png | xargs cat | ffmpeg -framerate 5 -f image2pipe -i -  ascii_ice_cream+.mp4 
 ```
 https://user-images.githubusercontent.com/59083599/136264260-eea39184-9d06-4d66-ae7a-8fafd2b18380.mp4
 
