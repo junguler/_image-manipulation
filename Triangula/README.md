@@ -1,7 +1,6 @@
 ## what is needed to get started?
 Triangula is a gui and cli program that takes your image(s) make cool looking triangular and polygonal art out of them. find the github repo [here for gui](https://github.com/RH12503/triangula) and [here for cli](https://github.com/RH12503/Triangula-CLI) the cli version does not come pre-comiled and you have to install golang and compile it yourself, i'll include the linux binary i've made for myself in this repo and if you have a macos or windows binary contact me to include it as well, i also started an issue in the cli repo and we might get and official build as well
  
- 
 ### quick links
  * [basic usage](https://github.com/junguler/_image-manipulation/tree/main/Triangula#basic-usage)
  * [for loop](https://github.com/junguler/_image-manipulation/tree/main/Triangula#for-loop)
@@ -141,11 +140,11 @@ for d in belt.jpg ; do timeout 25s triangula run -img $d -out j.json -p 1000 -s 
 ## making a animated gif out of an still image
 since there is no randomization with the same shape counts we will iterate thru the shape numbers, starting at 50 shapes and convert a frame every 50 frames, so 50, 100, ... 500 shapes
 ```
-for d in {050..100..50} ; do timeout 20s triangula run -img katana3.jpg -out j.json -p $d ; triangula render -in j.json -out T-$d -img katana3.jpg png ; rm j.json ; done
+for d in {50..100..50} ; do timeout 20s triangula run -img katana3.jpg -out j.json -p $d ; triangula render -in j.json -out T-$d -img katana3.jpg png ; rm j.json ; done
 ```
-mux the images to a gif
+mux the images to a gif, because we have both 2 digit and 3 digits numbers and we want to sort them numerically we first use ls in our folder to find every png file and then pipe it to cat and convert it with ffmpeg
 ```
-cat T-* | ffmpeg -framerate 10 -f image2pipe -i - katana.gif
+ls -v *.png | xargs cat | ffmpeg -framerate 10 -f image2pipe -i - katana.gif
 ```
 ![katana](https://user-images.githubusercontent.com/59083599/135897696-1176d7c7-53fb-4563-ad43-92cc94225ad0.gif)
 
