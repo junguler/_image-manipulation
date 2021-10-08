@@ -110,7 +110,7 @@ since these images are all in different resoloutions and we can't make a gif or 
 ```
 for f in *.png; do ffmpeg -i "$f" -vf scale=1200:720 "./${f%%.png}.png"; done 
 ```
-and mux them, because we have both 2 digit and 3 digits numbers and we want to sort them numerically we first use ls in our folder to find every png file and then pipe it to cat and convert
+and mux them, because we have both 2 digit and 3 digits numbers and we want to sort them numerically we first use ls in our folder to find every png file and then pipe it to cat and convert it with ffmpeg
 ```
 ls -v *.png | xargs cat | ffmpeg -framerate 5 -f image2pipe -i -  ascii_ice_cream+.mp4 
 ```
