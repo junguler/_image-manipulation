@@ -100,15 +100,13 @@ with braille we also pass `--dither` flag to have more details in the output ima
 ## iterate over an image with progressing width size
 lets convert this image 36 times, starting with 25 width and then 30 and 35 and 40 etc to get to 200 shapes in the 30th picture ...
 
-since this program does not accept changing output name lets first copy our image and apply these values as name to it 36 times
+since this program does not accept changing output names and we know it's going to add a `-ascii-art.png` at the end of the image lets just renmae the outputs ourselves
 ```
-for a in {25..200..5} ; do cp ice_cream.jpg $a.jpg ; done 
+for a in {050..200..5} ; do ascii-image-converter ice_cream.jpg -C -s . -W $a --only-save ; mv ice_cream-ascii-art.png i-$a.png ; done
 ```
-this will give us 36 copies of our image, now lets convert them
-```
-for a in *.jpg ; do ascii-image-converter $a -C -s . -W ${a%%.*} --only-save ; done
-```
-`${a%%.*}` here remove the jpg extension from our images as the program only wants to see numbers here, we also need to add a 0 before pictures with 2 digits, note that because every image has different width and height we need to unify all of them to be the exact resoulotion
+we used the numbers we created as the width of our images, and used the same numbers to change the output names because if we didn't the program would just overwrite the image 36 times and we end up with one output image
+
+since these images are all in different resoloutions and we can't make a gif or video with that let's scale all of the to the same size
 ```
 for f in *.png; do ffmpeg -i "$f" -vf scale=1200:720 "./${f%%.png}.png"; done 
 ```
