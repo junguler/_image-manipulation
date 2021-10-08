@@ -106,7 +106,7 @@ for a in {050..200..5} ; do ascii-image-converter ice_cream.jpg -C -s . -W $a --
 ```
 we used the numbers we created as the width of our images, and used the same numbers to change the output names because if we didn't the program would just overwrite the image 36 times and we end up with one output image
 
-since these images are all in different resoloutions and we can't make a gif or video with that let's scale all of the to the same size
+since these images are all in different resoloutions and we can't make a gif or video with that let's scale all of them to the same size
 ```
 for f in *.png; do ffmpeg -i "$f" -vf scale=1200:720 "./${f%%.png}.png"; done 
 ```
