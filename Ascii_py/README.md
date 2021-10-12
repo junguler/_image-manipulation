@@ -27,3 +27,7 @@ use a wide range of characters to show density of the picture, this is the best 
 ascii_py men.jpg -d -o workers.jpg
 ```
 ![workers](https://user-images.githubusercontent.com/59083599/136875929-d4c3f274-22e8-42eb-a7f6-00aba1e9d5a0.jpg)
+```
+ascii_py ab4.jpg -d -o abstract.jpg
+```
+![abstract](https://user-images.githubusercontent.com/59083599/136876249-aef33d21-2881-401f-a4dc-25884fbdd584.jpg)
