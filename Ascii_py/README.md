@@ -80,6 +80,8 @@ notice that every time we convert these images we append differnt words for them
 ```
 ls -v *.jpg | xargs cat | ffmpeg -framerate 10 -f image2pipe -i - cloud.mp4 
 ```
+we use ls to pipe file names to cat because we have 3 and 4 digit names in our images and if we only used cat the order would have not been numerical
+
 https://user-images.githubusercontent.com/59083599/136886149-05e9ffbb-69bf-4b8a-b894-3240233501bd.mp4
 
 ## asciify a video
