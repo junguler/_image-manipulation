@@ -13,9 +13,17 @@ everything is downloaded from a royalty free image website [here](https://free-i
 | `-s`, `--step` | choose the distance of your characters |
 | `-d`, `--density` | converts the image based on visual density |
 | `-t`, `--terminal` | print ascii image to terminal |
+| `-h`, `--help` | show help message and exit |
 
 ## basic usage
 ```
 ascii_py basketball.jpg -o b-ball.jpg
 ```
 ![b-ball](https://user-images.githubusercontent.com/59083599/136875612-ae06a87a-b10e-4d05-8aca-2cd6913d1a1d.jpg)
+
+## density based
+use a wide range of characters to show density of the picture, this is the best option this program has imo
+```
+ascii_py men.jpg -d -o workers.jpg
+```
+![workers](https://user-images.githubusercontent.com/59083599/136875929-d4c3f274-22e8-42eb-a7f6-00aba1e9d5a0.jpg)
