@@ -14,7 +14,7 @@ there is also compiled linux binary on the repo [here](https://github.com/ProfOa
  * [asciify a video](https://github.com/junguler/_image-manipulation/tree/main/Ascii_py#asciify-a-video)
 
 ## source material
-everything is downloaded from a royalty free image website [here](https://free-images.com/) and some royalti free stock footage from youtube
+everything is downloaded from a royalty free image website [here](https://free-images.com/) and some royalty free stock footage from youtube
 
 ## explanation of the switches and how the program works
 | Flag | Description |
