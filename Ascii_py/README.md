@@ -53,3 +53,13 @@ ascii_py sunset.jpg -w "\|/-_" -s 5 -o sun+.jpg
 ```
 ![sun+](https://user-images.githubusercontent.com/59083599/136878131-77a84629-9d48-4af6-9cdd-e6866d09538e.jpg)
 
+## asciify a video
+lets apply what we learned to a video, i have made a example of how to download a free video, make image sequence, apply filter and mux it back [here](https://github.com/junguler/ffmpeg-examples/tree/main/sequence%2C%20manipulate%20%26%20mux%20images)
+```
+for i in *.jpg ; do ascii_py -o A-$i -s 15 -d $i ; done 
+```
+and mux them to a video
+```
+cat A-*.jpg | ffmpeg -framerate 25 -f image2pipe -i - ascii_gym.mp4
+```
+https://user-images.githubusercontent.com/59083599/136880300-1122e10b-016b-4909-a48a-8f5502304482.mp4
