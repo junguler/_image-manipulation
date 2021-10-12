@@ -31,3 +31,14 @@ ascii_py men.jpg -d -o workers.jpg
 ascii_py ab4.jpg -d -o abstract.jpg
 ```
 ![abstract](https://user-images.githubusercontent.com/59083599/136876249-aef33d21-2881-401f-a4dc-25884fbdd584.jpg)
+
+## change distane between characters
+```
+ascii_py bicycle.jpg -d -s 10 -o bicy.jpg
+```
+![bicy](https://user-images.githubusercontent.com/59083599/136876414-6ef9df9e-ca5c-4f3c-ba08-c584b62dea8d.jpg)
+```
+ascii_py harleyD.jpg -d -s 15 -o harlD.jpg
+```
+![harlD](https://user-images.githubusercontent.com/59083599/136876717-14d77d6e-4213-478d-a705-05153c614ae9.jpg)
+
