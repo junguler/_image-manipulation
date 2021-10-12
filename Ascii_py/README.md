@@ -96,10 +96,10 @@ https://user-images.githubusercontent.com/59083599/136887039-1d972588-38c2-4065-
 ## asciify a video
 lets apply what we learned to a video, i have made a example of how to download a free video, make image sequence, apply filter and mux it back [here](https://github.com/junguler/ffmpeg-examples/tree/main/sequence%2C%20manipulate%20%26%20mux%20images)
 ```
-for i in *.jpg ; do ascii_py -o A-$i -s 15 -d $i ; done 
+for i in *.jpg ; do ascii_py $i -d -o A-$i ; done 
 ```
-and mux them to a video
+and mux them to a video, note we also apply compression to this video to avoid very large outpot size, without any compression the output size would be 150mb, with the default ffmpeg compression it would have been 23mb but we force bitrate to stay at 8mb and use veryslow preset to retain as much details as we can
 ```
-cat A-*.jpg | ffmpeg -framerate 25 -f image2pipe -i - ascii_gym.mp4
+cat A-image-00* | ffmpeg -framerate 30 -f image2pipe -i - -b:v 8M -preset veryslow ascii_run.mp4
 ```
-https://user-images.githubusercontent.com/59083599/136880300-1122e10b-016b-4909-a48a-8f5502304482.mp4
+https://user-images.githubusercontent.com/59083599/137029432-715b26be-5a74-4d2b-9d2d-b1fd9c1a4876.mp4
