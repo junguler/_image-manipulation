@@ -7,6 +7,7 @@ installing ascii_py is very easy, just install python3 and run a simple pip comm
  * [density](https://github.com/junguler/_image-manipulation/tree/main/Ascii_py#density-based)
  * [distance](https://github.com/junguler/_image-manipulation/tree/main/Ascii_py#change-distane-between-characters)
  * [custom characters](https://github.com/junguler/_image-manipulation/tree/main/Ascii_py#use-your-own-characters-or-words)
+ * [iterate over an image](https://github.com/junguler/_image-manipulation/tree/main/Ascii_py#iterate-over-an-image)
  * [asciify a video](https://github.com/junguler/_image-manipulation/tree/main/Ascii_py#asciify-a-video)
 
 ## source material
