@@ -42,3 +42,13 @@ ascii_py harleyD.jpg -d -s 15 -o harlD.jpg
 ```
 ![harlD](https://user-images.githubusercontent.com/59083599/136876717-14d77d6e-4213-478d-a705-05153c614ae9.jpg)
 
+## use your own characters or words
+this option takes your characters and use it to draw the picture, it's not a randomized or image based options tho, it repeats everything you add to it, spaces are empty characters in the image. so we either want to pass one character only to fill the whole image with it or add certain strings to replicate the effect.
+```
+ascii_py ab7.jpg -w "/" -s 5 -o abst+.jpg
+```
+![abst+](https://user-images.githubusercontent.com/59083599/136877614-1722ccfc-55c8-4648-bcc0-497888050e64.jpg)
+```
+ascii_py sunset.jpg -w "\|/-_" -s 5 -o suns.jpg
+```
+![suns](https://user-images.githubusercontent.com/59083599/136877829-083e8869-2ce9-4c53-89ec-1a40cb866c31.jpg)
