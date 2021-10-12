@@ -49,6 +49,7 @@ ascii_py ab7.jpg -w "/" -s 5 -o abst+.jpg
 ```
 ![abst+](https://user-images.githubusercontent.com/59083599/136877614-1722ccfc-55c8-4648-bcc0-497888050e64.jpg)
 ```
-ascii_py sunset.jpg -w "\|/-_" -s 5 -o suns.jpg
+ascii_py sunset.jpg -w "\|/-_" -s 5 -o sun+.jpg
 ```
-![suns](https://user-images.githubusercontent.com/59083599/136877829-083e8869-2ce9-4c53-89ec-1a40cb866c31.jpg)
+![sun+](https://user-images.githubusercontent.com/59083599/136878131-77a84629-9d48-4af6-9cdd-e6866d09538e.jpg)
+
