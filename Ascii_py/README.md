@@ -2,6 +2,13 @@
 ascii_py is a cool python cli program that takes you images and makes cool looking ascii art out of them, find the github repo [rep](https://github.com/ProfOak/ascii_py),
 installing ascii_py is very easy, just install python3 and run a simple pip command, there is also compiled linux binary on the repo [here](https://github.com/ProfOak/ascii_py/tree/master/bin)
 
+### quick links
+ * [basic usage](https://github.com/junguler/_image-manipulation/tree/main/Ascii_py#basic-usage)
+ * [density](https://github.com/junguler/_image-manipulation/tree/main/Ascii_py#density-based)
+ * [distance](https://github.com/junguler/_image-manipulation/tree/main/Ascii_py#change-distane-between-characters)
+ * [custom characters](https://github.com/junguler/_image-manipulation/tree/main/Ascii_py#use-your-own-characters-or-words)
+ * [asciify a video](https://github.com/junguler/_image-manipulation/tree/main/Ascii_py#asciify-a-video)
+
 ## source material
 everything is downloaded from a royalty free image website [here](https://free-images.com/) and some royalti free stock footage from youtube
 
