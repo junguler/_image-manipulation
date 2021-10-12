@@ -84,6 +84,12 @@ we use ls to pipe file names to cat because we have 3 and 4 digit names in our i
 
 https://user-images.githubusercontent.com/59083599/136886149-05e9ffbb-69bf-4b8a-b894-3240233501bd.mp4
 
+you can also randomize file names to make this gif file less uniform
+```
+for file in *.jpg ; do mv -- "$file" "$(mktemp --dry-run XXXXXX.jpg)" ; done 
+```
+https://user-images.githubusercontent.com/59083599/136887039-1d972588-38c2-4065-aa89-02e7883a8fd9.mp4
+
 ## asciify a video
 lets apply what we learned to a video, i have made a example of how to download a free video, make image sequence, apply filter and mux it back [here](https://github.com/junguler/ffmpeg-examples/tree/main/sequence%2C%20manipulate%20%26%20mux%20images)
 ```
