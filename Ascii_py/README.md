@@ -98,7 +98,7 @@ lets apply what we learned to a video, i have made a example of how to download 
 ```
 for i in *.jpg ; do ascii_py $i -d -o A-$i ; done 
 ```
-and mux them to a video, note we also apply compression to this video to avoid very large outpot size, without any compression the output size would be 150mb, with the default ffmpeg compression it would have been 23mb but we force bitrate to stay at 8mb and use veryslow preset to retain as much details as we can
+and mux them to a video, note we also apply compression to this video to avoid very large outpot size, without any compression the output size would be 150_mb, with the default ffmpeg compression it would have been 23_mb but we force bitrate to stay at 8mb and use veryslow preset to retain as much details as we can and end up with a 6.6_mb file that looks very similar to the uncompressed file
 ```
 cat A-image-00* | ffmpeg -framerate 30 -f image2pipe -i - -b:v 8M -preset veryslow ascii_run.mp4
 ```
