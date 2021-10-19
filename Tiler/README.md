@@ -1,13 +1,11 @@
 ## what is needed to get started?
-tiler is a cool and amazing python cli programs that uses small pictures (tiles) to recreate pictures in those styles, find the github repo [here](https://github.com/nuno-faria/tiler)
-visit the repo to know how to install
+tiler is a cool and amazing python cli programs that uses small pictures (tiles) to recreate pictures in those styles, find the github repo [here](https://github.com/nuno-faria/tiler) visit the repo to know how to install
 
 ## source material
 everything is downloaded from a royalty free image website [here](https://free-images.com/) and some royalty free stock footage from youtube
 
 ## explanation of the config file and how the program works
-customizing config is done by changing values in the `conf.py` and there is two different sections for changing config, one is for `gen_tiles.py` which is for making custom color varients of our tiles 
-and `tiler.py` which is the main part of program that converts our images
+customizing config is done by changing values in the `conf.py` and there is two different sections for changing config, one is for `gen_tiles.py` which is for making custom color varients of our tiles and `tiler.py` which is the main part of program that converts our images
 
 | config | default | gen_tiles.py |
 | --- | --- | --- |
@@ -27,3 +25,18 @@ and `tiler.py` which is the main part of program that converts our images
 | OUT | TILES_FOLDER = None | result image filename |
 
 ## basic usage
+the program itself comes with some examples of tiles already, lets use them to show how the program works and then we can get to making custom shapes
+```
+python3 tiler.py bird.jpg tiles/plus/gen_plus 
+```
+first we tell our shell tiler is a python3 program, and import our image to be converted and finally choose the tiling effect of plus signs
+
+![bird-tiled](https://user-images.githubusercontent.com/59083599/137897304-86e6ec25-84bd-40b2-9fe3-3bdc0a3af951.jpg)
+
+```
+python3 tiler.py sun.jpg tiles/times/gen_times/
+```
+![sun-tiled](https://user-images.githubusercontent.com/59083599/137898424-0f8e6f07-3b33-40d3-9551-68bc0ca93430.jpg)
+
+## unifromed output
+so far we've been using the default option of `PIXEL_SHIFT = (5, 5)` which alows for for each pixel to be shifted 5 pixels in x and y axis which lets our image have empty spots and un uniformed shapes, setting this value to None `PIXEL_SHIFT = None` in our `conf.py` makes everything uniform and also greatly speeds up our conversion speeds
