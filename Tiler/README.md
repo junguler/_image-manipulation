@@ -147,4 +147,15 @@ default  |  8 colors  |
 :-------------------------:|:-------------------------:
 ![colors-tiled](https://user-images.githubusercontent.com/59083599/137954796-ed883959-5b78-447b-88eb-a8b523416bcf.jpg) | ![colors-tiled-8colors](https://user-images.githubusercontent.com/59083599/137954818-98b37cba-daa9-40df-8fc3-ed21a145f2a8.jpg)
 
-## more examples including how to make a tilify video clip coming soon
+## tilify a video
+lets apply what we learned to a video, i have made a example of how to download a free video, make image sequence, apply filter and mux it back [here](https://github.com/junguler/ffmpeg-examples/tree/main/sequence%2C%20manipulate%20%26%20mux%20images)
+```
+for i in *.jpg ; do python3 ~/git-stuff/tiler/tiler.py $i ~/git-stuff/tiler/tiles/custom2/gen_tile+ ; mv out.png T-$i.png ; done  
+```
+because we are not in the folder tiler.py is, we need to pass it's complete path for the shell to know where it is, we should also change the name of output files because the program always outpots images as `out.png` and if we didn't change them they would have been overwritten
+
+and mux the images
+```
+cat T-image-000*.png | ffmpeg -framerate 30 -f image2pipe -i - -b:v 8M -preset veryslow tiled_parkour.mp4
+```
+https://user-images.githubusercontent.com/59083599/137977998-7a86ddd4-baf6-40b9-8a03-ca740bbd1fa6.mp4
