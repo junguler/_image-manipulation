@@ -131,7 +131,7 @@ default  |  [0.7, 0.6, 0.5, 0.4]   |
 ## overlap tiles
 by default tiles are not set to overlap but this can be change by setting `OVERLAP_TILES = False` to `True`
 ```
-python3 tiler.py wilderness.jpg tiles/clips/gen_clip
+python3 tiler.py tomato.jpg tiles/clips/gen_clip
 ```
 default  |  with overlap  |
 :-------------------------:|:-------------------------:
