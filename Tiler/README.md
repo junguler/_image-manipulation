@@ -37,7 +37,7 @@ customizing config is done by changing values in the `conf.py` and there is two 
 | OUT | TILES_FOLDER = None | result image filename |
 
 ## basic usage
-the program itself comes with some examples of tiles already, lets use them to show how the program works and then we can get to making custom shapes
+the repo of program comes with some examples of tiles already, lets use them to show how the program works and then we can get to making custom shapes
 ```
 python3 tiler.py bird.jpg tiles/plus/gen_plus/
 ```
