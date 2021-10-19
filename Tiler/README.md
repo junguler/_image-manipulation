@@ -82,13 +82,13 @@ good            |  bad
 :-------------------------:|:-------------------------:
 ![g2](https://user-images.githubusercontent.com/59083599/137913938-6fd20824-d2ec-4775-ac5b-335073c48dd5.png)  |  ![b2](https://user-images.githubusercontent.com/59083599/137913959-5f4c5434-9e35-41d4-84d6-15bfe1091291.png)
 
-your tile should surpass all sides of your picture and not be floating inside
+your tile should surpass all sides of your frame and not be floating inside
 
 good            |  bad
 :-------------------------:|:-------------------------:
 ![g3](https://user-images.githubusercontent.com/59083599/137914443-298a1b51-ba5b-45a6-8f22-c6340ccc647e.png)  |  ![b3](https://user-images.githubusercontent.com/59083599/137914464-69ca09db-5c8f-44e9-bce7-abd2b949478f.png)
 
-and finally your shape should posses the whole picture and not leave empty spaces 
+and finally your tile should occupy the whole frame and not leave empty spaces 
 
 good            |  bad
 :-------------------------:|:-------------------------:
