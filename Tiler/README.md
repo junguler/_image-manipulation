@@ -112,7 +112,7 @@ python3 tiler.py snow.jpg tiles/custom/gen_tile1/
 ```
 ![snow-tiled](https://user-images.githubusercontent.com/59083599/137917805-21e47039-ee5c-44f5-9153-4aec3fecfc3c.jpg)
 
-lets make another example, this time i make a copy of my tile and turn it 90 degrees to either side to have vertical and horizontal shapes, use `gen_tiles.py` on each of them and put the results into a folder to have combined effect, we could also use the `ROTATIONS = [0]` option in `conf.py` and change it's value to `ROTATIONS = [90]` to achieve the same result without making duplicate files.
+lets make another example, this time i make a copy of my tile and turn it 90 degrees to either side to have vertical and horizontal shapes, use `gen_tiles.py` on each of them and put the results into a folder to have combined effect, we could also use the `ROTATIONS = [0]` option in `conf.py` and change it's value to `ROTATIONS = [90]` after we ran it with the default setting to achieve the same result without making duplicate files.
 
 ![B](https://user-images.githubusercontent.com/59083599/137919926-30e97115-8aba-47d8-850b-e9545dc5bd21.png) ![C](https://user-images.githubusercontent.com/59083599/137919941-783027e6-1fcb-471b-85f4-5ac5e0abe9a5.png)
 ```
