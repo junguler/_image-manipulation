@@ -161,4 +161,4 @@ cat T-image-000*.png | ffmpeg -framerate 30 -f image2pipe -i - -b:v 8M -preset v
 ```
 https://user-images.githubusercontent.com/59083599/137977998-7a86ddd4-baf6-40b9-8a03-ca740bbd1fa6.mp4
 
-we also applied some compression to our video clip to prevent big output sizes
+we also applied some compression to our video clip `-b:v 8M` to prevent big output sizes and use a very slow preset to preserve as much deatails as possible `-preset veryslow`
