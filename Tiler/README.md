@@ -27,7 +27,7 @@ customizing config is done by changing values in the `conf.py` and there is two 
 ## basic usage
 the program itself comes with some examples of tiles already, lets use them to show how the program works and then we can get to making custom shapes
 ```
-python3 tiler.py bird.jpg tiles/plus/gen_plus 
+python3 tiler.py bird.jpg tiles/plus/gen_plus/
 ```
 first we tell our shell tiler is a python3 program, and import our image to be converted and finally choose the tiling effect of plus signs
 
@@ -40,3 +40,11 @@ python3 tiler.py sun.jpg tiles/times/gen_times/
 
 ## unifromed output
 so far we've been using the default option of `PIXEL_SHIFT = (5, 5)` which alows for for each pixel to be shifted 5 pixels in x and y axis which lets our image have empty spots and un uniformed shapes, setting this value to None `PIXEL_SHIFT = None` in our `conf.py` makes everything uniform and also greatly speeds up our conversion speeds
+```
+python3 tiler.py window.jpg tiles/circles/gen_circle_100/
+```
+![window-tiled](https://user-images.githubusercontent.com/59083599/137899308-3cc966a6-4122-475e-9853-e4605ef812d0.jpg)
+```
+python3 tiler.py ladyLiberty.jpg tiles/waves/gen_wave/
+```
+![ladyLiberty-tiled](https://user-images.githubusercontent.com/59083599/137900389-43db6d93-986d-468e-a13a-2cbe5b4a20cf.jpg)
