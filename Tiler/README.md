@@ -72,25 +72,25 @@ python3 tiler.py rug.jpg tiles/combo2/
 ## making custom tiles
 before i start showing examples of how to make custom tiles first i want to explain some details to let you create good tiles, first of all we need a transparent png file and our shape needs to have an RGB color of (240,240,240) which is almost completely white.
 
-good            |  bad
+good  |  bad
 :-------------------------:|:-------------------------:
 ![g1](https://user-images.githubusercontent.com/59083599/137913059-75905a8f-62b2-44dd-807c-415294e3a469.png)  |  ![b1](https://user-images.githubusercontent.com/59083599/137913098-0d8d0099-0b4f-4594-8a51-34a560fb0289.png)
 
 your tile should be one big mass instead of many pieces
 
-good            |  bad
+good  |  bad
 :-------------------------:|:-------------------------:
 ![g2](https://user-images.githubusercontent.com/59083599/137913938-6fd20824-d2ec-4775-ac5b-335073c48dd5.png)  |  ![b2](https://user-images.githubusercontent.com/59083599/137913959-5f4c5434-9e35-41d4-84d6-15bfe1091291.png)
 
 your tile should surpass all sides of your frame and not be floating inside
 
-good            |  bad
+good  |  bad
 :-------------------------:|:-------------------------:
 ![g3](https://user-images.githubusercontent.com/59083599/137914443-298a1b51-ba5b-45a6-8f22-c6340ccc647e.png)  |  ![b3](https://user-images.githubusercontent.com/59083599/137914464-69ca09db-5c8f-44e9-bce7-abd2b949478f.png)
 
 and finally your tile should occupy the whole frame and not leave empty spaces 
 
-good            |  bad
+good  |  bad
 :-------------------------:|:-------------------------:
 ![g4](https://user-images.githubusercontent.com/59083599/137914978-1c33ed74-6712-4821-b6e4-81fe49990fbd.png)  |  ![b4](https://user-images.githubusercontent.com/59083599/137924695-0de7ce17-bebb-464a-9948-4e88fc2ec0e1.png)
 
@@ -117,4 +117,8 @@ python3 tiler.py flower.jpg tiles/custom2/gen_tile+/
 ```
 ![flower-tiled](https://user-images.githubusercontent.com/59083599/137919484-901b651c-d6d2-496f-95d1-2673cf77a38c.jpg)
 
-### more examples coming soon including how to make animted gifs and tiled video clips
+## change resizing scale
+so far we've been using the default resizing scale settings of `RESIZING_SCALES = [0.5, 0.4, 0.3, 0.2, 0.1]` scale of 1 is the exact size of our tile image, so with default settings we are using from 50% of the tile size to 10% of it. lets use it again for comparasion purposes and then change it:
+default  |  [0.7, 0.6, 0.5, 0.4]   |
+:-------------------------:|:-------------------------:
+![burger-tiled](https://user-images.githubusercontent.com/59083599/137949566-3dd47348-5e12-42a4-ae5e-05848888f9f5.jpg) | ![burger-tiled-resize](https://user-images.githubusercontent.com/59083599/137949618-2c65032b-8b47-40c0-8708-717a022a51be.jpg)
