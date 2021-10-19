@@ -146,3 +146,5 @@ python3 tiler.py colors.jpg tiles/clips/gen_clip/
 default  |  8 colors  |
 :-------------------------:|:-------------------------:
 ![colors-tiled](https://user-images.githubusercontent.com/59083599/137954796-ed883959-5b78-447b-88eb-a8b523416bcf.jpg) | ![colors-tiled-8colors](https://user-images.githubusercontent.com/59083599/137954818-98b37cba-daa9-40df-8fc3-ed21a145f2a8.jpg)
+
+## more examples including how to make a tilify video clip coming soon
