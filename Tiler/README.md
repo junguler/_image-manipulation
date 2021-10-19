@@ -7,9 +7,9 @@ tiler is a cool and amazing python cli programs that uses small pictures (tiles)
  * [using multiple tile types](https://github.com/junguler/_image-manipulation/tree/main/Tiler#using-multiple-tile-types)
  * [making custom tiles](https://github.com/junguler/_image-manipulation/tree/main/Tiler#making-custom-tiles)
  * [using custom tiles](https://github.com/junguler/_image-manipulation/tree/main/Tiler#using-custom-tiles)
- * [change resizing scale](https://github.com/junguler/_image-manipulation/blob/main/Tiler/README.md#change-resizing-scale)
- * [overlap tiles](https://github.com/junguler/_image-manipulation/blob/main/Tiler/README.md#overlap-tiles)
- * [changing colors](https://github.com/junguler/_image-manipulation/blob/main/Tiler/README.md#changing-colors)
+ * [change resizing scale](https://github.com/junguler/_image-manipulation/tree/main/Tiler#change-resizing-scale)
+ * [overlap tiles](https://github.com/junguler/_image-manipulation/tree/main/Tiler#overlap-tiles)
+ * [changing colors](https://github.com/junguler/_image-manipulation/tree/main/Tiler#changing-colors)
 
 ## source material
 everything is downloaded from a royalty free image website [here](https://free-images.com/) and some royalty free stock footage from youtube
