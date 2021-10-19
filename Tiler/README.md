@@ -89,4 +89,25 @@ good            |  bad
 
 note: i added the black background for people who use the github's light theme to be able to easily see, our shape png has to be transparent for the best result
 
+## using custom tiles
+now that we made our custom tiles, taking above explanations into consideration let's use the `gen_tiles.py` program to make other color varients of it.
+```
+python3 gen_tiles.py tiles/custom/tile1.png
+```
+this makes a folder named `gen_tile1` in the folder our `tile1.png` is with variations of colors and black to white saturations of our original tile, now lets use this folder to make a tiled picture
+
+![A](https://user-images.githubusercontent.com/59083599/137919877-4f269735-3697-4ea2-bc90-eb016629229e.png)
+```
+python3 tiler.py snow.jpg tiles/custom/gen_tile1/
+```
+![snow-tiled](https://user-images.githubusercontent.com/59083599/137917805-21e47039-ee5c-44f5-9153-4aec3fecfc3c.jpg)
+
+lets make another example, this time i make a copy of my tile and turn it 90 degrees to either side to have vertical and horizontal shapes, use `gen_tiles.py` on each of them and put the results into a folder to have combined effect
+
+![B](https://user-images.githubusercontent.com/59083599/137919926-30e97115-8aba-47d8-850b-e9545dc5bd21.png) ![C](https://user-images.githubusercontent.com/59083599/137919941-783027e6-1fcb-471b-85f4-5ac5e0abe9a5.png)
+```
+python3 tiler.py flower.jpg tiles/custom2/gen_tile+/
+```
+![flower-tiled](https://user-images.githubusercontent.com/59083599/137919484-901b651c-d6d2-496f-95d1-2673cf77a38c.jpg)
+
 ### more examples coming soon including making animted gifs and tiled video clips
