@@ -117,4 +117,4 @@ python3 tiler.py flower.jpg tiles/custom2/gen_tile+/
 ```
 ![flower-tiled](https://user-images.githubusercontent.com/59083599/137919484-901b651c-d6d2-496f-95d1-2673cf77a38c.jpg)
 
-### more examples coming soon including making animted gifs and tiled video clips
+### more examples coming soon including how to make animted gifs and tiled video clips
