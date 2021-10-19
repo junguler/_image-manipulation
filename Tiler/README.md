@@ -179,6 +179,7 @@ cat 01.png 02.png 03.png 04.png | ffmpeg -framerate 6 -f image2pipe -i - tiled_w
 ```
 ![tiled_watch](https://user-images.githubusercontent.com/59083599/137982799-c09916cd-3dff-448c-a9ac-224d47c886fc.gif)
 
+## make gif by changing colors
 another example of making a gif file is by changing the colors of our input images, lets use ffmpeg's hue filter for this, and iterate thru 360 degrees of hue
 ```
 for h in {10..350..10} ; do ffmpeg -i city.jpg -vf hue=h=$h $h.jpg ; done
