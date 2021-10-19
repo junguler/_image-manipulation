@@ -11,6 +11,7 @@ tiler is a cool and amazing python cli programs that uses small pictures (tiles)
  * [overlap tiles](https://github.com/junguler/_image-manipulation/tree/main/Tiler#overlap-tiles)
  * [changing colors](https://github.com/junguler/_image-manipulation/tree/main/Tiler#changing-colors)
  * [tilify a video](https://github.com/junguler/_image-manipulation/tree/main/Tiler#tilify-a-video)
+ * [make animated gif out of one photo](https://github.com/junguler/_image-manipulation/tree/main/Tiler#make-animated-gif-out-of-one-picture)
 
 ## source material
 everything is downloaded from a royalty free image website [here](https://free-images.com/) and some royalty free stock footage from youtube
@@ -177,3 +178,5 @@ now that we have our 4 images, lets make an animted gif out of it
 cat 01.png 02.png 03.png 04.png | ffmpeg -framerate 6 -f image2pipe -i - tiled_watch.gif
 ```
 ![tiled_watch](https://user-images.githubusercontent.com/59083599/137982799-c09916cd-3dff-448c-a9ac-224d47c886fc.gif)
+
+there are many other ways to make an animated gifs in programs like tiler that don't have any randomizations including, rotating the picture converting it and rotting it back, changing resoultions of the pictures, changing colors of the pictures, changing shape sizes and pixel_shift and ...
