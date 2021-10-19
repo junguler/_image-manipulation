@@ -1,6 +1,13 @@
 ## what is needed to get started?
 tiler is a cool and amazing python cli programs that uses small pictures (tiles) to recreate pictures in those styles, find the github repo [here](https://github.com/nuno-faria/tiler) visit the repo to know how to install
 
+### quick links
+ * [basic usage](https://github.com/junguler/_image-manipulation/tree/main/Tiler#basic-usage)
+ * [uniformed output](https://github.com/junguler/_image-manipulation/tree/main/Tiler#unifromed-output)
+ * [using multiple tile types](https://github.com/junguler/_image-manipulation/tree/main/Tiler#using-multiple-tile-types)
+ * [making custom tiles](https://github.com/junguler/_image-manipulation/tree/main/Tiler#making-custom-tiles)
+ * [using custom tiles](https://github.com/junguler/_image-manipulation/tree/main/Tiler#using-custom-tiles)
+
 ## source material
 everything is downloaded from a royalty free image website [here](https://free-images.com/) and some royalty free stock footage from youtube
 
