@@ -62,4 +62,31 @@ python3 tiler.py rug.jpg tiles/combo2/
 ```
 ![rug-tiled](https://user-images.githubusercontent.com/59083599/137903375-06676921-98bc-4b15-a3ee-5eb574ea66be.jpg)
 
-### more examples coming soon including making custom shapes, animted gifs and tiled video clips
+## making custom tiles
+before i start showing examples of how to make custom tiles first i want to explain some details to let you create good tiles, first of all we need a transparent png file and our shape needs to have an RGB color of (240,240,240) which is almost completely white.
+
+good            |  bad
+:-------------------------:|:-------------------------:
+![g1](https://user-images.githubusercontent.com/59083599/137913059-75905a8f-62b2-44dd-807c-415294e3a469.png)  |  ![b1](https://user-images.githubusercontent.com/59083599/137913098-0d8d0099-0b4f-4594-8a51-34a560fb0289.png)
+
+your tile should be one big mass instead of many pieces
+
+good            |  bad
+:-------------------------:|:-------------------------:
+![g2](https://user-images.githubusercontent.com/59083599/137913938-6fd20824-d2ec-4775-ac5b-335073c48dd5.png)  |  ![b2](https://user-images.githubusercontent.com/59083599/137913959-5f4c5434-9e35-41d4-84d6-15bfe1091291.png)
+
+your tile should surpass all sides of your picture and not be floating inside
+
+good            |  bad
+:-------------------------:|:-------------------------:
+![g3](https://user-images.githubusercontent.com/59083599/137914443-298a1b51-ba5b-45a6-8f22-c6340ccc647e.png)  |  ![b3](https://user-images.githubusercontent.com/59083599/137914464-69ca09db-5c8f-44e9-bce7-abd2b949478f.png)
+
+and finally your shape should posses the whole picture and not leave empty spaces 
+
+good            |  bad
+:-------------------------:|:-------------------------:
+![g4](https://user-images.githubusercontent.com/59083599/137914978-1c33ed74-6712-4821-b6e4-81fe49990fbd.png)  |  ![b4](https://user-images.githubusercontent.com/59083599/137915012-84a3cb80-2d6c-4385-a927-09cf6f1c9932.png)
+
+note: i added the black background for people who use the github's light theme to be able to easily see, our shape png has to be transparent for the best result
+
+### more examples coming soon including making animted gifs and tiled video clips
