@@ -137,3 +137,11 @@ default  |  with overlap  |
 :-------------------------:|:-------------------------:
 ![tomato-tiled](https://user-images.githubusercontent.com/59083599/137952016-956bf32d-7933-4440-9186-ea05295689fe.jpg) | ![tomato-tiled-overlap](https://user-images.githubusercontent.com/59083599/137952042-87d033ea-83d5-489d-87eb-ce7b3aeb662c.jpg)
 
+# changing colors
+by default every image is rendered with 32 colors `COLOR_DEPTH = 32` lets change that
+```
+python3 tiler.py colors.jpg tiles/clips/gen_clip
+```
+default  |  8 colors  |
+:-------------------------:|:-------------------------:
+![colors-tiled](https://user-images.githubusercontent.com/59083599/137954796-ed883959-5b78-447b-88eb-a8b523416bcf.jpg) | ![colors-tiled-8colors](https://user-images.githubusercontent.com/59083599/137954818-98b37cba-daa9-40df-8fc3-ed21a145f2a8.jpg)
