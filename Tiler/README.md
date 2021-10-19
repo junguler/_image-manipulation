@@ -62,3 +62,4 @@ python3 tiler.py rug.jpg tiles/combo2
 ```
 ![rug-tiled](https://user-images.githubusercontent.com/59083599/137903375-06676921-98bc-4b15-a3ee-5eb574ea66be.jpg)
 
+### more examples coming soon including making custom shapes, animted gifs and tiled video clips
