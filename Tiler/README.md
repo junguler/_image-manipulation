@@ -162,3 +162,18 @@ cat T-image-000*.png | ffmpeg -framerate 30 -f image2pipe -i - -b:v 8M -preset v
 https://user-images.githubusercontent.com/59083599/137977998-7a86ddd4-baf6-40b9-8a03-ca740bbd1fa6.mp4
 
 we also applied some compression to our video clip `-b:v 8M` to prevent big output sizes and use a very slow preset to preserve as much deatails as possible `-preset veryslow`
+
+## make animated gif out of one picture
+tiler doesn't have randomization in itself but we can apply rotations to `conf.py` when we use the `gen_tiles.py` to make different roations of our tiles, lets convert this image with `ROTATIONS = [0]` and convert the image, then do it with `[90]` `[180]` `[270]` and convert the image each time and rename it, note we remove the colored tiles `gen_tiles.py` makes with each conversion but we could have just added the shapes together to make more frames
+```
+python3 gen_tiles.py tiles/gif/gif.png
+```
+and convert
+```
+python3 tiler.py watch.jpg tiles/gif/gen_gif
+```
+now that we have our 4 images, lets make an animted gif out of it
+```
+cat 01.png 02.png 03.png 04.png | ffmpeg -framerate 6 -f image2pipe -i - tiled_watch.gif
+```
+![tiled_watch](https://user-images.githubusercontent.com/59083599/137982799-c09916cd-3dff-448c-a9ac-224d47c886fc.gif)
