@@ -12,6 +12,7 @@ tiler is a cool and amazing python cli programs that uses small pictures (tiles)
  * [changing colors](https://github.com/junguler/_image-manipulation/tree/main/Tiler#changing-colors)
  * [tilify a video](https://github.com/junguler/_image-manipulation/tree/main/Tiler#tilify-a-video)
  * [make animated gif out of one photo](https://github.com/junguler/_image-manipulation/tree/main/Tiler#make-animated-gif-out-of-one-picture)
+ * [make gif by chaning colors](https://github.com/junguler/_image-manipulation/tree/main/Tiler#make-gif-by-changing-colors)
 
 ## source material
 everything is downloaded from a royalty free image website [here](https://free-images.com/) and some royalty free stock footage from youtube
