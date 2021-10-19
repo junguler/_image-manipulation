@@ -92,7 +92,7 @@ and finally your shape should posses the whole picture and not leave empty space
 
 good            |  bad
 :-------------------------:|:-------------------------:
-![g4](https://user-images.githubusercontent.com/59083599/137914978-1c33ed74-6712-4821-b6e4-81fe49990fbd.png)  |  ![b4](https://user-images.githubusercontent.com/59083599/137915012-84a3cb80-2d6c-4385-a927-09cf6f1c9932.png)
+![g4](https://user-images.githubusercontent.com/59083599/137914978-1c33ed74-6712-4821-b6e4-81fe49990fbd.png)  |  ![b4](https://user-images.githubusercontent.com/59083599/137924695-0de7ce17-bebb-464a-9948-4e88fc2ec0e1.png)
 
 note: i added the black background for people who use the github's light theme to be able to easily see, our shape png has to be transparent for the best result
 
