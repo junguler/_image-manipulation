@@ -159,3 +159,5 @@ and mux the images
 cat T-image-000*.png | ffmpeg -framerate 30 -f image2pipe -i - -b:v 8M -preset veryslow tiled_parkour.mp4
 ```
 https://user-images.githubusercontent.com/59083599/137977998-7a86ddd4-baf6-40b9-8a03-ca740bbd1fa6.mp4
+
+we also applied some compression to our video clip to prevent big output sizes
