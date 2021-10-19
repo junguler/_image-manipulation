@@ -121,8 +121,18 @@ python3 tiler.py flower.jpg tiles/custom2/gen_tile+/
 ## change resizing scale
 so far we've been using the default resizing scale settings of `RESIZING_SCALES = [0.5, 0.4, 0.3, 0.2, 0.1]` scale of 1 is the exact size of our tile image, so with default settings we are using from 50% of the tile size to 10% of it. lets use it again for comparasion purposes and then change it:
 ```
-python3 tiler.py burger.jpg tiles/circles/gen_circle_100 
+python3 tiler.py burger.jpg tiles/circles/gen_circle_100/
 ```
 default  |  [0.7, 0.6, 0.5, 0.4]   |
 :-------------------------:|:-------------------------:
 ![burger-tiled](https://user-images.githubusercontent.com/59083599/137949566-3dd47348-5e12-42a4-ae5e-05848888f9f5.jpg) | ![burger-tiled-resize](https://user-images.githubusercontent.com/59083599/137949618-2c65032b-8b47-40c0-8708-717a022a51be.jpg)
+
+## overlap tiles
+by default tiles are not set to overlap but this can be change by setting `OVERLAP_TILES = False` to `True`
+```
+python3 tiler.py wilderness.jpg tiles/clips/gen_clip
+```
+default  |  with overlap  |
+:-------------------------:|:-------------------------:
+![tomato-tiled](https://user-images.githubusercontent.com/59083599/137952016-956bf32d-7933-4440-9186-ea05295689fe.jpg) | ![tomato-tiled-overlap](https://user-images.githubusercontent.com/59083599/137952042-87d033ea-83d5-489d-87eb-ce7b3aeb662c.jpg)
+
