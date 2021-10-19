@@ -1,5 +1,5 @@
 ## what is needed to get started?
-tiler is a cool and amazing python cli programs that uses small pictures (tiles) to recreate pictures in those styles, find the github repo [here](https://github.com/nuno-faria/tiler) visit the repo to know how to install
+tiler is a cool and amazing python cli programs that uses small pictures (tiles) to recreate pictures in those styles, find the github repo [here](https://github.com/nuno-faria/tiler) and read about how to install it
 
 ### quick links
  * [basic usage](https://github.com/junguler/_image-manipulation/tree/main/Tiler#basic-usage)
