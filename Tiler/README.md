@@ -52,13 +52,13 @@ python3 tiler.py ladyLiberty.jpg tiles/waves/gen_wave/
 ## using multiple tile types
 this is very easy, just copy everything you like into a folder, lets do this image with plus and times shapes, make a new folder called combo for example, copy evertyhing from the tiles/plus/gen_plus/ and tiles/times/gen_times/ into our combo folder
 ```
-python3 tiler.py rhino.jpg tiles/combo
+python3 tiler.py rhino.jpg tiles/combo/
 ```
 ![rhino-tiled](https://user-images.githubusercontent.com/59083599/137902311-8e78bece-81ee-489c-aaf9-0add9d19695e.jpg)
 
 vertical and horizontal lines
 ```
-python3 tiler.py rug.jpg tiles/combo2
+python3 tiler.py rug.jpg tiles/combo2/
 ```
 ![rug-tiled](https://user-images.githubusercontent.com/59083599/137903375-06676921-98bc-4b15-a3ee-5eb574ea66be.jpg)
 
