@@ -153,15 +153,15 @@ default  |  8 colors  |
 ## tilify a video
 lets apply what we learned to a video, i have made a example of how to download a free video, make image sequence, apply filter and mux it back [here](https://github.com/junguler/ffmpeg-examples/tree/main/sequence%2C%20manipulate%20%26%20mux%20images)
 ```
-for i in *.jpg ; do python3 ~/git-stuff/tiler/tiler.py $i ~/git-stuff/tiler/tiles/custom2/gen_tile+ ; mv out.png T-$i.png ; done  
+for i in *.jpg ; do python3 ~/git-stuff/tiler/tiler.py $i ~/git-stuff/tiler/tiles/waves/gen_wave/ ; mv out.png T-$i.png ; done  
 ```
 because we are not in the folder tiler.py is, we need to pass it's complete path for the shell to know where it is, we should also change the name of output files because the program always outpots images as `out.png` and if we didn't change them they would have been overwritten
 
 and mux the images
 ```
-cat T-image-000*.png | ffmpeg -framerate 30 -f image2pipe -i - -b:v 8M -preset veryslow tiled_parkour.mp4
+cat T-image-000*.png | ffmpeg -framerate 30 -f image2pipe -i - -b:v 8M -preset veryslow tiled_dance.mp4
 ```
-https://user-images.githubusercontent.com/59083599/137977998-7a86ddd4-baf6-40b9-8a03-ca740bbd1fa6.mp4
+https://user-images.githubusercontent.com/59083599/138157868-bd05d629-0d13-4ec9-b0e1-7452cace5c70.mp4
 
 we also applied some compression to our video clip `-b:v 8M` to prevent big output sizes and use a very slow preset to preserve as much deatails as possible `-preset veryslow`
 
