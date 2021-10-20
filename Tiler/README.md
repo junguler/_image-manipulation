@@ -185,7 +185,7 @@ another example of making a gif file is by changing the colors of our input imag
 ```
 for h in {10..360..10} ; do ffmpeg -i city.jpg -vf hue=h=$h $h.jpg ; done
 ```
-`{10..360..10}` our starting hue rotation value is 10 and our ending value is 360 because 0 and 360 are the same value, the 10 at the end tells to our shell that skip every 10 numbers and only do, 10, 20, 30 etc to 360, these generated numbers in our for loops are being applied to `hue=h=` which applies the filter and we also use these to generate the output file names, now lets convert our newly generated images
+`{10..360..10}` our starting hue rotation value is 10 and our ending value is 360 because 0 and 360 are the same value, the 10 at the end tells to our shell that skip every 10 numbers and only do, 10, 20, 30 etc to 360, these generated numbers in our for loop are being passed to `hue=h=` which applies the filter and we also use these to generate the output file names, now lets convert our newly generated images
 
 ![city+](https://user-images.githubusercontent.com/59083599/138005786-f775dd6b-8e05-4f3f-8ceb-b0d7011a28ed.gif)
 ```
@@ -195,8 +195,8 @@ and mux the images to make a gif file
 ```
 cat $( ls -v T-*.png ) | ffmpeg -framerate 10 -f image2pipe -i - tiled_city+.gif
 ```
-because some of our images are have two digits and some have 3 digits we use ls with cat because cat by default doesn't sort numerically.
+because some of our images have two digits and some have 3 digits we use ls with cat because cat by default doesn't sort numerically.
 
 ![tiled_city](https://user-images.githubusercontent.com/59083599/138005707-b9349fb4-3c36-4441-a3bb-964ed2a46fd7.gif)
 
-there are many other ways to make an animated gifs in programs like tiler that don't have any randomizations including, rotating the picture converting it and rotting it back, changing resoultions of the pictures, changing shape sizes and pixel_shift and a bunch of other stuff, everything that is considered a change can result in a new outpot image ...
+there are many other ways to make an animated gifs in programs like tiler that don't have any randomizations, including rotating the picture converting it and rotting it back, changing resoultions of the pictures, changing shape sizes and pixel_shift and a bunch of other stuff, everything that is considered a change can result in a new outpot image ...
