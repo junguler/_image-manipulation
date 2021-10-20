@@ -163,7 +163,7 @@ cat T-image-000*.png | ffmpeg -framerate 30 -f image2pipe -i - -b:v 8M -preset v
 ```
 https://user-images.githubusercontent.com/59083599/138157868-bd05d629-0d13-4ec9-b0e1-7452cace5c70.mp4
 
-clip was taken from a royalti free video in [odysee](https://odysee.com/@dirtyworkz:0/prdx-phoenix-(official-video)-copyright:e)
+clip was taken from a royalty free video in [odysee](https://odysee.com/@dirtyworkz:0/prdx-phoenix-(official-video)-copyright:e)
 
 we also applied some compression to our video clip `-b:v 8M` to prevent big output sizes and use a very slow preset to preserve as much deatails as possible `-preset veryslow`
 
