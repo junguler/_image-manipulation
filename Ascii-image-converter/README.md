@@ -4,13 +4,13 @@ ascii-image-converter is a cli program that takes your image(s) make cool lookin
 special thanks to [Zoraiz Hassan](https://github.com/TheZoraiz) for making this great program and including options i wanted in it <3
 
 ### quick links
- * [basic usage](https://github.com/junguler/_image-manipulation/blob/main/Ascii-image-converter/README.md#basic-usage)
- * [with color](https://github.com/junguler/_image-manipulation/blob/main/Ascii-image-converter/README.md#with-color)
- * [custom characters](https://github.com/junguler/_image-manipulation/blob/main/Ascii-image-converter/README.md#using-custom-characters)
- * [nerd fonts](https://github.com/junguler/_image-manipulation/blob/main/Ascii-image-converter/README.md#using-nerd-fonts)
- * [braille art](https://github.com/junguler/_image-manipulation/blob/main/Ascii-image-converter/README.md#braille-art)
- * [iterate over the same image](https://github.com/junguler/_image-manipulation/blob/main/Ascii-image-converter/README.md#iterate-over-an-image-with-progressing-width-size)
- * [asciify video](https://github.com/junguler/_image-manipulation/blob/main/Ascii-image-converter/README.md#asciify-a-video)
+ * [basic usage](https://github.com/junguler/_image-manipulation/tree/main/Ascii-image-converter#basic-usage)
+ * [with color](https://github.com/junguler/_image-manipulation/tree/main/Ascii-image-converter#with-color)
+ * [custom characters](https://github.com/junguler/_image-manipulation/tree/main/Ascii-image-converter#using-custom-characters)
+ * [nerd fonts](https://github.com/junguler/_image-manipulation/tree/main/Ascii-image-converter#using-nerd-fonts)
+ * [braille art](https://github.com/junguler/_image-manipulation/tree/main/Ascii-image-converter#braille-art)
+ * [iterate over the same image](https://github.com/junguler/_image-manipulation/tree/main/Ascii-image-converter#iterate-over-an-image-with-progressing-width-size)
+ * [asciify video](https://github.com/junguler/_image-manipulation/tree/main/Ascii-image-converter#asciify-a-video)
 
 ## source material
 everything is downloaded from a royalty free image website [here](https://free-images.com/) and some royalti free stock footage from youtube
