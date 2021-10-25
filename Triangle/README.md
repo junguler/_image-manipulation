@@ -14,7 +14,7 @@ there is also a gui app available if you are interested, see [here](https://gith
  * [noise](https://github.com/junguler/_image-manipulation/tree/main/Triangle#noise)
  * [gif and video](https://github.com/junguler/_image-manipulation/tree/main/Triangle#gifsvideos-iterate-over-an-image-with-the-same-settings-multiple-times)
  * [iterative gifs or videos](https://github.com/junguler/_image-manipulation/tree/main/Triangle#iterate-over-an-image-with-progressing-shape-numbers)
- * [trianglify a video](https://github.com/junguler/_image-manipulation/blob/main/Triangle/README.md#trianglify-a-video)
+ * [trianglify a video](https://github.com/junguler/_image-manipulation/tree/main/Triangle#trianglify-a-video)
 
 ## source material
 everything is downloaded from a royalty free image website [here](https://free-images.com/)
