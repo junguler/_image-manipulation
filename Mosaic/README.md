@@ -27,4 +27,4 @@ in the we comment out lines [33](https://github.com/yobeatz/mosaic/blob/main/mos
 
 we also change the value of line [96](https://github.com/yobeatz/mosaic/blob/main/mosaic.py#L96) from ``return_svg=False`` to ``return_svg=True`` so the program output and svg file for us on exit
 
-# showing how the program works in a visual way by showing each step an image goes thru
+## showing how the program works in a visual way by showing each step an image goes thru
