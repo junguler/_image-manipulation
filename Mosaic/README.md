@@ -85,7 +85,7 @@ ffmpeg -i output.svg -vf scale=-1:720 mos-mime.png
 ```
 setting the number higher than the default 12 (16 for this example) we use an image that can afford to lose most of it's details and still be recognizable
 
-![mos-fire](https://user-images.githubusercontent.com/59083599/139850558-905353c4-3cc3-400c-8189-c2971fb72f74.jpg)
+![mos-fire](https://user-images.githubusercontent.com/59083599/139851339-5031d4c9-fda0-4657-a73a-04c1628c6bcb.jpg)
 
 ## respecting frame of the image
 by default mosaic aligns the tiles starting at the edges of the screen and then comes to the middle, if we set this option to false the tiles are align at the border of the objects inside our image, let's show both side by side
