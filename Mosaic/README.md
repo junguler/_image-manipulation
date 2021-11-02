@@ -87,6 +87,8 @@ setting the number higher than the default 12 (16 for this example) we use an im
 
 ![mos-fire](https://user-images.githubusercontent.com/59083599/139851339-5031d4c9-fda0-4657-a73a-04c1628c6bcb.jpg)
 
+comparing different tile sizes with the same image
+
 original  | half_tile = 6 
 :-------------------------:|:-------------------------:
 ![original](https://user-images.githubusercontent.com/59083599/139945917-6a6de556-6044-4bb8-b31a-84b916fa7c66.jpg) | ![wm-6](https://user-images.githubusercontent.com/59083599/139945953-c6d76750-8ada-45ac-bd02-4d08911321bb.jpg) 
