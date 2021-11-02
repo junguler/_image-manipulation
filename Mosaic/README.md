@@ -55,5 +55,9 @@ because we are on a different folder than `mosaic.py` is we need to pass it's fu
 ```
 ffmpeg -i output.svg -vf scale=1280:-1 mos-eiffel.png
 ```
-![eiffel](https://user-images.githubusercontent.com/59083599/139759167-605d88fe-7305-4d90-ba4f-6c2b8ae91fa0.png)
+![mos-eiffel](https://user-images.githubusercontent.com/59083599/139759167-605d88fe-7305-4d90-ba4f-6c2b8ae91fa0.png)
+
+another example
+
+![mos-baloon](https://user-images.githubusercontent.com/59083599/139759442-5002def3-1dac-4fc2-950a-e8e140825331.png)
 
