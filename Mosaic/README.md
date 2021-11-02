@@ -39,20 +39,20 @@ we also change the value of line [96](https://github.com/yobeatz/mosaic/blob/mai
 ## showing how the program works in a visual way by showing each step an image goes thru
 we commented out all of these steps except the final step but it might be a good idea to show them because the program goes thru all of them to make the final output file
 
-original  | edges
+step_1 original  | step_2 edges
 :-------------------------:|:-------------------------:
 ![original](https://user-images.githubusercontent.com/59083599/139756417-88d74dec-c385-40c1-96be-bc5e0f61fcdd.jpg) | ![edges](https://user-images.githubusercontent.com/59083599/139756486-c7ab5cb8-c6e5-4914-bb2e-cdaf4758d317.jpg)
-distances | guidelines
+step_3 distances | step_4 guidelines
 ![distances](https://user-images.githubusercontent.com/59083599/139756544-172c8a6e-96a0-4803-9ac4-3b77ff0954c9.jpg) | ![guidelines](https://user-images.githubusercontent.com/59083599/139756621-e742efea-9110-4fbe-9a31-a457edbf3035.jpg)
-gradient | angles_0to180
+step_5 gradient | step_6 angles_0to180
 ![gradient](https://user-images.githubusercontent.com/59083599/139756673-332c1325-7548-451e-b15b-a76ed4386289.jpg) | ![angles_0to180](https://user-images.githubusercontent.com/59083599/139756875-479d0bb9-e321-42c4-a445-a12b8290622c.jpg)
-polygons_chains | used_up_space
+step_7 polygons_chains | step_8 used_up_space
 ![polygons_chains](https://user-images.githubusercontent.com/59083599/139756942-598077c7-46da-4647-9266-c9a24c174702.jpg) | ![used_up_space](https://user-images.githubusercontent.com/59083599/139756980-038e8162-07b3-46c7-a8b3-7784d4e9219f.jpg)
-distance_to_tile | filler_guidelines
+step_9 distance_to_tile | step_10 filler_guidelines
 ![used_up_space](https://user-images.githubusercontent.com/59083599/139757059-36545cea-25d5-4944-9185-ab1882295f1f.jpg) | ![filler_guidelines](https://user-images.githubusercontent.com/59083599/139757111-704bd4bd-79d1-47da-9c5a-9601a1fc25a4.jpg)
-polygons_filler | polygons_cut
+step_11 polygons_filler | step_12 polygons_cut
 ![polygons_filler](https://user-images.githubusercontent.com/59083599/139757184-eaa9a2b5-fe46-42de-ba00-cb956ec9e1e6.jpg) | ![polygons_cut](https://user-images.githubusercontent.com/59083599/139757242-8fc8ed37-8d88-411c-bd33-4a1e9d10c7c5.jpg)
-final | final_recolored 'fish'
+step_13 final | step_14 final_recolored 'fish'
 ![final](https://user-images.githubusercontent.com/59083599/139757302-d3857b0f-0969-42b8-8eb3-b1acff47c4d8.jpg) | ![final_recolored](https://user-images.githubusercontent.com/59083599/139758088-fd89f475-0b9a-4d89-a4d6-b7d0df0c959b.jpg)
 
 ## basic usage
