@@ -92,3 +92,9 @@ MAX_ANGLE = 30 | MAX_ANGLE = 75
 :-------------------------:|:-------------------------:
 ![30](https://user-images.githubusercontent.com/59083599/139771255-7f62209d-b3bd-4d65-a514-240c196ad87e.png) | ![75](https://user-images.githubusercontent.com/59083599/139771290-7d48c002-b17c-4b8d-94bc-435a75d199d9.png)
 
+## change edge detection mode
+the default edge detection method mosaic uses is HED but there is an alternative called DiBlasi, here is how they look compared to each other
+
+EDGE_DETECTION = 'HED' | EDGE_DETECTION = 'DiBlasi'
+:-------------------------:|:-------------------------:
+![HED](https://user-images.githubusercontent.com/59083599/139771969-e49c3741-7f71-4001-a4ee-5e00c0e1c1c5.png) | ![DiBlasi](https://user-images.githubusercontent.com/59083599/139771984-e2c8834d-fd99-4bd6-98f3-1faf78695f2c.png)
