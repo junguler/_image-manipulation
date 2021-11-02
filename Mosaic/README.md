@@ -2,6 +2,15 @@
 mosaic is a really amazing program that takes you input images and makes roman style mosaics out of them, find the github repo [here](https://github.com/yobeatz/mosaic)
 and look [here](https://towardsdatascience.com/how-to-generate-roman-style-mosaics-with-python-11d5aa021b09) for a post to goes in-depth on how the program was designed and works
 
+### quick links
+ * [how it works](https://github.com/junguler/_image-manipulation/tree/main/Mosaic#showing-how-the-program-works-in-a-visual-way-by-showing-each-step-an-image-goes-thru)
+ * [basic usage](https://github.com/junguler/_image-manipulation/tree/main/Mosaic#basic-usage)
+ * [change tile size](https://github.com/junguler/_image-manipulation/tree/main/Mosaic#change-tile-size)
+ * [respect frame of the image](https://github.com/junguler/_image-manipulation/tree/main/Mosaic#respecting-frame-of-the-image)
+ * [change tile angles](https://github.com/junguler/_image-manipulation/tree/main/Mosaic#changing-tile-angles)
+ * [change edge detection mode](https://github.com/junguler/_image-manipulation/tree/main/Mosaic#change-edge-detection-mode)
+ * [mosaicify a video](https://github.com/junguler/_image-manipulation/tree/main/Mosaic#mosaicify-a-video)
+
 ## source material
 everything is downloaded from a royalty free image website [here](https://free-images.com/) and some royalty free stock footage from youtube
 
