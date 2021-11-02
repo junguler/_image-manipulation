@@ -98,3 +98,20 @@ the default edge detection method mosaic uses is HED but there is an alternative
 EDGE_DETECTION = 'HED' | EDGE_DETECTION = 'DiBlasi'
 :-------------------------:|:-------------------------:
 ![HED](https://user-images.githubusercontent.com/59083599/139771969-e49c3741-7f71-4001-a4ee-5e00c0e1c1c5.png) | ![DiBlasi](https://user-images.githubusercontent.com/59083599/139771984-e2c8834d-fd99-4bd6-98f3-1faf78695f2c.png)
+
+## mosaicify a video
+lets apply what we learned to a video, i have made a example of how to download a free video, make image sequence, apply filter and mux it back [here](https://github.com/junguler/ffmpeg-examples/tree/main/sequence%2C%20manipulate%20%26%20mux%20images)
+```
+for i in *.jpg ; do cp $i input.jpg ; python3 ~/git-stuff/mosaic/mosaic.py ; rm input.jpg ; mv output.svg $i.svg ; done 
+```
+first we assign every jpg file to our for loop, dupliate them one by one and name them input.jpg, convert the image using mosaic and remove the duplicate file and finally rename output.svg to the same name as our initial input so it's not overwritten by the next output file. note that you have to manually close the gui window each time as i don't know enough python to make this automatic
+
+now that we have our image sequemce converted and in svg format lets convert it to png setting it's width to 1280 pixels
+```
+for i in *.svg ; do ffmpeg -i $i -vf scale=1280:-1 o-$i.png ; done 
+```
+and convert to a video
+```
+cat o-*.png | ffmpeg -framerate 20 -f image2pipe -i - mosaic-liberty.mp4
+```
+https://user-images.githubusercontent.com/59083599/139774925-d6aff776-6e83-485f-b6fb-76d069b7aff4.mp4
