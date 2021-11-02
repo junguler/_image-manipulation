@@ -63,6 +63,7 @@ another example
 
 ## change tile size
 so far we've been using the default size of 12 for tile sizes, lets use a smaller size of 6 for this, change the value in the `mosaic.py` to ``half_tile = 6``
+
 ![mos-road](https://user-images.githubusercontent.com/59083599/139760213-f701610c-8120-4246-b71b-66bf9690ea87.png)
 
 now with 4 which is te lowest value possible, this takes quite a bit longer to make too since the program seems to be only using one core of my cpu
@@ -74,4 +75,5 @@ note because our image is vertical we change our ffmpeg command to set for 720 p
 ffmpeg -i output.svg -vf scale=-1:720 mos-mime.png
 ```
 setting the number higher than the default 12 (16 for this example) we use an image that can afford to lose most of it's details and still be recognizable
+
 ![mos-mountain](https://user-images.githubusercontent.com/59083599/139768165-688e6037-8e89-4ba3-86aa-e131addac028.png)
