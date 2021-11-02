@@ -81,7 +81,14 @@ setting the number higher than the default 12 (16 for this example) we use an im
 ## respecting frame of the image
 by default mosaic aligns the tiles starting at the edges of the screen and then comes to the middle, if we set this option to false the tiles are align at the border of the objects inside our image, let's show both side by side
 
-WITH_FRAME = True  | WITH_FRAME = False
+WITH_FRAME = True | WITH_FRAME = False
 :-------------------------:|:-------------------------:
 ![moon-frame](https://user-images.githubusercontent.com/59083599/139770158-df4024b0-3855-4ff8-8fbe-68693ea1d22d.png) | ![moon-no-frame](https://user-images.githubusercontent.com/59083599/139770247-2f1621e9-cd3e-4276-9b04-d1da3b3d8707.png)
+
+## changing tile angles
+set the maximum degree a tile is able to rotate to create the image (default value is 40), higher value produces smoother image with less tiles
+
+MAX_ANGLE = 30 | MAX_ANGLE = 75
+:-------------------------:|:-------------------------:
+![30](https://user-images.githubusercontent.com/59083599/139771255-7f62209d-b3bd-4d65-a514-240c196ad87e.png) | ![75](https://user-images.githubusercontent.com/59083599/139771290-7d48c002-b17c-4b8d-94bc-435a75d199d9.png)
 
