@@ -10,6 +10,7 @@ and look [here](https://towardsdatascience.com/how-to-generate-roman-style-mosai
  * [change tile angles](https://github.com/junguler/_image-manipulation/tree/main/Mosaic#changing-tile-angles)
  * [randomize tile placement](https://github.com/junguler/_image-manipulation/tree/main/Mosaic#randomize-tile-placement)
  * [change edge detection mode](https://github.com/junguler/_image-manipulation/tree/main/Mosaic#change-edge-detection-mode)
+ * [recolor output image](https://github.com/junguler/_image-manipulation/tree/main/Mosaic#recoloring-our-output-image)
  * [mosaicify a video](https://github.com/junguler/_image-manipulation/tree/main/Mosaic#mosaicify-a-video)
 
 ## source material
