@@ -56,7 +56,7 @@ step_13 final | step_14 final_recolored 'fish'
 ![final](https://user-images.githubusercontent.com/59083599/139757302-d3857b0f-0969-42b8-8eb3-b1acff47c4d8.jpg) | ![final_recolored](https://user-images.githubusercontent.com/59083599/139758088-fd89f475-0b9a-4d89-a4d6-b7d0df0c959b.jpg)
 
 ## basic usage
-the way the program works is it opens a gui window that lets you change some settings and output an image from it too, we are not interested in re-creating the same effect multiple times so we changed the default settings so the program outputs a svg file for us named 'output.svg' so we close the window as soon as it opens and the output file gets generated, just cd into the folder you have your image on and rename it to `input.jpg`
+the way the program works is it opens a gui window that lets you change some settings and output an image from it too, we are mostly interested in re-creating the same effect multiple times so we changed the default settings so the program outputs a svg file for us named 'output.svg' so we close the window as soon as it opens and the output file gets generated, just cd into the folder you have your image on and rename it to `input.jpg` and run the program
 ```
 python3 ~/git-stuff/mosaic/mosaic.py
 ```
