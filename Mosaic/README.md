@@ -88,7 +88,7 @@ setting the number higher than the default 12 (16 for this example) we use an im
 ![mos-fire](https://user-images.githubusercontent.com/59083599/139851339-5031d4c9-fda0-4657-a73a-04c1628c6bcb.jpg)
 
 ## respecting frame of the image
-by default mosaic aligns the tiles starting at the edges of the screen and then comes to the middle, if we set this option to false the tiles are align at the border of the objects inside our image, let's show both side by side
+by default mosaic aligns the tiles starting at the edges of the screen and then comes to the middle, if we set this option to false the tiles are aligned at the border of the objects inside our image, let's show both side by side
 
 WITH_FRAME = True | WITH_FRAME = False
 :-------------------------:|:-------------------------:
@@ -113,7 +113,7 @@ lets apply what we learned to a video, i have made a example of how to download 
 ```
 for i in *.jpg ; do cp $i input.jpg ; python3 ~/git-stuff/mosaic/mosaic.py ; rm input.jpg ; mv output.svg $i.svg ; done 
 ```
-first we assign every jpg file to our for loop, dupliate them one by one and name them input.jpg, convert the image using mosaic and remove the duplicate file and finally rename output.svg to the same name as our initial input so it's not overwritten by the next output file. note that you have to manually close the gui window each time as i don't know enough python to make this automatic
+first we assign every jpg file to our for loop, duplicate them one by one and name them input.jpg, convert the image using mosaic and remove the duplicated file and finally rename output.svg to the same name as our initial input so it's not overwritten by the next output file. note that you have to manually close the gui window each time as i don't know enough python to make this automatic
 
 now that we have our image sequemce converted and in svg format lets convert it to png setting it's width to 1280 pixels
 ```
