@@ -61,3 +61,15 @@ another example
 
 ![mos-baloon](https://user-images.githubusercontent.com/59083599/139759442-5002def3-1dac-4fc2-950a-e8e140825331.png)
 
+## change tile size
+so far we've been using the default size of 12 for tile sizes, lets use a smaller size of 6 for this, change the value in the `mosaic.py` to ``half_tile = 6``
+![mos-road](https://user-images.githubusercontent.com/59083599/139760213-f701610c-8120-4246-b71b-66bf9690ea87.png)
+
+now with 4 which is te lowest value possible, this takes quite a bit longer to make too since the program seems to be only using one core of my cpu
+
+![mos-mime](https://user-images.githubusercontent.com/59083599/139763287-0a0abbbe-f023-435d-9a87-cba78f04392f.png)
+
+note because our image is vertical we change our ffmpeg command to set for 720 pixels for it's height
+```
+ffmpeg -i output.svg -vf scale=-1:720 mos-mime.png
+```
