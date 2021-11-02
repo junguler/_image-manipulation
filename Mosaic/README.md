@@ -87,9 +87,11 @@ setting the number higher than the default 12 (16 for this example) we use an im
 
 ![mos-fire](https://user-images.githubusercontent.com/59083599/139851339-5031d4c9-fda0-4657-a73a-04c1628c6bcb.jpg)
 
-original  | half_tile = 6 | half_tile = 12 | half_tile = 20
-:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![original](https://user-images.githubusercontent.com/59083599/139945917-6a6de556-6044-4bb8-b31a-84b916fa7c66.jpg) | ![wm-6](https://user-images.githubusercontent.com/59083599/139945953-c6d76750-8ada-45ac-bd02-4d08911321bb.jpg) | ![wm-12](https://user-images.githubusercontent.com/59083599/139946050-7b5f7b37-d3fa-43cd-a2ed-6f4481e5aada.jpg) | ![wm-20](https://user-images.githubusercontent.com/59083599/139946110-35821dff-1bbc-420d-bab1-1e35282d6ff7.jpg)
+original  | half_tile = 6 
+:-------------------------:|:-------------------------:
+![original](https://user-images.githubusercontent.com/59083599/139945917-6a6de556-6044-4bb8-b31a-84b916fa7c66.jpg) | ![wm-6](https://user-images.githubusercontent.com/59083599/139945953-c6d76750-8ada-45ac-bd02-4d08911321bb.jpg) 
+half_tile = 12 | half_tile = 20
+![wm-12](https://user-images.githubusercontent.com/59083599/139946050-7b5f7b37-d3fa-43cd-a2ed-6f4481e5aada.jpg) | ![wm-20](https://user-images.githubusercontent.com/59083599/139946110-35821dff-1bbc-420d-bab1-1e35282d6ff7.jpg)
 
 ## respecting frame of the image
 by default mosaic aligns the tiles starting at the edges of the screen and then comes to the middle, if we set this option to false the tiles are aligned at the border of the objects inside our image, let's show both side by side
