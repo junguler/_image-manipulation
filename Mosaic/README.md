@@ -8,6 +8,7 @@ and look [here](https://towardsdatascience.com/how-to-generate-roman-style-mosai
  * [change tile size](https://github.com/junguler/_image-manipulation/tree/main/Mosaic#change-tile-size)
  * [respect frame of the image](https://github.com/junguler/_image-manipulation/tree/main/Mosaic#respecting-frame-of-the-image)
  * [change tile angles](https://github.com/junguler/_image-manipulation/tree/main/Mosaic#changing-tile-angles)
+ * [randomize tile placement](https://github.com/junguler/_image-manipulation/tree/main/Mosaic#randomize-tile-placement)
  * [change edge detection mode](https://github.com/junguler/_image-manipulation/tree/main/Mosaic#change-edge-detection-mode)
  * [mosaicify a video](https://github.com/junguler/_image-manipulation/tree/main/Mosaic#mosaicify-a-video)
 
