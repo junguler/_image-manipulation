@@ -32,9 +32,9 @@ customizing config is done by changing values in the `mosaic.py` file so we will
 in the line [15](https://github.com/yobeatz/mosaic/blob/main/mosaic.py#L15) of the 'mosaic.py' there is a line that decides the name of our input image,
 lets change it to ``fname = r'input.jpg'`` so we have a unified way of inputing our image to the program
 
-in the we comment out lines [33](https://github.com/yobeatz/mosaic/blob/main/mosaic.py#L33) and [45](https://github.com/yobeatz/mosaic/blob/main/mosaic.py#L45) with # so the program only opens one gui window with our output image
+and we comment out lines [33](https://github.com/yobeatz/mosaic/blob/main/mosaic.py#L33) and [45](https://github.com/yobeatz/mosaic/blob/main/mosaic.py#L45) with # so the program only opens one gui window with our output image
 
-we also change the value of line [96](https://github.com/yobeatz/mosaic/blob/main/mosaic.py#L96) from ``return_svg=False`` to ``return_svg=True`` so the program output and svg file for us on exit
+we also change the value of line [96](https://github.com/yobeatz/mosaic/blob/main/mosaic.py#L96) from ``return_svg=False`` to ``return_svg=True`` so the program outputs an svg file for us on exit
 
 ## showing how the program works in a visual way by showing each step an image goes thru
 we commented out all of these steps except the final step but it might be a good idea to show them because the program goes thru all of them to make the final output file
