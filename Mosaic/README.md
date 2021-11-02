@@ -73,3 +73,5 @@ note because our image is vertical we change our ffmpeg command to set for 720 p
 ```
 ffmpeg -i output.svg -vf scale=-1:720 mos-mime.png
 ```
+setting the number higher than the default 12 (16 for this example) we use an image that can afford to lose most of it's details and still be recognizable
+![mos-mountain](https://user-images.githubusercontent.com/59083599/139768165-688e6037-8e89-4ba3-86aa-e131addac028.png)
