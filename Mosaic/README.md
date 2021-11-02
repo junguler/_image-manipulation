@@ -123,6 +123,27 @@ EDGE_DETECTION = 'HED' | EDGE_DETECTION = 'DiBlasi'
 :-------------------------:|:-------------------------:
 ![HED](https://user-images.githubusercontent.com/59083599/139771969-e49c3741-7f71-4001-a4ee-5e00c0e1c1c5.png) | ![DiBlasi](https://user-images.githubusercontent.com/59083599/139771984-e2c8834d-fd99-4bd6-98f3-1faf78695f2c.png)
 
+## recoloring our output image
+mosaic is able to apply recoloring to our converted images, lets showcase them with a colorful image
+
+normal | 
+:-------------------------:|
+![t-nomal_colors](https://user-images.githubusercontent.com/59083599/139965688-ae01fa75-6d7d-45a0-8319-d1bb11af0eed.jpeg) |
+wise_men | 
+![t-wise_man](https://user-images.githubusercontent.com/59083599/139965722-ff63f22b-89ef-48ac-95b9-a191e0ae5441.jpeg) |
+fish | 
+![t-fish](https://user-images.githubusercontent.com/59083599/139965808-627653c5-35df-4fda-b3ff-aab8e4d54a51.jpeg) |
+cave_canem | 
+![t-cave_canem](https://user-images.githubusercontent.com/59083599/139965838-8d33d3dc-6103-45cc-971a-abdce5529a1d.jpeg) |
+nilotic | 
+![t-nilotic](https://user-images.githubusercontent.com/59083599/139965859-1cb7d13e-f737-4377-be40-b23d41c35683.jpeg) |
+rooster |
+![t-rooster](https://user-images.githubusercontent.com/59083599/139965890-2faa4e40-4294-4731-8608-3b144f29bdab.jpeg) |
+carpe_diem |
+![t-carpe_diem](https://user-images.githubusercontent.com/59083599/139965937-12ef191c-2f1c-4536-98ad-e433e198ca8a.jpeg) |
+Hyena |
+![t-Hyena](https://user-images.githubusercontent.com/59083599/139965967-cdd7f058-005e-415f-9b3e-d836e233a49a.jpeg) |
+
 ## mosaicify a video
 lets apply what we learned to a video, i have made a example of how to download a free video, make image sequence, apply filter and mux it back [here](https://github.com/junguler/ffmpeg-examples/tree/main/sequence%2C%20manipulate%20%26%20mux%20images)
 ```
