@@ -49,7 +49,7 @@ step_5 gradient | step_6 angles_0to180
 step_7 polygons_chains | step_8 used_up_space
 ![polygons_chains](https://user-images.githubusercontent.com/59083599/139756942-598077c7-46da-4647-9266-c9a24c174702.jpg) | ![used_up_space](https://user-images.githubusercontent.com/59083599/139756980-038e8162-07b3-46c7-a8b3-7784d4e9219f.jpg)
 step_9 distance_to_tile | step_10 filler_guidelines
-![used_up_space](https://user-images.githubusercontent.com/59083599/139757059-36545cea-25d5-4944-9185-ab1882295f1f.jpg) | ![filler_guidelines](https://user-images.githubusercontent.com/59083599/139757111-704bd4bd-79d1-47da-9c5a-9601a1fc25a4.jpg)
+![distance_to_tile](https://user-images.githubusercontent.com/59083599/139779737-fcdce48e-c083-406d-a534-4425119ea49e.jpg) | ![filler_guidelines](https://user-images.githubusercontent.com/59083599/139757111-704bd4bd-79d1-47da-9c5a-9601a1fc25a4.jpg)
 step_11 polygons_filler | step_12 polygons_cut
 ![polygons_filler](https://user-images.githubusercontent.com/59083599/139757184-eaa9a2b5-fe46-42de-ba00-cb956ec9e1e6.jpg) | ![polygons_cut](https://user-images.githubusercontent.com/59083599/139757242-8fc8ed37-8d88-411c-bd33-4a1e9d10c7c5.jpg)
 step_13 final | step_14 final_recolored 'fish'
