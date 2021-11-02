@@ -114,7 +114,7 @@ MAX_ANGLE = 30 | MAX_ANGLE = 75
 by default mosaic applies ``RAND_SIZE = 0.3`` randomization to placement of tiles, lets change that for comparison
 RAND_SIZE = 0.3 | RAND_SIZE = 3.0
 :-------------------------:|:-------------------------:
-![random-0-3](https://user-images.githubusercontent.com/59083599/139956576-52b76ae2-8900-4c59-8574-76f7ca499284.jpg) |![random-3-0](https://user-images.githubusercontent.com/59083599/139956637-ca0ccd4b-000b-4e41-86cf-de9854e87047.jpg)
+![random-0-3](https://user-images.githubusercontent.com/59083599/139958096-e9e584b9-1151-4b78-a63c-fb110351e675.png) | ![random-0-3](https://user-images.githubusercontent.com/59083599/139958131-a01e42cb-b093-41b8-a12c-7e0ba0463e6c.png)
 
 ## change edge detection mode
 the default edge detection method mosaic uses is HED but there is an alternative called DiBlasi, here is how they look compared to each other
