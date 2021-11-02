@@ -45,3 +45,15 @@ polygons_filler | polygons_cut
 ![polygons_filler](https://user-images.githubusercontent.com/59083599/139757184-eaa9a2b5-fe46-42de-ba00-cb956ec9e1e6.jpg) | ![polygons_cut](https://user-images.githubusercontent.com/59083599/139757242-8fc8ed37-8d88-411c-bd33-4a1e9d10c7c5.jpg)
 final | final_recolored 'fish'
 ![final](https://user-images.githubusercontent.com/59083599/139757302-d3857b0f-0969-42b8-8eb3-b1acff47c4d8.jpg) | ![final_recolored](https://user-images.githubusercontent.com/59083599/139758088-fd89f475-0b9a-4d89-a4d6-b7d0df0c959b.jpg)
+
+## basic usage
+the way the program works is it opens a gui window that lets you change some settings and output an image from it too, we are not interested in re-creating the same effect multiple times so we changed the default settings so the program outputs a svg file for us named 'output.svg' so we close the window as soon as it opens and the output file gets generated, just cd into the folder you have your image on and rename it to `input.jpg`
+```
+python3 ~/git-stuff/mosaic/mosaic.py
+```
+because we are on a different folder than `mosaic.py` is we need to pass it's full path to our shell, now convert the svg file to png specifing it's width to be 1280 pixels for this example
+```
+ffmpeg -i output.svg -vf scale=1280:-1 mos-eiffel.png
+```
+![eiffel](https://user-images.githubusercontent.com/59083599/139759167-605d88fe-7305-4d90-ba4f-6c2b8ae91fa0.png)
+
