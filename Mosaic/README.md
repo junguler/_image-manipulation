@@ -11,6 +11,7 @@ and look [here](https://towardsdatascience.com/how-to-generate-roman-style-mosai
  * [randomize tile placement](https://github.com/junguler/_image-manipulation/tree/main/Mosaic#randomize-tile-placement)
  * [change edge detection mode](https://github.com/junguler/_image-manipulation/tree/main/Mosaic#change-edge-detection-mode)
  * [recolor output image](https://github.com/junguler/_image-manipulation/tree/main/Mosaic#recoloring-our-output-image)
+ * [make animated gif out of one image](https://github.com/junguler/_image-manipulation/tree/main/Mosaic#make-animated-gif-out-of-one-image)
  * [mosaicify a video](https://github.com/junguler/_image-manipulation/tree/main/Mosaic#mosaicify-a-video)
 
 ## source material
