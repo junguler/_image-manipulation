@@ -163,15 +163,15 @@ now lets convert these images with mosaic
 ```
 for i in *.jpg ; do cp $i input.jpg ; python3 ~/Music/mosaic/mosaic+.py ; rm input.jpg ; mv output.svg $i.svg ; done 
 ```
-convert your output svg files to png pictures, setting width to 1000 pixels
+convert your output svg files to png pictures, setting width to 400 pixels
 ```
-for i in *.svg ; do ffmpeg -i $i -vf scale=1000:-1 o-$i.png ; done 
+for i in *.svg ; do ffmpeg -i $i -vf scale=400:-1 o-$i.png ; done 
 ```
 and convert to animated gif
 ```
-cat *.png | ffmpeg -framerate 15 -f image2pipe -i - -vf format=yuv420p mos-halftone.gif
+cat *.png | ffmpeg -framerate 15 -f image2pipe -i - -vf format=yuv420p mos-halftone+.gif
 ```
-![mos-halftone](https://user-images.githubusercontent.com/59083599/140744277-529e2074-99d7-4cdf-97c9-75eee5d79bc3.gif)
+![mos-halftone+](https://user-images.githubusercontent.com/59083599/140745862-b1ec818b-222c-46de-b706-0b7bb5cc7a66.gif)
 
 ## mosaicify a video
 lets apply what we learned to a video, i have made a example of how to download a free video, make image sequence, apply filter and mux it back [here](https://github.com/junguler/ffmpeg-examples/tree/main/sequence%2C%20manipulate%20%26%20mux%20images)
