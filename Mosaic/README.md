@@ -145,6 +145,33 @@ carpe_diem |
 Hyena |
 ![t-Hyena](https://user-images.githubusercontent.com/59083599/139965967-cdd7f058-005e-415f-9b3e-d836e233a49a.jpeg) |
 
+## make animated gif out of one image
+so far we only used mosaic for places and objects, lets change all that and do a little bit of halftone abstract art, here is how our image looks 
+
+![halftone](https://user-images.githubusercontent.com/59083599/140741500-c66530c1-a86a-4eb3-a259-b048c6dff28a.jpg)
+
+now lets use a ffmpeg filter called scroll to scroll this image vertically to make an animated gif
+```
+for h in {00..98..4} ; do ffmpeg -i halftone.jpg -vf scroll=vpos=0.$h $h.jpg ; done
+```
+this loop iterates thru the numbers of 00 to 98 every 4 number and add them as decimals to our scroll filter, now remove your halftone.jpg image or move it elsewhere since we already have a 00 value which is the same as input and we want to avoid duplicates to have a smooth animation, we are ready to convert these using mosaic but i'm going to show how the scroll filter effected our image in this gif below
+
+![scroll](https://user-images.githubusercontent.com/59083599/140742712-8fb49de6-2bf4-412c-aaba-25d6f47672eb.gif)
+
+now lets convert these images with mosaic
+```
+for i in *.jpg ; do cp $i input.jpg ; python3 ~/Music/mosaic/mosaic+.py ; rm input.jpg ; mv output.svg $i.svg ; done 
+```
+convert your output svg files to png pictures, setting width to 1000 pixels
+```
+for i in *.svg ; do ffmpeg -i $i -vf scale=1000:-1 o-$i.png ; done 
+```
+and convert to animated gif
+```
+cat *.png | ffmpeg -framerate 15 -f image2pipe -i - -vf format=yuv420p mos-halftone.gif
+```
+![mos-halftone](https://user-images.githubusercontent.com/59083599/140744277-529e2074-99d7-4cdf-97c9-75eee5d79bc3.gif)
+
 ## mosaicify a video
 lets apply what we learned to a video, i have made a example of how to download a free video, make image sequence, apply filter and mux it back [here](https://github.com/junguler/ffmpeg-examples/tree/main/sequence%2C%20manipulate%20%26%20mux%20images)
 ```
