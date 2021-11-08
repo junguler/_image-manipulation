@@ -147,7 +147,7 @@ Hyena |
 ![t-Hyena](https://user-images.githubusercontent.com/59083599/139965967-cdd7f058-005e-415f-9b3e-d836e233a49a.jpeg) |
 
 ## make animated gif out of one image
-so far we only used mosaic for places and objects, lets change all that and do a little bit of halftone abstract art, here is how our image looks 
+so far we only used mosaic for places, objects and people, lets change all that and do a little bit of halftone abstract art, here is how our image looks 
 
 ![halftone](https://user-images.githubusercontent.com/59083599/140741500-c66530c1-a86a-4eb3-a259-b048c6dff28a.jpg)
 
