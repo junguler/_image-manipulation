@@ -216,7 +216,7 @@ and mux the images
 ```
 cat s-* | ffmpeg -framerate 15 -f image2pipe -i - spider.mp4
 ```
-the outpot gif was quite large so i decided to add this as a mp4 video, you can have the video looped forever by right clicking on it and tick on loop
+the outport gif was quite large so i decided to add this as a mp4 video, you can have the video looped forever by right clicking on it and tick on loop
 
 https://user-images.githubusercontent.com/59083599/135197513-41fc5780-aca8-42d0-998a-f57348f6ebaf.mp4
 
@@ -243,4 +243,4 @@ cat p-image-000*.jpg | ffmpeg -framerate 30 -f image2pipe -i - fish+.mp4
 https://user-images.githubusercontent.com/59083599/135552217-73a915dc-2f80-46ab-830d-47f718613610.mp4
 
 ## windows bat file and linux bash script
-there is also [my repo](https://github.com/junguler/easy-primitive-batch) with easy to use bat and scripts to make life easier for batch proccessing
+there is also [my repo](https://github.com/junguler/easy-primitive-batch) with easy to use bat and scripts to make life easier for batch processing

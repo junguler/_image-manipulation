@@ -65,9 +65,9 @@ ascii_py sunset.jpg -w "\|/-_" -s 5 -o sun+.jpg
 ![sun+](https://user-images.githubusercontent.com/59083599/136878131-77a84629-9d48-4af6-9cdd-e6866d09538e.jpg)
 
 ## iterate over an image
-sometimes we want to make an animated gif but we only have one image to work with, if the program applies random values to conversions we would just feed the same image many times to make animated gifs but in the case of this progam that does not seem to be the case.
+sometimes we want to make an animated gif but we only have one image to work with, if the program applies random values to conversions we would just feed the same image many times to make animated gifs but in the case of this program that does not seem to be the case.
 
-we still have the option to modify our image somehow so the program see's it differently, lets apply that logic to an image and convert it to different resoulotions
+we still have the option to modify our image somehow so the program see's it differently, lets apply that logic to an image and convert it to different resolutions
 ```
 for i in {500..1500..50} ; ffmpeg -i cloud.jpg -vf scale=$i:-1 C-$i.jpg
 ```
@@ -75,11 +75,11 @@ what we did above is we started at 500 height and every frame added 50 to that t
 ```
 for i in *.jpg ; do ascii_py music.jpg -d -o B-$i.jpg ; done 
 ```
-the name of each file is added to to B- to make the name of our output image, now let's resize all of our images to 1280 width so ffmpeg does not compress everything to the lowest common denomitor
+the name of each file is added to to B- to make the name of our output image, now let's resize all of our images to 1280 width so ffmpeg does not compress everything to the lowest common denominator
 ```
 for i in B-*.jpg ; do ffmpeg -i $i -vf scale=1280:280 C-$i.jpg ; done 
 ```
-notice that every time we convert these images we append differnt words for them, this is done for the case of easily cating them for conversion which is our last part
+notice that every time we convert these images we append different words for them, this is done for the case of easily cating them for conversion which is our last part
 ```
 ls -v *.jpg | xargs cat | ffmpeg -framerate 10 -f image2pipe -i - cloud.mp4 
 ```
@@ -98,7 +98,7 @@ lets apply what we learned to a video, i have made a example of how to download 
 ```
 for i in *.jpg ; do ascii_py $i -d -o A-$i ; done 
 ```
-and mux them to a video, note we also apply compression to this video to avoid very large outpot size, without any compression the output size would be 150_mb, with the default ffmpeg compression it would have been 23_mb but we force bitrate to stay at 8mb and use veryslow preset to retain as much details as we can and end up with a 6.6_mb file that looks very similar to the uncompressed file
+and mux them to a video, note we also apply compression to this video to avoid very large outport size, without any compression the output size would be 150_mb, with the default ffmpeg compression it would have been 23_mb but we force bitrate to stay at 8mb and use veryslow preset to retain as much details as we can and end up with a 6.6_mb file that looks very similar to the uncompressed file
 ```
 cat A-image-00* | ffmpeg -framerate 30 -f image2pipe -i - -b:v 8M -preset veryslow ascii_run.mp4
 ```

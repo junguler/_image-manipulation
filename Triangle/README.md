@@ -1,6 +1,6 @@
 ## what is needed to get started?
 Triangle is a very fast and efficient program that takes your image(s) make cool looking polygonal art out of them. find the github repo 
-[here](https://github.com/esimov/triangle),download the binary executable for your os [here](https://github.com/esimov/triangle/releases) and put it somewhere in your $PATH to be accessable from everywhere in the terminal and lets go.
+[here](https://github.com/esimov/triangle),download the binary executable for your os [here](https://github.com/esimov/triangle/releases) and put it somewhere in your $PATH to be accessible from everywhere in the terminal and lets go.
 
 there is also a gui app available if you are interested, see [here](https://github.com/esimov/triangle-app) for the repo and [here](https://github.com/esimov/triangle-app/releases/tag/v1.0.0) to download them
 
@@ -55,7 +55,7 @@ triangle -in lamp.jpg -out la.jpg -pts 1000
 ![la](https://user-images.githubusercontent.com/59083599/135362572-31506188-c9a6-458e-9627-b8777302a1a2.jpg)
 
 ## with strokes
-for adding strokes we need 2 flags, first is `-wf` which is set to 0 by default which is without stroke so set it to 1 for having strokes, and `-stroke` for specifing how thick the stroke must be.
+for adding strokes we need 2 flags, first is `-wf` which is set to 0 by default which is without stroke so set it to 1 for having strokes, and `-stroke` for specifying how thick the stroke must be.
 ```
 triangle -in chair.jpg -out ch.jpg -pts 1000 -wf 1 -stroke 3
 ```
@@ -79,7 +79,7 @@ triangle -in sunglasses.jpg -out su.jpg -pts 2000 -wf 2 -stroke 15
 ![su](https://user-images.githubusercontent.com/59083599/135363732-c878a882-b3d0-47d4-88fc-f025cb298e41.jpg)
 
 ## blur
-the higher the blur value the more washed out the polygons will look but the overal image is easier to make out
+the higher the blur value the more washed out the polygons will look but the overall image is easier to make out
 ```
 triangle -in licenceP.jpg -out lp-1b.jpg -pts 1000 -blur 1
 ```
@@ -105,7 +105,7 @@ triangle -in clamp.jpg -out cl-s250.jpg -pts 1000 -sobel 250
 ![cl-s250](https://user-images.githubusercontent.com/59083599/135364821-f2fbe148-c10a-447f-9b35-3188016f4ed2.jpg)
 
 ## points threshold
-less is more polygonal and trianglated, more is longer and more uniform
+less is more polygonal and triangulated, more is longer and more uniform
 ```
 triangle -in pen.jpg -out pe-t1.jpg -pts 1000 -th 1
 ```

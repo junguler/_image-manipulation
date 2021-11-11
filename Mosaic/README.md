@@ -63,7 +63,7 @@ the way the program works is it opens a gui window that lets you change some set
 ```
 python3 ~/git-stuff/mosaic/mosaic.py
 ```
-because we are on a different folder than `mosaic.py` is we need to pass it's full path to our shell, now convert the svg file to png specifing it's width to be 1280 pixels for this example
+because we are on a different folder than `mosaic.py` is we need to pass it's full path to our shell, now convert the svg file to png specifying it's width to be 1280 pixels for this example
 ```
 ffmpeg -i output.svg -vf scale=1280:-1 mos-eiffel.png
 ```
@@ -180,7 +180,7 @@ for i in *.jpg ; do cp $i input.jpg ; python3 ~/git-stuff/mosaic/mosaic.py ; rm 
 ```
 first we assign every jpg file to our for loop, duplicate them one by one and name them input.jpg, convert the image using mosaic and remove the duplicated file and finally rename output.svg to the same name as our initial input so it's not overwritten by the next output file. note that you have to manually close the gui window each time as i don't know enough python to make this automatic
 
-now that we have our image sequemce converted and in svg format lets convert it to png setting it's width to 1280 pixels
+now that we have our image sequence converted and in svg format lets convert it to png setting it's width to 1280 pixels
 ```
 for i in *.svg ; do ffmpeg -i $i -vf scale=1280:-1 o-$i.png ; done 
 ```

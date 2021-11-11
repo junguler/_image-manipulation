@@ -13,7 +13,7 @@ special thanks to [Zoraiz Hassan](https://github.com/TheZoraiz) for making this 
  * [asciify video](https://github.com/junguler/_image-manipulation/tree/main/Ascii-image-converter#asciify-a-video)
 
 ## source material
-everything is downloaded from a royalty free image website [here](https://free-images.com/) and some royalti free stock footage from youtube
+everything is downloaded from a royalty free image website [here](https://free-images.com/) and some royalty free stock footage from youtube
 
 ## explanation of the switches and how the program works
 | Flag | Description |
@@ -27,8 +27,8 @@ everything is downloaded from a royalty free image website [here](https://free-i
 | `-W`, `--width` | set width of ascii art. Height is calculated according to aspect ratio |
 | `-H`, `--height` | set height of ascii art. Width is calculated according to aspect ratio |
 | `-m`, `--map` | pass a string of your own ascii characters to map against, it must start from darkest character and end with lightest, there is no limit to number of characters, here is an example of a 7 character string: -m " .-=+#@" |
-| `-g`, `--grayscale` | display and outpot ascii art in grayscale colors |
-| `-n`, `--negative` | display and outpot ascii art in negative colors |
+| `-g`, `--grayscale` | display and output ascii art in grayscale colors |
+| `-n`, `--negative` | display and output ascii art in negative colors |
 | `-c`, `--complex` | print the image with a wider array of ascii characters for more detailed lighting density, sometimes improves accuracy |
 | `-f`, `--full` | print ascii art that fits the terminal width while maintaining aspect ratio |
 | `-x`, `--flipX` | flip the ascii art horizontally on the terminal |
@@ -42,7 +42,7 @@ everything is downloaded from a royalty free image website [here](https://free-i
 | `--only-save` | don't print ascii art on the terminal if some saving flag is passed |
 | `--formats` | display supported input formats |
 
-note: for the sake of keeping the table orginized, the description is not as verbose as the original repo page.
+note: for the sake of keeping the table organized, the description is not as verbose as the original repo page.
 
 ## basic usage
 ```
@@ -81,7 +81,7 @@ ascii-image-converter newspaper.jpg -C -s . -W 200 --only-save -m ".oO01"
 ![newspaper-ascii-art](https://user-images.githubusercontent.com/59083599/136247425-2e30dac0-4ef8-4cd3-a3f0-5e80f5c5fee4.jpg)
 
 ## using nerd fonts
-[nerd fonts](https://www.nerdfonts.com/#home) are a collection of free and open sort fonts that have many extra glyphs patched into them, download one of them [here](https://www.nerdfonts.com/font-downloads), use windows compatible mono varient even if you are in linux like me or on macos, lets rename it to `NerdMono.ttf` so it's easier to link and put inside the folder you want to convert your images on. we'll use the `--font` flag to use it.
+[nerd fonts](https://www.nerdfonts.com/#home) are a collection of free and open sort fonts that have many extra glyphs patched into them, download one of them [here](https://www.nerdfonts.com/font-downloads), use windows compatible mono variant even if you are in linux like me or on macos, lets rename it to `NerdMono.ttf` so it's easier to link and put inside the folder you want to convert your images on. we'll use the `--font` flag to use it.
 ```
 ascii-image-converter github.png -C -s . -W 48 --only-save -m "" --font NerdMono.ttf
 ```
@@ -106,7 +106,7 @@ for a in {50..200..5} ; do ascii-image-converter ice_cream.jpg -C -s . -W $a --o
 ```
 we used the numbers we created as the width of our images, and used the same numbers to change the output names because if we didn't the program would just overwrite the image 36 times and we end up with one output image
 
-since these images are all in different resoloutions and we can't make a gif or video with them so let's scale all of them to the same size
+since these images are all in different resolutions and we can't make a gif or video with them so let's scale all of them to the same size
 ```
 for f in *.png; do ffmpeg -i "$f" -vf scale=1200:720 "./${f%%.png}.png"; done 
 ```

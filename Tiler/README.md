@@ -18,7 +18,7 @@ tiler is a cool and amazing python cli programs that uses small pictures (tiles)
 everything is downloaded from a royalty free image website [here](https://free-images.com/) and some royalty free stock footage from youtube
 
 ## explanation of the config file and how the program works
-customizing config is done by changing values in the `conf.py` and there is two different sections for changing config, one is for `gen_tiles.py` which is for making custom color varients of our tiles and `tiler.py` which is the main part of program that converts our images
+customizing config is done by changing values in the `conf.py` and there is two different sections for changing config, one is for `gen_tiles.py` which is for making custom color variants of our tiles and `tiler.py` which is the main part of program that converts our images
 
 | config | default | gen_tiles.py |
 | --- | --- | --- |
@@ -51,7 +51,7 @@ python3 tiler.py sun.jpg tiles/times/gen_times/
 ```
 ![sun-tiled](https://user-images.githubusercontent.com/59083599/137898424-0f8e6f07-3b33-40d3-9551-68bc0ca93430.jpg)
 
-## unifromed output
+## uniformed output
 so far we've been using the default option of `PIXEL_SHIFT = (5, 5)` which alows for for each pixel to be shifted 5 pixels in x and y axis which lets our image have empty spots and un uniformed shapes, setting this value to None `PIXEL_SHIFT = None` in our `conf.py` makes everything uniform and also greatly speeds up our conversion speeds
 ```
 python3 tiler.py window.jpg tiles/circles/gen_circle_100/
@@ -63,7 +63,7 @@ python3 tiler.py ladyLiberty.jpg tiles/waves/gen_wave/
 ![ladyLiberty-tiled](https://user-images.githubusercontent.com/59083599/137900389-43db6d93-986d-468e-a13a-2cbe5b4a20cf.jpg)
 
 ## using multiple tile types
-this is very easy, just copy everything you like into a folder, lets do this image with plus and times shapes, make a new folder called combo for example, copy evertyhing from the tiles/plus/gen_plus/ and tiles/times/gen_times/ into our combo folder
+this is very easy, just copy everything you like into a folder, lets do this image with plus and times shapes, make a new folder called combo for example, copy everything from the tiles/plus/gen_plus/ and tiles/times/gen_times/ into our combo folder
 ```
 python3 tiler.py rhino.jpg tiles/combo/
 ```
@@ -103,7 +103,7 @@ good  |  bad
 note: i added the black background for people who use the github's light theme to be able to easily see, our shape png has to be transparent for the best result
 
 ## using custom tiles
-now that we made our custom tiles, taking above explanations into consideration let's use the `gen_tiles.py` program to make other color varients of it.
+now that we made our custom tiles, taking above explanations into consideration let's use the `gen_tiles.py` program to make other color variants of it.
 ```
 python3 gen_tiles.py tiles/custom/tile1.png
 ```
@@ -124,7 +124,7 @@ python3 tiler.py flower.jpg tiles/custom2/gen_tile+/
 ![flower-tiled](https://user-images.githubusercontent.com/59083599/137919484-901b651c-d6d2-496f-95d1-2673cf77a38c.jpg)
 
 ## change resizing scale
-so far we've been using the default resizing scale settings of `RESIZING_SCALES = [0.5, 0.4, 0.3, 0.2, 0.1]` scale of 1 is the exact size of our tile image, so with default settings we are using from 50% of the tile size to 10% of it. lets use it again for comparasion purposes and then change it:
+so far we've been using the default resizing scale settings of `RESIZING_SCALES = [0.5, 0.4, 0.3, 0.2, 0.1]` scale of 1 is the exact size of our tile image, so with default settings we are using from 50% of the tile size to 10% of it. lets use it again for comparison purposes and then change it:
 ```
 python3 tiler.py burger.jpg tiles/circles/gen_circle_100/
 ```
@@ -155,7 +155,7 @@ lets apply what we learned to a video, i have made a example of how to download 
 ```
 for i in *.jpg ; do python3 ~/git-stuff/tiler/tiler.py $i ~/git-stuff/tiler/tiles/waves/gen_wave/ ; mv out.png T-$i.png ; done  
 ```
-because we are not in the folder tiler.py is, we need to pass it's complete path for the shell to know where it is, we should also change the name of output files because the program always outpots images as `out.png` and if we didn't change them they would have been overwritten
+because we are not in the folder tiler.py is, we need to pass it's complete path for the shell to know where it is, we should also change the name of output files because the program always outputs images as `out.png` and if we didn't change them they would have been overwritten
 
 and mux the images
 ```
@@ -165,10 +165,10 @@ https://user-images.githubusercontent.com/59083599/138157868-bd05d629-0d13-4ec9-
 
 clip was taken from a royalty free video in [odysee](https://odysee.com/@dirtyworkz:0/prdx-phoenix-(official-video)-copyright:e)
 
-we also applied some compression to our video clip `-b:v 8M` to prevent big output sizes and use a very slow preset to preserve as much deatails as possible `-preset veryslow`
+we also applied some compression to our video clip `-b:v 8M` to prevent big output sizes and use a very slow preset to preserve as much details as possible `-preset veryslow`
 
 ## make animated gif out of one picture
-tiler doesn't have randomization in itself but we can apply rotations to `conf.py` when we use the `gen_tiles.py` to make different roations of our tiles, lets convert this image with `ROTATIONS = [0]` and convert the image, then do it with `[90]` `[180]` `[270]` and convert the image each time and rename it, note we remove the colored tiles `gen_tiles.py` makes with each conversion but we could have just added the shapes together to make more frames
+tiler doesn't have randomization in itself but we can apply rotations to `conf.py` when we use the `gen_tiles.py` to make different rotations of our tiles, lets convert this image with `ROTATIONS = [0]` and convert the image, then do it with `[90]` `[180]` `[270]` and convert the image each time and rename it, note we remove the colored tiles `gen_tiles.py` makes with each conversion but we could have just added the shapes together to make more frames
 ```
 python3 gen_tiles.py tiles/gif/gif.png
 ```
@@ -176,7 +176,7 @@ and convert
 ```
 python3 tiler.py watch.jpg tiles/gif/gen_gif
 ```
-now that we have our 4 images, lets make an animted gif out of it
+now that we have our 4 images, lets make an animated gif out of it
 ```
 cat 01.png 02.png 03.png 04.png | ffmpeg -framerate 6 -f image2pipe -i - tiled_watch.gif
 ```
@@ -201,4 +201,4 @@ because some of our images have two digits and some have 3 digits we use ls with
 
 ![tiled_city](https://user-images.githubusercontent.com/59083599/138005707-b9349fb4-3c36-4441-a3bb-964ed2a46fd7.gif)
 
-there are many other ways to make an animated gifs in programs like tiler that don't have any randomizations, including rotating the picture converting it and rotting it back, changing resoultions of the pictures, changing shape sizes and pixel_shift and a bunch of other stuff, everything that is considered a change can result in a new outpot image ...
+there are many other ways to make an animated gifs in programs like tiler that don't have any randomizations, including rotating the picture converting it and rotting it back, changing resolutions of the pictures, changing shape sizes and pixel_shift and a bunch of other stuff, everything that is considered a change can result in a new output image ...

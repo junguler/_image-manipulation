@@ -11,7 +11,7 @@ unlike primitive geometrize come with a binary executable for cli and gui out of
  * [gif making example](https://github.com/junguler/_image-manipulation/tree/main/Geometrize#fun-with-gifs)
  * [bat files and bash scripts](https://github.com/junguler/_image-manipulation/tree/main/Geometrize#windows-bat-file-and-linux-bash-script)
 
-## what are the differences betwwen primitives and geometrize?
+## what are the differences between primitives and geometrize?
 from the first look these two programs might look familiar but there are enough differences to not consider geometrize just a re-write and i'll try to point some of them here
  * geometrize was inspired by primitives
  * geometrize was written in C and C++ but primitives was written in golang
@@ -53,11 +53,11 @@ geometrize -i clementine.jpg -o c-li.jpg -s 3750 -t line
 ```
 ![c-li](https://user-images.githubusercontent.com/59083599/135092968-2308b55e-2d43-4412-ad21-02226b529e17.jpg)
 
-if you found these files are outputed at a very large sizes, just pass them once thru ffmpeg to compress them
+if you found these files are outputted at a very large sizes, just pass them once thru ffmpeg to compress them
 ```
 ffmpeg -i c-li.jpg c-li2.jpg
 ```
-a 1.5 mb image became 500 kb with hardly any noticable artifcating
+a 1.5 mb image became 500 kb with hardly any noticeable artifcating
 
 ## combining 2 different shapes
 ```
@@ -101,4 +101,4 @@ cat *.jpg | ffmpeg -framerate 5 -f image2pipe -i - mango.gif
 other methods for converting the same image with same settings and getting different results in geometrize is adding small amount of noise to the images, slightly change the hue of images, changing the quality of the images or slightly shorten or widen it's width/height.
 
 ## windows bat file and linux bash script
-there is also [my repo](https://github.com/junguler/easy-geometrize-batch) with easy to use bat and scripts to make life easier for batch proccessing
+there is also [my repo](https://github.com/junguler/easy-geometrize-batch) with easy to use bat and scripts to make life easier for batch processing

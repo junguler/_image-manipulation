@@ -11,15 +11,15 @@ Triangula is a gui and cli program that takes your image(s) make cool looking tr
  * [triangulafy a video](https://github.com/junguler/_image-manipulation/tree/main/Triangula#triangulafy-a-video)
  * [glitch it](https://github.com/junguler/_image-manipulation/tree/main/Triangula#glitch-it)
 
-## what are the differences betwwen triangula and triangle?
-these two programs look somewhat the same in first glance but there are enough difference to warrent both existing and we using them both in different cases, here are some of them:
+## what are the differences between triangula and triangle?
+these two programs look somewhat the same in first glance but there are enough difference to warrant both existing and we using them both in different cases, here are some of them:
  * triangula tries to produce a more uniformed look with triangle sizes roughly the same size
  * triangula does not overlap these triangles and only push them to different directions
  * triangula wants to more closely recreate the image which makes it very slower than triangle
  * triangula comes with gui option in addition to cli but triangle does not
  * triangula has a two step process for recreating the image but triangle does it in 1 step
- * triangula outpot images that more closely resemble low poly art we see in pop culture
- * triangula's outpots are more cleaner and need less points to be able to make out the image
+ * triangula output images that more closely resemble low poly art we see in pop culture
+ * triangula's outputs are more cleaner and need less points to be able to make out the image
 
 triangula also gets compared to other programs like primitive and geometrize but i think this comparison is not valid as these programs are not meant to be used for the same purposes
 
@@ -32,7 +32,7 @@ there is a gui version available with simplified usage [here](https://github.com
 ![T_gui](https://user-images.githubusercontent.com/59083599/135850973-abd1274e-92f4-46f1-99cd-2a503739b552.jpg)
 
 ## explanation of the switches and how the program works
-triangula cli is made of two seperate sub commands, first one is `run` which takes your image and makes a json file out of the information inside it, this is the main step we are interested in, here are the switches for it
+triangula cli is made of two separate sub commands, first one is `run` which takes your image and makes a json file out of the information inside it, this is the main step we are interested in, here are the switches for it
 
 | Flag | Default | Description |
 | --- | --- | --- |
@@ -62,7 +62,7 @@ second step is `render` which takes the input image and applies the information 
 ```
 triangula run -img bottle.jpg -out b.json
 ```
-this process will go on forever, there is no end point which exits and we have to intrupt it manually with `ctrl + c`, by default every 500 generations (which are calculations triangula makes) saves the information to the json file
+this process will go on forever, there is no end point which exits and we have to interrupt it manually with `ctrl + c`, by default every 500 generations (which are calculations triangula makes) saves the information to the json file
 
 ![run+](https://user-images.githubusercontent.com/59083599/135856002-baa8d9ae-5ab9-4663-90cb-ff09a78860e9.jpg)
 
@@ -76,7 +76,7 @@ triangula render -in b.json -out T-bottle -img bottle.jpg png
 ```
 ![bottle](https://user-images.githubusercontent.com/59083599/135856516-71402ea8-1d2f-45d1-ac68-7ab12fe96890.png)
 
-notice that we didn't specify extension for our outpot image `T-bottle` as the program adds that automatically
+notice that we didn't specify extension for our output image `T-bottle` as the program adds that automatically
 
 here is a one liner of our two commands, lets also remove the json file as we don't need it anymore
 ```
@@ -90,7 +90,7 @@ for d in knife2.jpg ; do timeout 25s triangula run -img $d -out j.json ; triangu
 ```
 ![T-knife2](https://user-images.githubusercontent.com/59083599/135857650-5c00a567-3d1e-43ab-ab05-36f286107611.png)
 
-we applied the name of our input image with the for loop as it was the only image we wanted to convert, since we have an image with `.jpg` extension and triangula automatically insert png extension to our image name we use `${d%%.*}` to remove the file extension in the render part and we add a `T-` before it to differentiate the input and outpot images
+we applied the name of our input image with the for loop as it was the only image we wanted to convert, since we have an image with `.jpg` extension and triangula automatically insert png extension to our image name we use `${d%%.*}` to remove the file extension in the render part and we add a `T-` before it to differentiate the input and output images
 
 ## batch converting
 lets convert all of the images in our folder with a one liner
@@ -130,7 +130,7 @@ to get svg output instead of png, just omit the png in the command
 for d in axe2.jpg ; do timeout 25s triangula run -img $d -out j.json -p 500 ; triangula render -in j.json -out T-${d%%.*} -img $d ; rm j.json ; done
 ```
 
-## use polygans instead of triangles
+## use polygons instead of triangles
 we need to insert `-s "polygons"` in both run and render commands
 ```
 for d in belt.jpg ; do timeout 25s triangula run -img $d -out j.json -p 1000 -s "polygons" ; triangula render -in j.json -out T-${d%%.*} -img $d -s "polygons" png ; rm j.json ; done
@@ -166,7 +166,7 @@ cat T-*.png | ffmpeg -framerate 20 -f image2pipe -i - triangula_lemons.mp4
 https://user-images.githubusercontent.com/59083599/135906204-47bb3a61-1cf7-42dc-ad98-999973618fa9.mp4
 
 ## glitch it
-like i said at the beggining of this page, this program takes an image and makes a json file out of it to produce triangulated images out of, what happens if we supply the same json file over and over for different images? glitch happens
+like i said at the beginning of this page, this program takes an image and makes a json file out of it to produce triangulated images out of, what happens if we supply the same json file over and over for different images? glitch happens
 
 lets use run to make a json file
 ```
