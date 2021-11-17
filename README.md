@@ -1,4 +1,7 @@
 ## cool stuff i found (under construction and in beta status) 
+
+this repo assumes you have access to bash/zsh and other basic gnu core utils like cat, ls, cp, mv and ... if you are on linux or mac you already have access to these but if you are on windows you have to specifically install them, there are a bunch of options for you to choose from but i recommend: [cygwin](https://www.cygwin.com/), [git for windows](https://gitforwindows.org/), [msys2](https://www.msys2.org/) or wsl/2 if you are a little more advanced
+
 to download the whole repo use the auto generated [zip file](https://github.com/junguler/_image-manipulation/archive/refs/heads/main.zip)
 
 open an issue or email me at junguler@yahoo.com to suggest a new program for this repo 
