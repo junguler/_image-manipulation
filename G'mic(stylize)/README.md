@@ -101,6 +101,6 @@ by default stylize only takes 20% (1 out 5) of gradients into the effect, this p
 </div>
   
 ## other config knobs and choices
-there is simply too many options to go over here, stylize is too big for me to go over but i'll try to show more examples of more or less the default configs below
+there is simply too many options to go over, i'm not sure how effective they are and how much they might show up in result outputs as i didn't have the time to test them, but i'll make sure to include any they caught my attention
 
 #### this page is under construction and un-finished
