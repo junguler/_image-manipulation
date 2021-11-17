@@ -7,6 +7,15 @@ stylize is a cool filter for applying style transfer to our images, it's the mos
 
 note: images that are linked in this markdown file are compressed to make loading the page faster, for the uncompressed versions go to the examples folder
 
+### quick links
+ * [basic usage](https://github.com/junguler/_image-manipulation/tree/main/G'mic(stylize)#basic-usage-using-built-in-styles)
+ * [basic usage using custom styles](https://github.com/junguler/_image-manipulation/tree/main/G'mic(stylize)#basic-usage-using-our-own-images-as-styles)
+ * [scale styles](https://github.com/junguler/_image-manipulation/tree/main/G'mic(stylize)#scale-style-image-to-produce-different-results)
+ * [specify smoothness](https://github.com/junguler/_image-manipulation/tree/main/G'mic(stylize)#specify-smoothness)
+ * [respect gradients](https://github.com/junguler/_image-manipulation/tree/main/G'mic(stylize)#respect-gradients)
+ * [fun with gifs](https://github.com/junguler/_image-manipulation/tree/main/G'mic(stylize)#fun-with-gifs)
+ * [stylizify a video](https://github.com/junguler/_image-manipulation/tree/main/G'mic(stylize)#stylizify-a-video)
+
 ## source material
 everything is downloaded from a royalty free image website [here](https://free-images.com/) and [here](https://www.rawpixel.com/free-images), there is also some royalty free stock footage from youtube
 
