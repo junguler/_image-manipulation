@@ -74,7 +74,7 @@ changing style scale is done by changing the second number we pass to fx_stylize
 
 </div>
   
-# specify smoothness
+## specify smoothness
 smoothness decides how much styles uses the style image to recreate the input image, the higher the smoothness the less the style image is used and the output image effected
 
 <div align="center">
@@ -87,7 +87,7 @@ smoothness decides how much styles uses the style image to recreate the input im
 
 </div>
   
-# respect gradients
+## respect gradients
 by default stylize only takes 20% (1 out 5) of gradients into the effect, this part of the filter works in tandom with the smoothness option but won't mix them here because we want to showcase it on it's own
 
 <div align="center">
@@ -100,4 +100,7 @@ by default stylize only takes 20% (1 out 5) of gradients into the effect, this p
 
 </div>
   
+## other config knobs and choices
+there is simply too many options to go over here, stylize is too big for me to go over but i'll try to show more examples of more or less the default configs below
+
 #### this page is under construction and un-finished
