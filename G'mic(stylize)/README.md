@@ -119,8 +119,8 @@ now make the animated gif
 cat G-*.jpg | ffmpeg -framerate 30 -f image2pipe -i - -preset veryslow crochet_face.gif
 ```
 
-| input | style |  output | 
-| --- | --- | --- |
-| ![face-low](https://user-images.githubusercontent.com/59083599/142287222-4892d2a4-6963-457a-93b0-f0b141cd6441.gif) | ![crochet](https://user-images.githubusercontent.com/59083599/142287298-536b4a54-4e90-4208-9a52-d57d8b3d04b4.jpg) | ![crochet_low](https://user-images.githubusercontent.com/59083599/142287356-4fba04cb-bd6d-435c-9160-41b0e558bfe1.gif) |
+| input |  output | 
+| --- | --- |
+| ![face-low](https://user-images.githubusercontent.com/59083599/142287222-4892d2a4-6963-457a-93b0-f0b141cd6441.gif) | ![crochet_low](https://user-images.githubusercontent.com/59083599/142287356-4fba04cb-bd6d-435c-9160-41b0e558bfe1.gif) |
 
 #### this page is under construction and un-finished
