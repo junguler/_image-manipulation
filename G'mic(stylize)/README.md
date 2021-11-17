@@ -103,4 +103,24 @@ by default stylize only takes 20% (1 out 5) of gradients into the effect, this p
 ## other config knobs and choices
 there is simply too many options to go over, i'm not sure how effective they are and how much they might show up in result outputs as i didn't have the time to test them, but i'll make sure to include any they caught my attention
 
+## fun with gifs
+making a animated gif with stylize is just as easy as still images, we just need a `for` loop for batch processing, if we don't have a image sequence of your gif file you can make one like this 
+```
+ffmpeg -i my.gif -vsync 0 S-%4d.jpg
+```
+the above command pads 4 zeros to our images after `S-` , each gif file is limited to 500 frames but we add an extra 0 at the begining to make life easier for our for loop and the conversion of our stylized sequence to gif again 
+
+now for converting our newly made image sequence
+```
+for i in S-0*.jpg ; do gmic crochet.jpg $i fx_stylize 0,5,0,0,0.5,2,3,0.5,0.1,3,3,0,0.7,1,0,1,0,5,5,7,1,30,10,2,1.85,0 -o G-$i.jpg ; rm *000000.jpg ; done
+```
+now make the animated gif
+```
+cat G-*.jpg | ffmpeg -framerate 30 -f image2pipe -i - -preset veryslow crochet_face.gif
+```
+
+| input | style |  output | 
+| --- | --- | --- |
+| ![face-low](https://user-images.githubusercontent.com/59083599/142287222-4892d2a4-6963-457a-93b0-f0b141cd6441.gif) | ![crochet](https://user-images.githubusercontent.com/59083599/142287298-536b4a54-4e90-4208-9a52-d57d8b3d04b4.jpg) | ![crochet_low](https://user-images.githubusercontent.com/59083599/142287356-4fba04cb-bd6d-435c-9160-41b0e558bfe1.gif) |
+
 #### this page is under construction and un-finished
