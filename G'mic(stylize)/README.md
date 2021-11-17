@@ -125,4 +125,14 @@ cat G-*.jpg | ffmpeg -framerate 30 -f image2pipe -i - -preset veryslow crochet_f
 
 for the style image go to the gif folder inside examples, these gifs were significantly compressed using gifsicle to make their size way smaller and are not representitive of the actual result quality
 
-#### this page is under construction and un-finished
+## stylizify a video
+lets apply what we learned to a video, i have made a example of how to download a free video, make image sequence, apply filter and mux it back [here](https://github.com/junguler/ffmpeg-examples/tree/main/sequence%2C%20manipulate%20%26%20mux%20images)
+```
+for i in *.jpg ; do gmic zebra.jpg $i fx_stylize 0,5,0,0,0.5,2,3,0.5,0.1,3,3,0,0.7,1,0,1,0,5,5,7,1,30,10,2,1.85,0 -o G-$i.jpg ; rm *000000.jpg ; done 
+```
+as you can see the process is similar to gif making, we just want to make a video instead, videos have the advantage of applying a uniform compression to each frame and produce an amazing quality images with a really small output size
+```
+cat G-*.jpg | ffmpeg -framerate 30 -f image2pipe -i - -preset veryslow cycle-zebra.mp4
+```
+
+https://user-images.githubusercontent.com/59083599/142290088-fcff6549-03e5-43f5-a727-385a3ef823a5.mp4
