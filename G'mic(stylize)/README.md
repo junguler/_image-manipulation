@@ -70,5 +70,13 @@ changing style scale is done by changing the second number we pass to fx_stylize
 | 150% scale (7) | 300% scale (10) |
 | ![l-scale-150_000001](https://user-images.githubusercontent.com/59083599/142270961-4ea352ac-b033-42c3-afe4-9420c95bc327.jpg) | ![l-scale-300_000001](https://user-images.githubusercontent.com/59083599/142270995-e5d9b4c4-f691-4a5a-b449-a8a65235550f.jpg) |
 
+# specify smoothness
+smoothness decides how much styles uses the style image to recreate the input image, the higher the smoothness the less the style image is used and the output image effected
+
+| input | style |
+| --- | --- |
+| ![flower5](https://user-images.githubusercontent.com/59083599/142274659-0a2a782a-656c-475d-b5a4-dd7ac56e96da.jpg) | ![ice](https://user-images.githubusercontent.com/59083599/142275517-9b37a72b-ebbe-40f4-87e7-f09625497dac.jpg) | 
+| smoothness 0 | smoothness 5 |
+| ![l-smooth_0_000001](https://user-images.githubusercontent.com/59083599/142275804-8d23337c-f9bd-441c-a0d5-a1ee8ec74300.jpg) | ![l-smooth_5_000001](https://user-images.githubusercontent.com/59083599/142275851-861cce24-b9a6-4d04-ae5f-3e801e030ab9.jpg) |
 
 #### this page is under construction and un-finished
