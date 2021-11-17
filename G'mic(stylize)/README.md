@@ -27,7 +27,7 @@ the 2 after fx_stylize tells gmic to use the 3rd option in the first gui entry w
 gmic style.jpg input.jpg fx_stylize 0,5,0,0,0.5,2,3,0.5,0.1,3,3,0,0.7,1,0,1,0,5,5,7,1,30,10,2,1.85,0 -o output.jpg
 ```
 
-## basic usage (suing built-in styles)
+## basic usage (using built-in styles)
 we'll start we some pre-embeded images as styles, this is easiest way to use the filter
 ```
 gmic earth.jpg fx_stylize 32,5,0,0,0.5,2,3,0.5,0.1,3,3,0,0.7,1,0,1,0,5,5,7,1,30,10,2,1.85,0 -o earth_gogh+.jpg
@@ -42,6 +42,24 @@ gmic statue.jpg fx_stylize 25,5,0,0,0.5,2,3,0.5,0.1,3,3,0,0.7,1,0,1,0,5,5,7,1,30
 | input | style (Mondrian: Gray Tree) |  output | 
 | --- | --- | --- |
 | ![statue](https://user-images.githubusercontent.com/59083599/142259582-c6ac9d8d-4c38-42cd-9c44-22e674addb2b.jpg) | ![gray-tree](https://user-images.githubusercontent.com/59083599/142259637-6a8cdc2d-5580-440c-a3e1-686f23854731.jpg) | ![statue_mondrian+](https://user-images.githubusercontent.com/59083599/142259678-3f184ae3-b7d2-42a4-9e84-53d76bd138b7.jpg) |
+
+## basic usage (using our own images as styles)
+```
+gmic tree.jpg lighthouse.jpg fx_stylize 0,5,0,0,0.5,2,3,0.5,0.1,3,3,0,0.7,1,0,1,0,5,5,7,1,30,10,2,1.85,0 -o Light_tree.jpg
+```
+this command outputs two images, `Light_tree_000000` which is the same as our input image and `Light_tree_000001.jpg` which is what we actually want so for further commands we add a remove command at the end of our command to remove this undded file like this `; rm *000000.jpg` the `;` add the remove command to our gmic command to make it a one liner
+
+| input | style |  output | 
+| --- | --- | --- |
+| ![lighthouse](https://user-images.githubusercontent.com/59083599/142261240-04c46041-153a-49e7-bc67-1f53dc5f9c09.jpg) | ![tree](https://user-images.githubusercontent.com/59083599/142261261-96e40765-9668-417f-be2d-2750423147c7.jpg) | ![Light_tree_000001](https://user-images.githubusercontent.com/59083599/142261290-a90defd6-4f25-4b09-b577-6bf49a87e6ec.jpg) |
+
+```
+gmic skyscraper.jpg genie.jpg fx_stylize 0,5,0,0,0.5,2,3,0.5,0.1,3,3,0,0.7,1,0,1,0,5,5,7,1,30,10,2,1.85,0 -o genie_sky.jpg ; rm *000000.jpg 
+```
+
+| input | style |  output | 
+| --- | --- | --- |
+| ![genie](https://user-images.githubusercontent.com/59083599/142262316-a205e42c-11bd-4a49-af5b-edaf0fc167cb.jpg) | ![skyscraper](https://user-images.githubusercontent.com/59083599/142262433-e4deb6ce-8786-46dc-9291-46268bdb395d.jpg) | ![genie_sky_000001](https://user-images.githubusercontent.com/59083599/142262474-1e2a7671-dfcf-4b5b-9cf2-e5f8035fb191.jpg) |
 
 
 
