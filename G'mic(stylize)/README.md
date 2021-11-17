@@ -1,11 +1,11 @@
 ## what is needed to get started?
-G'mic is a massive collection of image processing filters combined to a one easy to use gui and cli program that can be installed on gimp, krita etc ... or used on the terminal, it's so big even when i made a markdown specific for showing it with many examples i barely scracthed the surface of what it does and i'm going to showcase one of it's filters here
+G'mic is a massive collection of image processing filters combined to a one easy to use gui and cli program that can be installed on gimp, krita etc ... or used on the terminal, it's so big even tho i already made a markdown file specific for showing it with many examples i barely scracthed the surface of what it does and i'm going to showcase one of it's filters here
 
-for the basics of how to use the program look [here](https://github.com/junguler/_image-manipulation/tree/main/G'mic) , now that you are somewhat familier with this program lets do our thing
+for the basics of how to use the G'mic look [here](https://github.com/junguler/_image-manipulation/tree/main/G'mic) , now that you are somewhat familier with this program lets do our thing
 
 stylize is a cool filter for applying style transfer to our images, it's the most easy to use and un-complicated implementation of style transfer i have seen that runs localy on your computer without the need for internet or installing extra programs like python, lua or others
 
-images that are linked in this markdown file are compressed to make loading the page faster, for the uncompressed versions go to the examples folder
+note: images that are linked in this markdown file are compressed to make loading the page faster, for the uncompressed versions go to the examples folder
 
 ## source material
 everything is downloaded from a royalty free image website [here](https://free-images.com/) and [here](https://www.rawpixel.com/free-images), there is also some royalty free stock footage from youtube
