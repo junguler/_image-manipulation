@@ -123,4 +123,6 @@ cat G-*.jpg | ffmpeg -framerate 30 -f image2pipe -i - -preset veryslow crochet_f
 | --- | --- |
 | ![face-low](https://user-images.githubusercontent.com/59083599/142287222-4892d2a4-6963-457a-93b0-f0b141cd6441.gif) | ![crochet_low](https://user-images.githubusercontent.com/59083599/142287356-4fba04cb-bd6d-435c-9160-41b0e558bfe1.gif) |
 
+for the style image go to the gif folder inside examples
+
 #### this page is under construction and un-finished
