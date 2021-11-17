@@ -82,8 +82,21 @@ smoothness decides how much styles uses the style image to recreate the input im
 | input | style |
 | --- | --- |
 | ![flower5](https://user-images.githubusercontent.com/59083599/142274659-0a2a782a-656c-475d-b5a4-dd7ac56e96da.jpg) | ![ice](https://user-images.githubusercontent.com/59083599/142275517-9b37a72b-ebbe-40f4-87e7-f09625497dac.jpg) | 
-| smoothness 0 |  smoothness 5  |
+| smoothness 0 | smoothness 5 |
 | ![l-smooth_0_000001](https://user-images.githubusercontent.com/59083599/142275804-8d23337c-f9bd-441c-a0d5-a1ee8ec74300.jpg) | ![l-smooth_5_000001](https://user-images.githubusercontent.com/59083599/142275851-861cce24-b9a6-4d04-ae5f-3e801e030ab9.jpg) |
+
+</div>
+  
+# respect gradients
+by default stylize only takes 20% (1 out 5) of gradients into the effect, this part of the filter works in tandom with the smoothness option but won't mix them here because we want to showcase it on it's own
+
+<div align="center">
+  
+| input | style |
+| --- | --- |
+| ![tincan](https://user-images.githubusercontent.com/59083599/142278864-78ff6cff-512a-4872-9447-5f008b61f0eb.jpg) | ![wall](https://user-images.githubusercontent.com/59083599/142278899-6dfb86e5-7ae3-4691-9706-4a5d650c0b12.jpg) | 
+| gradients 0 | gradients 5 |
+| ![l-gradient_0_000001](https://user-images.githubusercontent.com/59083599/142279142-9cf64207-6d14-4076-a15d-70dbb27ba331.jpg) | ![l-gradient_5_000001](https://user-images.githubusercontent.com/59083599/142279166-fe70c030-1fa4-4d5b-a9dc-3d99700403e8.jpg) |
 
 </div>
   
