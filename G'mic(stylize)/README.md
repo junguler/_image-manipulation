@@ -143,5 +143,4 @@ as you can see the process is similar to gif making, we just want to make a vide
 ```
 cat G-*.jpg | ffmpeg -framerate 30 -f image2pipe -i - -preset veryslow cycle-zebra.mp4
 ```
-
 https://user-images.githubusercontent.com/59083599/142290088-fcff6549-03e5-43f5-a727-385a3ef823a5.mp4
