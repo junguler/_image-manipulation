@@ -58,16 +58,15 @@ this command outputs two images, `Light_tree_000000` which is the same as our in
 ## scale style image to produce different results
 by default stylize sets your style image to 75% of it's size and uses it to re-create the input image, you can set this operation to none or make the resizing smaller or bigger depending on your style image, the default value is a good start point and might be fine for your case but we'll still show the differences here
 
+changing style scale is done by changing the second number we pass to fx_stylize filter, it starts at 0 and ends at 10
+
 | input | style |
 | --- | --- |
 | ![car](https://user-images.githubusercontent.com/59083599/142270495-8fb30e96-8baf-4269-a74c-7af1a12f8629.jpg) | ![magnet](https://user-images.githubusercontent.com/59083599/142270540-af5af17d-6fa7-4bd7-80bc-5baf7a3dcd6a.jpg)
-| 10% scale | 50% scale |
+| 10% scale (1) | 50% scale (4) |
 | ![l-scale-10_000001](https://user-images.githubusercontent.com/59083599/142270795-fb81face-c795-486a-9dfb-8c2aa64d791e.jpg) | ![l-scale-50_000001](https://user-images.githubusercontent.com/59083599/142270844-0d57bd3e-338d-4b3b-a67b-5693184e5ca8.jpg) | 
-| 150% scale | 300% scale |
+| 150% scale (7) | 300% scale (10) |
 | ![l-scale-150_000001](https://user-images.githubusercontent.com/59083599/142270961-4ea352ac-b033-42c3-afe4-9420c95bc327.jpg) | ![l-scale-300_000001](https://user-images.githubusercontent.com/59083599/142270995-e5d9b4c4-f691-4a5a-b449-a8a65235550f.jpg) |
-
-
-
 
 
 #### this page is under construction and un-finished
