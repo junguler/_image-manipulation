@@ -3,7 +3,7 @@ to download the whole repo use the auto generated [zip file](https://github.com/
 
 open an issue or email me at junguler@yahoo.com to suggest a new program for this repo 
 
-these markdown tutorials are also backed up as html pages on my blog [here](https://junguler.github.io/) just hover over the projects menu at the top and click on the link you want
+these markdown tutorials are also backed up as html pages on my blog [here](https://junguler.github.io/) just hover over the projects menu at the top and click on the links you want
 
 [![P_banner](https://user-images.githubusercontent.com/59083599/135177535-ce475d39-de62-4d85-b108-68a2a0cdc0f0.gif)](https://github.com/junguler/_image-manipulation/tree/main/Primitive)
 
