@@ -51,7 +51,7 @@ this command outputs two images, `Light_tree_000000` which is the same as our in
 
 | input | style |  output | 
 | --- | --- | --- |
-| ![lighthouse](https://user-images.githubusercontent.com/59083599/142261240-04c46041-153a-49e7-bc67-1f53dc5f9c09.jpg) | ![tree](https://user-images.githubusercontent.com/59083599/142261261-96e40765-9668-417f-be2d-2750423147c7.jpg) | ![Light_tree_000001](https://user-images.githubusercontent.com/59083599/142261290-a90defd6-4f25-4b09-b577-6bf49a87e6ec.jpg) |
+| ![lighthouse](https://user-images.githubusercontent.com/59083599/142261240-04c46041-153a-49e7-bc67-1f53dc5f9c09.jpg) | ![tree](https://user-images.githubusercontent.com/59083599/142261261-96e40765-9668-417f-be2d-2750423147c7.jpg) | ![Light_tree_000001+](https://user-images.githubusercontent.com/59083599/142262867-65fb5b74-48b4-450f-87e6-f920d79b0fc1.jpg) |
 
 ```
 gmic skyscraper.jpg genie.jpg fx_stylize 0,5,0,0,0.5,2,3,0.5,0.1,3,3,0,0.7,1,0,1,0,5,5,7,1,30,10,2,1.85,0 -o genie_sky.jpg ; rm *000000.jpg 
@@ -59,8 +59,4 @@ gmic skyscraper.jpg genie.jpg fx_stylize 0,5,0,0,0.5,2,3,0.5,0.1,3,3,0,0.7,1,0,1
 
 | input | style |  output | 
 | --- | --- | --- |
-| ![genie](https://user-images.githubusercontent.com/59083599/142262316-a205e42c-11bd-4a49-af5b-edaf0fc167cb.jpg) | ![skyscraper](https://user-images.githubusercontent.com/59083599/142262433-e4deb6ce-8786-46dc-9291-46268bdb395d.jpg) | ![genie_sky_000001](https://user-images.githubusercontent.com/59083599/142262474-1e2a7671-dfcf-4b5b-9cf2-e5f8035fb191.jpg) |
-
-
-
-
+| ![genie](https://user-images.githubusercontent.com/59083599/142262316-a205e42c-11bd-4a49-af5b-edaf0fc167cb.jpg) | ![skyscraper](https://user-images.githubusercontent.com/59083599/142262433-e4deb6ce-8786-46dc-9291-46268bdb395d.jpg) | ![genie_sky_000001+](https://user-images.githubusercontent.com/59083599/142262911-2c182840-0a4d-49bf-8025-b5a1c1e562bf.jpg) |
