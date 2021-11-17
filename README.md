@@ -25,3 +25,7 @@ these markdown tutorials are also backed up as html pages on my blog [here](http
 [![tiler_banner](https://user-images.githubusercontent.com/59083599/137988932-8a2a7ad4-d99e-4b5b-86f0-3a8049702f0f.gif)](https://github.com/junguler/_image-manipulation/tree/main/Tiler)
 
 [![Mos_banner](https://user-images.githubusercontent.com/59083599/140065459-99be7ec7-702e-4c10-9144-891a987fcce0.gif)](https://github.com/junguler/_image-manipulation/tree/main/Mosaic)
+
+[![STY_banner+](https://user-images.githubusercontent.com/59083599/142296983-1a0bc8a9-4fbf-4b56-bc61-b3930f16034a.gif)](https://github.com/junguler/_image-manipulation/tree/main/G'mic(stylize))
+
+
