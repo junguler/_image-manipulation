@@ -45,28 +45,14 @@ gmic statue.jpg fx_stylize 25,5,0,0,0.5,2,3,0.5,0.1,3,3,0,0.7,1,0,1,0,5,5,7,1,30
 
 ## basic usage (using our own images as styles)
 ```
-gmic tree.jpg lighthouse.jpg fx_stylize 0,5,0,0,0.5,2,3,0.5,0.1,3,3,0,0.7,1,0,1,0,5,5,7,1,30,10,2,1.85,0 -o Light_tree.jpg
+gmic tree.jpg lighthouse.jpg fx_stylize 0,5,0,0,0.5,2,3,0.5,0.1,3,3,0,0.7,1,0,1,0,5,5,7,1,30,10,2,1.85,0 -o Light_tree.jpg ; rm *000000.jpg
 ```
 this command outputs two images, `Light_tree_000000` which is the same as our input image and `Light_tree_000001.jpg` which is what we actually want so for further commands we add a remove command at the end of our command to remove this undded file like this `; rm *000000.jpg` the `;` add the remove command to our gmic command to make it a one liner
 
 | input | style |  output | 
 | --- | --- | --- |
 | ![lighthouse](https://user-images.githubusercontent.com/59083599/142261240-04c46041-153a-49e7-bc67-1f53dc5f9c09.jpg) | ![tree](https://user-images.githubusercontent.com/59083599/142261261-96e40765-9668-417f-be2d-2750423147c7.jpg) | ![Light_tree_000001+](https://user-images.githubusercontent.com/59083599/142262867-65fb5b74-48b4-450f-87e6-f920d79b0fc1.jpg) |
-
-```
-gmic skyscraper.jpg genie.jpg fx_stylize 0,5,0,0,0.5,2,3,0.5,0.1,3,3,0,0.7,1,0,1,0,5,5,7,1,30,10,2,1.85,0 -o genie_sky.jpg ; rm *000000.jpg 
-```
-
-| input | style |  output | 
-| --- | --- | --- |
 | ![genie](https://user-images.githubusercontent.com/59083599/142262316-a205e42c-11bd-4a49-af5b-edaf0fc167cb.jpg) | ![skyscraper](https://user-images.githubusercontent.com/59083599/142262433-e4deb6ce-8786-46dc-9291-46268bdb395d.jpg) | ![genie_sky_000001+](https://user-images.githubusercontent.com/59083599/142262911-2c182840-0a4d-49bf-8025-b5a1c1e562bf.jpg) |
-
-```
-gmic colorss.jpg x-ray.jpg fx_stylize 0,5,0,0,0.5,2,3,0.5,0.1,3,3,0,0.7,1,0,1,0,5,5,7,1,30,10,2,1.85,0 -o x-ray_color.jpg ; rm *000000.jpg 
-```
-
-| input | style |  output | 
-| --- | --- | --- |
 | ![x-ray](https://user-images.githubusercontent.com/59083599/142265080-a3f49d5c-2284-44f6-9354-4e1cbc8bfd2b.jpg) | ![colorss](https://user-images.githubusercontent.com/59083599/142265108-71d1b61d-519e-465d-b599-4b8a944b6f80.jpg) | ![x-ray_color_000001+](https://user-images.githubusercontent.com/59083599/142265142-c6d6f7a7-4f1b-40f5-942a-ba700e48cf8a.jpg) |
 
 #### this page is under construction and un-finished
