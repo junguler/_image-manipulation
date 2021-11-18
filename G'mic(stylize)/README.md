@@ -7,6 +7,8 @@ stylize is a cool filter for applying style transfer to our images, see [here](h
 
 note: images that are linked in this markdown file are compressed to make loading the page faster, for the uncompressed versions go to the examples folder
 
+<br>
+
 ### quick links
  * [basic usage](https://github.com/junguler/_image-manipulation/tree/main/G'mic(stylize)#basic-usage-using-built-in-styles)
  * [basic usage using custom styles](https://github.com/junguler/_image-manipulation/tree/main/G'mic(stylize)#basic-usage-using-our-own-images-as-styles)
@@ -16,8 +18,12 @@ note: images that are linked in this markdown file are compressed to make loadin
  * [fun with gifs](https://github.com/junguler/_image-manipulation/tree/main/G'mic(stylize)#fun-with-gifs)
  * [stylizify a video](https://github.com/junguler/_image-manipulation/tree/main/G'mic(stylize)#stylizify-a-video)
 
+<br>
+
 ## source material
 everything is downloaded from a royalty free image website [here](https://free-images.com/) and [here](https://www.rawpixel.com/free-images), there is also some royalty free stock footage from youtube
+
+<br>
 
 ## explanation of the config and how the program works
 | basic | advanced | 
@@ -38,6 +44,8 @@ the 2 after fx_stylize tells gmic to use the 3rd option in the first gui entry w
 gmic style.jpg input.jpg fx_stylize 0,5,0,0,0.5,2,3,0.5,0.1,3,3,0,0.7,1,0,1,0,5,5,7,1,30,10,2,1.85,0 -o output.jpg
 ```
 
+<br>
+
 ## basic usage (using built-in styles)
 we'll start we some pre-embedded images as styles, this is easiest way to use the filter
 ```
@@ -54,6 +62,8 @@ gmic statue.jpg fx_stylize 25,5,0,0,0.5,2,3,0.5,0.1,3,3,0,0.7,1,0,1,0,5,5,7,1,30
 | --- | --- | --- |
 | ![statue](https://user-images.githubusercontent.com/59083599/142259582-c6ac9d8d-4c38-42cd-9c44-22e674addb2b.jpg) | ![gray-tree](https://user-images.githubusercontent.com/59083599/142259637-6a8cdc2d-5580-440c-a3e1-686f23854731.jpg) | ![statue_mondrian+](https://user-images.githubusercontent.com/59083599/142259678-3f184ae3-b7d2-42a4-9e84-53d76bd138b7.jpg) |
 
+<br>
+
 ## basic usage (using our own images as styles)
 ```
 gmic tree.jpg lighthouse.jpg fx_stylize 0,5,0,0,0.5,2,3,0.5,0.1,3,3,0,0.7,1,0,1,0,5,5,7,1,30,10,2,1.85,0 -o Light_tree.jpg ; rm *000000.jpg
@@ -65,6 +75,8 @@ this command outputs two images, `Light_tree_000000.jpg` which is the same as ou
 | ![lighthouse](https://user-images.githubusercontent.com/59083599/142261240-04c46041-153a-49e7-bc67-1f53dc5f9c09.jpg) | ![tree](https://user-images.githubusercontent.com/59083599/142261261-96e40765-9668-417f-be2d-2750423147c7.jpg) | ![Light_tree_000001+](https://user-images.githubusercontent.com/59083599/142262867-65fb5b74-48b4-450f-87e6-f920d79b0fc1.jpg) |
 | ![genie](https://user-images.githubusercontent.com/59083599/142262316-a205e42c-11bd-4a49-af5b-edaf0fc167cb.jpg) | ![skyscraper](https://user-images.githubusercontent.com/59083599/142262433-e4deb6ce-8786-46dc-9291-46268bdb395d.jpg) | ![genie_sky_000001+](https://user-images.githubusercontent.com/59083599/142262911-2c182840-0a4d-49bf-8025-b5a1c1e562bf.jpg) |
 | ![x-ray](https://user-images.githubusercontent.com/59083599/142265080-a3f49d5c-2284-44f6-9354-4e1cbc8bfd2b.jpg) | ![colorss](https://user-images.githubusercontent.com/59083599/142265108-71d1b61d-519e-465d-b599-4b8a944b6f80.jpg) | ![x-ray_color_000001+](https://user-images.githubusercontent.com/59083599/142265142-c6d6f7a7-4f1b-40f5-942a-ba700e48cf8a.jpg) |
+
+<br>
 
 ## scale style image to produce different results
 by default stylize sets your style image to 75% of it's size and uses it to re-create the input image, you can set this operation to none or make the resizing smaller or bigger depending on your style image, the default value is a good start point and might be fine for your case but we'll still show the differences here
@@ -83,6 +95,8 @@ changing style scale is done by changing the second number we pass to fx_stylize
 
 </div>
   
+<br>
+
 ## specify smoothness
 smoothness decides how much styles uses the style image to recreate the input image, the higher the smoothness the less the style image is used and the output image effected
 
@@ -96,6 +110,8 @@ smoothness decides how much styles uses the style image to recreate the input im
 
 </div>
   
+<br>
+
 ## respect gradients
 by default stylize only takes 20% (1 out 5) of gradients into the effect, this part of the filter works in tandem with the smoothness option but won't mix them here because we want to showcase it on it's own
 
@@ -109,8 +125,12 @@ by default stylize only takes 20% (1 out 5) of gradients into the effect, this p
 
 </div>
   
+<br>
+
 ## other config knobs and choices
 there is simply too many options to go over, i'm not sure how effective they are and how much they might show up in result outputs as i didn't have the time to test them, but i'll make sure to include them if they caught my attention
+
+<br>
 
 ## fun with gifs
 making a animated gif with stylize is just as easy as still images, we just need a `for` loop for batch processing, if you don't have a image sequence of your gif file you can make one like this 
@@ -133,6 +153,8 @@ cat G-*.jpg | ffmpeg -framerate 30 -f image2pipe -i - -preset veryslow crochet_f
 | ![face-low](https://user-images.githubusercontent.com/59083599/142287222-4892d2a4-6963-457a-93b0-f0b141cd6441.gif) | ![crochet_low](https://user-images.githubusercontent.com/59083599/142287356-4fba04cb-bd6d-435c-9160-41b0e558bfe1.gif) |
 
 for the style image go to the gif folder inside examples, these gifs were significantly compressed using gifsicle to make their size way smaller and are not representative of the actual result quality
+
+<br>
 
 ## stylizify a video
 lets apply what we learned to a video, i have made a example of how to download a free video, make image sequence, apply filter and mux it back [here](https://github.com/junguler/ffmpeg-examples/tree/main/sequence%2C%20manipulate%20%26%20mux%20images)
