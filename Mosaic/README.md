@@ -2,6 +2,8 @@
 mosaic is a really amazing program that takes you input images and makes roman style mosaics out of them, find the github repo [here](https://github.com/yobeatz/mosaic)
 and look [here](https://towardsdatascience.com/how-to-generate-roman-style-mosaics-with-python-11d5aa021b09) for a post to goes in-depth on how the program was designed and works
 
+<br>
+
 ### quick links
  * [how it works](https://github.com/junguler/_image-manipulation/tree/main/Mosaic#showing-how-the-program-works-in-a-visual-way-by-showing-each-step-an-image-goes-thru)
  * [basic usage](https://github.com/junguler/_image-manipulation/tree/main/Mosaic#basic-usage)
@@ -14,8 +16,12 @@ and look [here](https://towardsdatascience.com/how-to-generate-roman-style-mosai
  * [make animated gif out of one image](https://github.com/junguler/_image-manipulation/tree/main/Mosaic#make-animated-gif-out-of-one-image)
  * [mosaicify a video](https://github.com/junguler/_image-manipulation/tree/main/Mosaic#mosaicify-a-video)
 
+<br>
+
 ## source material
 everything is downloaded from a royalty free image website [here](https://free-images.com/) and some royalty free stock footage from youtube
+
+<br>
 
 ## explanation of the config and how the program works
 customizing config is done by changing values in the `mosaic.py` file so we will make a copy of the original file to have an offline copy to be able to compare configs if there is need for it
@@ -39,6 +45,8 @@ and we comment out lines [33](https://github.com/yobeatz/mosaic/blob/main/mosaic
 
 we also change the value of line [96](https://github.com/yobeatz/mosaic/blob/main/mosaic.py#L96) from ``return_svg=False`` to ``return_svg=True`` so the program outputs an svg file for us on exit
 
+<br>
+
 ## showing how the program works in a visual way by showing each step an image goes thru
 we commented out all of these steps except the final step but it might be a good idea to show them because the program goes thru all of them to make the final output file
 
@@ -58,6 +66,8 @@ step_11 polygons_filler | step_12 polygons_cut
 step_13 final | step_14 final_recolored 'fish'
 ![final](https://user-images.githubusercontent.com/59083599/139757302-d3857b0f-0969-42b8-8eb3-b1acff47c4d8.jpg) | ![final_recolored](https://user-images.githubusercontent.com/59083599/139758088-fd89f475-0b9a-4d89-a4d6-b7d0df0c959b.jpg)
 
+<br>
+
 ## basic usage
 the way the program works is it opens a gui window that lets you change some settings and output an image from it too, we are mostly interested in re-creating the same effect multiple times so we changed the default settings so the program outputs a svg file for us named 'output.svg' so we close the window as soon as it opens and the output file gets generated, just cd into the folder you have your image on and rename it to `input.jpg` and run the program
 ```
@@ -72,6 +82,8 @@ ffmpeg -i output.svg -vf scale=1280:-1 mos-eiffel.png
 another example
 
 ![mos-baloon](https://user-images.githubusercontent.com/59083599/139759442-5002def3-1dac-4fc2-950a-e8e140825331.png)
+
+<br>
 
 ## change tile size
 so far we've been using the default size of 12 for tile sizes, lets use a smaller size of 6 for this, change the value in the `mosaic.py` to ``half_tile = 6``
@@ -98,12 +110,16 @@ original  | half_tile = 6
 half_tile = 12 | half_tile = 20
 ![wm-12](https://user-images.githubusercontent.com/59083599/139946050-7b5f7b37-d3fa-43cd-a2ed-6f4481e5aada.jpg) | ![wm-20](https://user-images.githubusercontent.com/59083599/139946110-35821dff-1bbc-420d-bab1-1e35282d6ff7.jpg)
 
+<br>
+
 ## respecting frame of the image
 by default mosaic aligns the tiles starting at the edges of the screen and then comes to the middle, if we set this option to false the tiles are aligned at the border of the objects inside our image, let's show both side by side
 
 WITH_FRAME = True | WITH_FRAME = False
 :-------------------------:|:-------------------------:
 ![moon-frame](https://user-images.githubusercontent.com/59083599/139770158-df4024b0-3855-4ff8-8fbe-68693ea1d22d.png) | ![moon-no-frame](https://user-images.githubusercontent.com/59083599/139770247-2f1621e9-cd3e-4276-9b04-d1da3b3d8707.png)
+
+<br>
 
 ## changing tile angles
 set the maximum degree a tile is able to rotate to create the image (default value is 40), higher value produces smoother image with less tiles
@@ -112,11 +128,15 @@ MAX_ANGLE = 30 | MAX_ANGLE = 75
 :-------------------------:|:-------------------------:
 ![30](https://user-images.githubusercontent.com/59083599/139771255-7f62209d-b3bd-4d65-a514-240c196ad87e.png) | ![75](https://user-images.githubusercontent.com/59083599/139771290-7d48c002-b17c-4b8d-94bc-435a75d199d9.png)
 
+<br>
+
 ## randomize tile placement
 by default mosaic applies ``RAND_SIZE = 0.3`` randomization to placement of tiles, lets change that for comparison
 RAND_SIZE = 0.3 | RAND_SIZE = 3.0
 :-------------------------:|:-------------------------:
 ![random-0-3](https://user-images.githubusercontent.com/59083599/139958096-e9e584b9-1151-4b78-a63c-fb110351e675.png) | ![random-3-0](https://user-images.githubusercontent.com/59083599/139958637-a304125a-4e8d-4932-8954-ba157ba604ff.png)
+
+<br>
 
 ## change edge detection mode
 the default edge detection method mosaic uses is HED but there is an alternative called DiBlasi, here is how they look compared to each other
@@ -124,6 +144,8 @@ the default edge detection method mosaic uses is HED but there is an alternative
 EDGE_DETECTION = 'HED' | EDGE_DETECTION = 'DiBlasi'
 :-------------------------:|:-------------------------:
 ![HED](https://user-images.githubusercontent.com/59083599/139771969-e49c3741-7f71-4001-a4ee-5e00c0e1c1c5.png) | ![DiBlasi](https://user-images.githubusercontent.com/59083599/139771984-e2c8834d-fd99-4bd6-98f3-1faf78695f2c.png)
+
+<br>
 
 ## recoloring our output image
 mosaic is able to apply recoloring to our converted images, lets showcase them with a colorful image
@@ -145,6 +167,8 @@ carpe_diem |
 ![t-carpe_diem](https://user-images.githubusercontent.com/59083599/139965937-12ef191c-2f1c-4536-98ad-e433e198ca8a.jpeg) |
 Hyena |
 ![t-Hyena](https://user-images.githubusercontent.com/59083599/139965967-cdd7f058-005e-415f-9b3e-d836e233a49a.jpeg) |
+
+<br>
 
 ## make animated gif out of one image
 so far we only used mosaic for places, objects and people, lets change all that and do a little bit of halftone abstract art, here is how our image looks 
@@ -172,6 +196,8 @@ and convert to animated gif
 cat *.png | ffmpeg -framerate 15 -f image2pipe -i - -vf format=yuv420p mos-halftone+.gif
 ```
 ![mos-halftone+](https://user-images.githubusercontent.com/59083599/140745862-b1ec818b-222c-46de-b706-0b7bb5cc7a66.gif)
+
+<br>
 
 ## mosaicify a video
 lets apply what we learned to a video, i have made a example of how to download a free video, make image sequence, apply filter and mux it back [here](https://github.com/junguler/ffmpeg-examples/tree/main/sequence%2C%20manipulate%20%26%20mux%20images)

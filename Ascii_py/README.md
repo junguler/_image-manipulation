@@ -5,6 +5,8 @@ python3 -m pip install ascii_py
 ```
 there is also compiled linux binary on the repo [here](https://github.com/ProfOak/ascii_py/tree/master/bin)
 
+<br>
+
 ### quick links
  * [basic usage](https://github.com/junguler/_image-manipulation/tree/main/Ascii_py#basic-usage)
  * [density](https://github.com/junguler/_image-manipulation/tree/main/Ascii_py#density-based)
@@ -13,8 +15,12 @@ there is also compiled linux binary on the repo [here](https://github.com/ProfOa
  * [iterate over an image](https://github.com/junguler/_image-manipulation/tree/main/Ascii_py#iterate-over-an-image)
  * [asciify a video](https://github.com/junguler/_image-manipulation/tree/main/Ascii_py#asciify-a-video)
 
+<br>
+
 ## source material
 everything is downloaded from a royalty free image website [here](https://free-images.com/) and some royalty free stock footage from youtube
+
+<br>
 
 ## explanation of the switches and how the program works
 | Flag | Description |
@@ -26,11 +32,15 @@ everything is downloaded from a royalty free image website [here](https://free-i
 | `-t`, `--terminal` | print ascii image to terminal |
 | `-h`, `--help` | show help message and exit |
 
+<br>
+
 ## basic usage
 ```
 ascii_py basketball.jpg -o b-ball.jpg
 ```
 ![b-ball](https://user-images.githubusercontent.com/59083599/136875612-ae06a87a-b10e-4d05-8aca-2cd6913d1a1d.jpg)
+
+<br>
 
 ## density based
 use a wide range of characters to show density of the picture, this is the best option this program has imo
@@ -43,6 +53,8 @@ ascii_py ab4.jpg -d -o abstract.jpg
 ```
 ![abstract](https://user-images.githubusercontent.com/59083599/136876249-aef33d21-2881-401f-a4dc-25884fbdd584.jpg)
 
+<br>
+
 ## change distane between characters
 ```
 ascii_py bicycle.jpg -d -s 10 -o bicy.jpg
@@ -52,6 +64,8 @@ ascii_py bicycle.jpg -d -s 10 -o bicy.jpg
 ascii_py harleyD.jpg -d -s 15 -o harlD.jpg
 ```
 ![harlD](https://user-images.githubusercontent.com/59083599/136876717-14d77d6e-4213-478d-a705-05153c614ae9.jpg)
+
+<br>
 
 ## use your own characters or words
 this option takes your characters and use it to draw the picture, it's not a randomized or image based options tho, it repeats everything you add to it, spaces are empty characters in the image. so we either want to pass one character only to fill the whole image with it or add certain strings to replicate the effect.
@@ -63,6 +77,8 @@ ascii_py ab7.jpg -w "/" -s 5 -o abst+.jpg
 ascii_py sunset.jpg -w "\|/-_" -s 5 -o sun+.jpg
 ```
 ![sun+](https://user-images.githubusercontent.com/59083599/136878131-77a84629-9d48-4af6-9cdd-e6866d09538e.jpg)
+
+<br>
 
 ## iterate over an image
 sometimes we want to make an animated gif but we only have one image to work with, if the program applies random values to conversions we would just feed the same image many times to make animated gifs but in the case of this program that does not seem to be the case.
@@ -92,6 +108,8 @@ you can also randomize file names to make this gif file less uniform
 for file in *.jpg ; do mv -- "$file" "$(mktemp --dry-run XXXXXX.jpg)" ; done 
 ```
 https://user-images.githubusercontent.com/59083599/136887039-1d972588-38c2-4065-aa89-02e7883a8fd9.mp4
+
+<br>
 
 ## asciify a video
 lets apply what we learned to a video, i have made a example of how to download a free video, make image sequence, apply filter and mux it back [here](https://github.com/junguler/ffmpeg-examples/tree/main/sequence%2C%20manipulate%20%26%20mux%20images)

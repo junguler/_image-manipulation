@@ -3,6 +3,8 @@ ascii-image-converter is a cli program that takes your image(s) make cool lookin
 
 special thanks to [Zoraiz Hassan](https://github.com/TheZoraiz) for making this great program and including options i wanted in it <3
 
+<br>
+
 ### quick links
  * [basic usage](https://github.com/junguler/_image-manipulation/tree/main/Ascii-image-converter#basic-usage)
  * [with color](https://github.com/junguler/_image-manipulation/tree/main/Ascii-image-converter#with-color)
@@ -12,8 +14,12 @@ special thanks to [Zoraiz Hassan](https://github.com/TheZoraiz) for making this 
  * [iterate over the same image](https://github.com/junguler/_image-manipulation/tree/main/Ascii-image-converter#iterate-over-an-image-with-progressing-width-size)
  * [asciify video](https://github.com/junguler/_image-manipulation/tree/main/Ascii-image-converter#asciify-a-video)
 
+<br>
+
 ## source material
 everything is downloaded from a royalty free image website [here](https://free-images.com/) and some royalty free stock footage from youtube
+
+<br>
 
 ## explanation of the switches and how the program works
 | Flag | Description |
@@ -44,6 +50,8 @@ everything is downloaded from a royalty free image website [here](https://free-i
 
 note: for the sake of keeping the table organized, the description is not as verbose as the original repo page.
 
+<br>
+
 ## basic usage
 ```
 ascii-image-converter yin_yang.jpg -s . -W 64 --only-save
@@ -51,6 +59,8 @@ ascii-image-converter yin_yang.jpg -s . -W 64 --only-save
 ![yin_yang-ascii-art](https://user-images.githubusercontent.com/59083599/136243139-541425e3-82d0-4222-9cf9-c1ed8f3e7796.png)
 
 `-s .` output external image `-W 64` set 64 character width `--only-save` to not print the ascii art in the terminal
+
+<br>
 
 ### with color
 ```
@@ -62,6 +72,8 @@ ascii-image-converter rubikQ.jpg -C -s . -W 96 --only-save
 ascii-image-converter sneaker.jpg -C -s . -W 128 --only-save
 ```
 ![sneaker-ascii-art](https://user-images.githubusercontent.com/59083599/136244547-8cf39735-1578-4c05-855c-9c84a6fe2b4b.jpg)
+
+<br>
 
 ## using custom characters
 using the `-m` flag we can use our own string of characters
@@ -80,6 +92,8 @@ ascii-image-converter newspaper.jpg -C -s . -W 200 --only-save -m ".oO01"
 ```
 ![newspaper-ascii-art](https://user-images.githubusercontent.com/59083599/136247425-2e30dac0-4ef8-4cd3-a3f0-5e80f5c5fee4.jpg)
 
+<br>
+
 ## using nerd fonts
 [nerd fonts](https://www.nerdfonts.com/#home) are a collection of free and open sort fonts that have many extra glyphs patched into them, download one of them [here](https://www.nerdfonts.com/font-downloads), use windows compatible mono variant even if you are in linux like me or on macos, lets rename it to `NerdMono.ttf` so it's easier to link and put inside the folder you want to convert your images on. we'll use the `--font` flag to use it.
 ```
@@ -89,6 +103,8 @@ ascii-image-converter github.png -C -s . -W 48 --only-save -m "" --font NerdM
 
 the glyph probably doesn't show in this markdown file but if you copy the link it will work
 
+<br>
+
 ## braille art
 ```
 ascii-image-converter earth.jpg -C -s . -W 96 --only-save -b --dither
@@ -96,6 +112,8 @@ ascii-image-converter earth.jpg -C -s . -W 96 --only-save -b --dither
 ![earth-ascii-art](https://user-images.githubusercontent.com/59083599/136256903-0545bc11-273b-4c8a-985f-bf274a72c81b.jpg)
 
 with braille we also pass `--dither` flag to have more details in the output image
+
+<br>
 
 ## iterate over an image with progressing width size
 lets convert this image 36 times, starting with 25 width and then 30 and 35 and 40 etc to get to 200 shapes in the 30th picture ...
@@ -115,6 +133,8 @@ and mux them, because we have both 2 digit and 3 digits numbers and we want to s
 ls -v *.png | xargs cat | ffmpeg -framerate 5 -f image2pipe -i -  ascii_ice_cream+.mp4 
 ```
 https://user-images.githubusercontent.com/59083599/136264260-eea39184-9d06-4d66-ae7a-8fafd2b18380.mp4
+
+<br>
 
 ## asciify a video
 lets apply what we learned to a video, i have made a example of how to download a free video, make image sequence, apply filter and mux it back [here](https://github.com/junguler/ffmpeg-examples/tree/main/sequence%2C%20manipulate%20%26%20mux%20images)
