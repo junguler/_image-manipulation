@@ -58,7 +58,7 @@ gmic statue.jpg fx_stylize 25,5,0,0,0.5,2,3,0.5,0.1,3,3,0,0.7,1,0,1,0,5,5,7,1,30
 ```
 gmic tree.jpg lighthouse.jpg fx_stylize 0,5,0,0,0.5,2,3,0.5,0.1,3,3,0,0.7,1,0,1,0,5,5,7,1,30,10,2,1.85,0 -o Light_tree.jpg ; rm *000000.jpg
 ```
-this command outputs two images, `Light_tree_000000` which is the same as our input image and `Light_tree_000001.jpg` which is what we actually want so for further commands we add a remove command at the end of our command to remove this un-needed file like this `; rm *000000.jpg` the `;` add the remove command to our gmic command to make it a one liner
+this command outputs two images, `Light_tree_000000.jpg` which is the same as our input image and `Light_tree_000001.jpg` which is what we actually want so for further commands we add a remove command at the end of our command to remove this un-needed file like this `; rm *000000.jpg` the `;` add the remove command to our gmic command to make it a one liner
 
 | input | style |  output | 
 | --- | --- | --- |
