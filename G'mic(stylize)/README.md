@@ -113,7 +113,7 @@ by default stylize only takes 20% (1 out 5) of gradients into the effect, this p
 there is simply too many options to go over, i'm not sure how effective they are and how much they might show up in result outputs as i didn't have the time to test them, but i'll make sure to include them if they caught my attention
 
 ## fun with gifs
-making a animated gif with stylize is just as easy as still images, we just need a `for` loop for batch processing, if we don't have a image sequence of your gif file you can make one like this 
+making a animated gif with stylize is just as easy as still images, we just need a `for` loop for batch processing, if you don't have a image sequence of your gif file you can make one like this 
 ```
 ffmpeg -i my.gif -vsync 0 S-%4d.jpg
 ```
@@ -139,7 +139,7 @@ lets apply what we learned to a video, i have made a example of how to download 
 ```
 for i in *.jpg ; do gmic zebra.jpg $i fx_stylize 0,5,0,0,0.5,2,3,0.5,0.1,3,3,0,0.7,1,0,1,0,5,5,7,1,30,10,2,1.85,0 -o G-$i.jpg ; rm *000000.jpg ; done 
 ```
-as you can see the process is similar to gif making, we just want to make a video instead, videos have the advantage of applying a uniform compression to each frame and produce an amazing quality images with a really small output size
+as you can see the process is similar to gif making, we just want to make a video instead, videos have the advantage of applying a uniform compression to each frame and produce amazing quality images with a really small output size
 ```
 cat G-*.jpg | ffmpeg -framerate 30 -f image2pipe -i - -preset veryslow cycle-zebra.mp4
 ```
