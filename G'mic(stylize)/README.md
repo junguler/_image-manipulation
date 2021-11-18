@@ -145,6 +145,6 @@ cat G-*.jpg | ffmpeg -framerate 30 -f image2pipe -i - -preset veryslow guitar-ne
 ```
 https://user-images.githubusercontent.com/59083599/142411781-b9f9ffa8-7a29-4f15-9437-2f1e59364201.mp4
 
-here is another example
+here is another example at half speed
 
-https://user-images.githubusercontent.com/59083599/142290088-fcff6549-03e5-43f5-a727-385a3ef823a5.mp4
+https://user-images.githubusercontent.com/59083599/142415370-838f1fd1-a66d-4370-b1cb-fc6139ee577c.mp4
