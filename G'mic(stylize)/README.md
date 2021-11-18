@@ -1,9 +1,9 @@
 ## what is needed to get started?
-G'mic is a massive collection of image processing filters combined to a one easy to use gui and cli program that can be installed on gimp, krita etc ... or used on the terminal, it's so big even tho i already made a markdown file specific for showing it with many examples i barely scracthed the surface of what it does and i'm going to showcase one of it's filters here
+G'mic is a massive collection of image processing filters combined to a one easy to use gui and cli program that can be installed on gimp, krita etc ... or used on the terminal, it's so big even tho i already made a markdown file specific for showing it with many examples i barely scratched the surface of what it does and i'm going to showcase one of it's filters here
 
-for the basics of how to use the G'mic look [here](https://github.com/junguler/_image-manipulation/tree/main/G'mic) , now that you are somewhat familier with this program lets do our thing
+for the basics of how to use the G'mic look [here](https://github.com/junguler/_image-manipulation/tree/main/G'mic) , now that you are somewhat familiar with this program lets do our thing
 
-stylize is a cool filter for applying style transfer to our images, see [here](https://discuss.pixls.us/t/style-transfer-soon-in-gmic/10009) for a deep dive of the filter documented by G'mic, stylize is the most easy to use and un-complicated implementation of style transfer i have seen that runs localy on your computer without the need for internet or installing extra programs like python, lua or others
+stylize is a cool filter for applying style transfer to our images, see [here](https://discuss.pixls.us/t/style-transfer-soon-in-gmic/10009) for a deep dive of the filter documented by G'mic, stylize is the most easy to use and un-complicated implementation of style transfer i have seen that runs locally on your computer without the need for internet or installing extra programs like python, lua or others
 
 note: images that are linked in this markdown file are compressed to make loading the page faster, for the uncompressed versions go to the examples folder
 
@@ -39,7 +39,7 @@ gmic style.jpg input.jpg fx_stylize 0,5,0,0,0.5,2,3,0.5,0.1,3,3,0,0.7,1,0,1,0,5,
 ```
 
 ## basic usage (using built-in styles)
-we'll start we some pre-embeded images as styles, this is easiest way to use the filter
+we'll start we some pre-embedded images as styles, this is easiest way to use the filter
 ```
 gmic earth.jpg fx_stylize 32,5,0,0,0.5,2,3,0.5,0.1,3,3,0,0.7,1,0,1,0,5,5,7,1,30,10,2,1.85,0 -o earth_gogh+.jpg
 ```
@@ -58,7 +58,7 @@ gmic statue.jpg fx_stylize 25,5,0,0,0.5,2,3,0.5,0.1,3,3,0,0.7,1,0,1,0,5,5,7,1,30
 ```
 gmic tree.jpg lighthouse.jpg fx_stylize 0,5,0,0,0.5,2,3,0.5,0.1,3,3,0,0.7,1,0,1,0,5,5,7,1,30,10,2,1.85,0 -o Light_tree.jpg ; rm *000000.jpg
 ```
-this command outputs two images, `Light_tree_000000` which is the same as our input image and `Light_tree_000001.jpg` which is what we actually want so for further commands we add a remove command at the end of our command to remove this undded file like this `; rm *000000.jpg` the `;` add the remove command to our gmic command to make it a one liner
+this command outputs two images, `Light_tree_000000` which is the same as our input image and `Light_tree_000001.jpg` which is what we actually want so for further commands we add a remove command at the end of our command to remove this un-needed file like this `; rm *000000.jpg` the `;` add the remove command to our gmic command to make it a one liner
 
 | input | style |  output | 
 | --- | --- | --- |
@@ -97,7 +97,7 @@ smoothness decides how much styles uses the style image to recreate the input im
 </div>
   
 ## respect gradients
-by default stylize only takes 20% (1 out 5) of gradients into the effect, this part of the filter works in tandom with the smoothness option but won't mix them here because we want to showcase it on it's own
+by default stylize only takes 20% (1 out 5) of gradients into the effect, this part of the filter works in tandem with the smoothness option but won't mix them here because we want to showcase it on it's own
 
 <div align="center">
   
@@ -117,7 +117,7 @@ making a animated gif with stylize is just as easy as still images, we just need
 ```
 ffmpeg -i my.gif -vsync 0 S-%4d.jpg
 ```
-the above command pads 4 zeros to our images after `S-` , each gif file is limited to 500 frames but we add an extra 0 at the begining to make life easier for our for loop and the conversion of our stylized sequence to gif again 
+the above command pads 4 zeros to our images after `S-` , each gif file is limited to 500 frames but we add an extra 0 at the beginning to make life easier for our for loop and the conversion of our stylized sequence to gif again 
 
 now for converting our newly made image sequence
 ```
@@ -132,7 +132,7 @@ cat G-*.jpg | ffmpeg -framerate 30 -f image2pipe -i - -preset veryslow crochet_f
 | --- | --- |
 | ![face-low](https://user-images.githubusercontent.com/59083599/142287222-4892d2a4-6963-457a-93b0-f0b141cd6441.gif) | ![crochet_low](https://user-images.githubusercontent.com/59083599/142287356-4fba04cb-bd6d-435c-9160-41b0e558bfe1.gif) |
 
-for the style image go to the gif folder inside examples, these gifs were significantly compressed using gifsicle to make their size way smaller and are not representitive of the actual result quality
+for the style image go to the gif folder inside examples, these gifs were significantly compressed using gifsicle to make their size way smaller and are not representative of the actual result quality
 
 ## stylizify a video
 lets apply what we learned to a video, i have made a example of how to download a free video, make image sequence, apply filter and mux it back [here](https://github.com/junguler/ffmpeg-examples/tree/main/sequence%2C%20manipulate%20%26%20mux%20images)
