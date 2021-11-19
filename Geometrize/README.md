@@ -1,4 +1,4 @@
-## Geometrize
+# Geometrize
 Geometrize is a cli and gui program that takes your input image(s) make cool looking art with them using basic shapes, find the github page [here](https://github.com/Tw1ddle/geometrize) for gui, [here](https://github.com/Tw1ddle/geometrize-lib-example) for cli,
 unlike primitive geometrize come with a binary executable for cli and gui out of the box, find them [here](https://www.geometrize.co.uk/) for gui and [here](https://s3.amazonaws.com/geometrize-lib-example-bucket/index.html) for the cli
 

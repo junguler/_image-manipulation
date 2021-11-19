@@ -1,4 +1,4 @@
-## Tiler
+# Tiler
 tiler is a cool and amazing python cli programs that uses small pictures (tiles) to recreate pictures in those styles, find the github repo [here](https://github.com/nuno-faria/tiler) and read about how to install it
 
 <br>

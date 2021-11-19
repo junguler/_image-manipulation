@@ -1,4 +1,4 @@
-## Triangle
+# Triangle
 Triangle is a very fast and efficient program that takes your image(s) make cool looking polygonal art out of them. find the github repo 
 [here](https://github.com/esimov/triangle),download the binary executable for your os [here](https://github.com/esimov/triangle/releases) and put it somewhere in your $PATH to be accessible from everywhere in the terminal and lets go.
 

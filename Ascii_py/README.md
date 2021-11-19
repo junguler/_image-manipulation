@@ -1,4 +1,4 @@
-## Ascii_py
+# Ascii_py
 ascii_py is a cool python cli program that takes you images and makes cool looking ascii art out of them, find the github [repo](https://github.com/ProfOak/ascii_py),installing ascii_py is very easy, just install python3 and run a simple pip command:
 ```
 python3 -m pip install ascii_py
