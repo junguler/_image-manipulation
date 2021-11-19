@@ -1,4 +1,4 @@
-## what is needed to get started?
+## Ascii-image-converter
 ascii-image-converter is a cli program that takes your image(s) make cool looking ascii art out of them on the terminal and externally. find the github repo [here](https://github.com/TheZoraiz/ascii-image-converter) download the binary version for your os [here](https://github.com/TheZoraiz/ascii-image-converter/releases/tag/v1.11.0) put it in your @PATH and open the terminal. this program is mainly designed to output the ascii art in the terminal but i'm more interested in getting external outputs from it, check the [README.md](https://github.com/TheZoraiz/ascii-image-converter/blob/master/README.md) of the original repo for more detailed visual representation of the program in the terminal
 
 special thanks to [Zoraiz Hassan](https://github.com/TheZoraiz) for making this great program and including options i wanted in it <3

@@ -1,4 +1,4 @@
-## what is needed to get started?
+## Mosaic
 mosaic is a really amazing program that takes you input images and makes roman style mosaics out of them, find the github repo [here](https://github.com/yobeatz/mosaic)
 and look [here](https://towardsdatascience.com/how-to-generate-roman-style-mosaics-with-python-11d5aa021b09) for a post to goes in-depth on how the program was designed and works
 
