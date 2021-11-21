@@ -185,14 +185,27 @@ for i in *.jpg ; do gmic 0468.jpg $i fx_stylize 0,6,0,0,0.5,2,3,0.5,0.1,3,3,0,0.
 
 https://user-images.githubusercontent.com/59083599/142775522-d84679bf-dee3-4f5e-ab9a-3e89242c5b76.mp4
 
+<br>
+
 using a glitched image as style
 
 https://user-images.githubusercontent.com/59083599/142775599-9cf014d1-1e78-46a2-ac6e-2de7a00c4268.mp4
+
+<br>
 
 use a pixelated or a very small image as style
 
 https://user-images.githubusercontent.com/59083599/142776987-c4e304e7-403c-4e77-b954-df675867145e.mp4
 
+<br>
+
 use a blank noise image as style
 
 https://user-images.githubusercontent.com/59083599/142778275-acd9864c-c722-4a3a-8ecb-5040e5dc6956.mp4
+
+<br>
+
+use a dithered gradient as style
+
+https://user-images.githubusercontent.com/59083599/142779160-f6b6f1ef-2395-4e82-a05b-123cf10b7405.mp4
+
