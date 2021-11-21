@@ -175,7 +175,7 @@ https://user-images.githubusercontent.com/59083599/142415370-838f1fd1-a66d-4370-
 <br>
 
 ## glitch it
-we've been trying to re-create the input images as best as we can and get a clear result, lets change all of that and destroy the input by various methods
+we've been trying to re-create the input images as best as we can and get a clear result, lets change all of that and destroy the input
 
 the easiest way you can go about this is using a frame out of an image sequence as the style image
 
@@ -192,3 +192,7 @@ https://user-images.githubusercontent.com/59083599/142775599-9cf014d1-1e78-46a2-
 use a pixelated or a very small image as style
 
 https://user-images.githubusercontent.com/59083599/142776987-c4e304e7-403c-4e77-b954-df675867145e.mp4
+
+use a blank noise image as style
+
+https://user-images.githubusercontent.com/59083599/142778275-acd9864c-c722-4a3a-8ecb-5040e5dc6956.mp4
