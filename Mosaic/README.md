@@ -216,6 +216,8 @@ cat o-*.png | ffmpeg -framerate 20 -f image2pipe -i - mosaic-liberty.mp4
 ```
 https://user-images.githubusercontent.com/59083599/139774925-d6aff776-6e83-485f-b6fb-76d069b7aff4.mp4
 
+<br>
+
 another example with randomized tile placement
 
 https://user-images.githubusercontent.com/59083599/140249243-f8eeb164-4dda-4511-8d0c-fb03c2f84e68.mp4
