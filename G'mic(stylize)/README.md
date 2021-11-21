@@ -170,3 +170,21 @@ https://user-images.githubusercontent.com/59083599/142411781-b9f9ffa8-7a29-4f15-
 here is another example at half speed
 
 https://user-images.githubusercontent.com/59083599/142415370-838f1fd1-a66d-4370-b1cb-fc6139ee577c.mp4
+
+<br>
+
+## glitch it
+we've been trying to re-create the input images as best as we can and get a clear result, lets change all of that and destroy the input by various methods
+
+the easiest way you can go about this is using a frame out of an image sequence as the style image
+
+```
+for i in *.jpg ; do gmic 0468.jpg $i fx_stylize 0,6,0,0,0.5,2,3,0.5,0.1,3,3,0,0.7,1,0,1,0,5,5,7,1,30,10,2,1.85,0 -o G-$i.jpg ; rm *000000.jpg ; done
+```
+
+https://user-images.githubusercontent.com/59083599/142775522-d84679bf-dee3-4f5e-ab9a-3e89242c5b76.mp4
+
+using a glitched image as style
+
+https://user-images.githubusercontent.com/59083599/142775599-9cf014d1-1e78-46a2-ac6e-2de7a00c4268.mp4
+
