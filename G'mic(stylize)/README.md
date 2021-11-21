@@ -189,3 +189,6 @@ using a glitched image as style
 
 https://user-images.githubusercontent.com/59083599/142775599-9cf014d1-1e78-46a2-ac6e-2de7a00c4268.mp4
 
+use a pixelated or a very small image as style
+
+https://user-images.githubusercontent.com/59083599/142776987-c4e304e7-403c-4e77-b954-df675867145e.mp4
