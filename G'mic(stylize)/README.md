@@ -209,3 +209,9 @@ use a dithered gradient as style
 
 https://user-images.githubusercontent.com/59083599/142779160-f6b6f1ef-2395-4e82-a05b-123cf10b7405.mp4
 
+<br>
+
+use an inverted image as the style, this is a different effect from inverting the output video of our first example as the dark parts of the image are not placed on the bright areas and vise versa
+
+https://user-images.githubusercontent.com/59083599/142779372-6bdcf6cb-aae9-4dd7-9f22-925c112b66cf.mp4
+
