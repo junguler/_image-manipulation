@@ -18,6 +18,7 @@ note: images that are linked in this markdown file are compressed to make loadin
  * [fun with gifs](https://github.com/junguler/_image-manipulation/tree/main/G'mic(stylize)#fun-with-gifs)
  * [stylizify a video](https://github.com/junguler/_image-manipulation/tree/main/G'mic(stylize)#stylizify-a-video)
  * [glitch it](https://github.com/junguler/_image-manipulation/tree/main/G'mic(stylize)#glitch-it)
+ * [batch processing](https://github.com/junguler/_image-manipulation/tree/main/G'mic(stylize)#batch-processing)
 
 <br>
 
