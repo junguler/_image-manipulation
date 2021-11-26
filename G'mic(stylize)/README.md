@@ -218,6 +218,12 @@ https://user-images.githubusercontent.com/59083599/142779372-6bdcf6cb-aae9-4dd7-
 
 <br>
 
+use G'mic's own pixel sort filter for style
+
+https://user-images.githubusercontent.com/59083599/143520455-6f8708f3-711d-4166-884c-e7e799328c4e.mp4
+
+<br>
+
 ## batch processing
 it's kind of hard to know how an image might look without converting it first, when in doubt, stylize them all!
 
