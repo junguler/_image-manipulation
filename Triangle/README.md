@@ -169,7 +169,7 @@ https://user-images.githubusercontent.com/59083599/135366867-92af9368-7f0b-4b42-
 <br>
 
 ## trianglify a video
-lets apply what we learned to a video, i have made a example of how to download a free video, make image sequence, apply filter and mux it back [here](https://github.com/junguler/ffmpeg-examples/tree/main/sequence%2C%20manipulate%20%26%20mux%20images)
+lets apply what we learned to a video, i have made a example of how to download a free video, make image sequence, apply filter and mux it back [here](https://github.com/junguler/ffmpeg-examples/tree/main/sequence%20-%20manipulate%20%26%20mux%20images)
 ```
 for i in *.jpg ; do echo $i ; triangle -in $i -out h-$i -pts 2500 -th 5 ; done
 ```

@@ -181,7 +181,7 @@ for file in T-*.png ; do mv -- "$file" "$(mktemp --dry-run XXXXXX.png)" ; done
 <br>
 
 ## triangulafy a video
-lets apply what we learned to a video, i have made a example of how to download a free video, make image sequence, apply filter and mux it back [here](https://github.com/junguler/ffmpeg-examples/tree/main/sequence%2C%20manipulate%20%26%20mux%20images)
+lets apply what we learned to a video, i have made a example of how to download a free video, make image sequence, apply filter and mux it back [here](https://github.com/junguler/ffmpeg-examples/tree/main/sequence%20-%20manipulate%20%26%20mux%20images)
 ```
 for d in *.jpg ; do timeout 10s triangula run -img $d -out j.json -p 250 ; triangula render -in j.json -out T-${d%%.*} -img $d png ; rm j.json ; done
 ```

@@ -137,7 +137,7 @@ https://user-images.githubusercontent.com/59083599/136264260-eea39184-9d06-4d66-
 <br>
 
 ## asciify a video
-lets apply what we learned to a video, i have made a example of how to download a free video, make image sequence, apply filter and mux it back [here](https://github.com/junguler/ffmpeg-examples/tree/main/sequence%2C%20manipulate%20%26%20mux%20images)
+lets apply what we learned to a video, i have made a example of how to download a free video, make image sequence, apply filter and mux it back [here](https://github.com/junguler/ffmpeg-examples/tree/main/sequence%20-%20manipulate%20%26%20mux%20images)
 ```
 for a in *.jpg ; do ascii-image-converter $a -C -s . -W 128 --only-save -m ".oO0" ; done 
 ```

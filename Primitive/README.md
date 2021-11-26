@@ -266,7 +266,7 @@ https://user-images.githubusercontent.com/59083599/135261003-5ac31f0f-8bcf-4b3c-
 <br>
 
 ## primitify a video
-lets apply what we learned to a video, i have made a example of how to download a free video, make image sequence, apply filter and mux it back [here](https://github.com/junguler/ffmpeg-examples/tree/main/sequence%2C%20manipulate%20%26%20mux%20images)
+lets apply what we learned to a video, i have made a example of how to download a free video, make image sequence, apply filter and mux it back [here](https://github.com/junguler/ffmpeg-examples/tree/main/sequence%20-%20manipulate%20%26%20mux%20images)
 ```
 for i in image-000*.jpg ; do echo $i ; primitive -i $i -o p-$i.jpg -n 250 -m 0 -s 1280 -v ; done
 ```
