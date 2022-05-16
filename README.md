@@ -28,4 +28,4 @@ these markdown tutorials are also backed up as html pages on my blog [here](http
 
 [![STY_banner+](https://user-images.githubusercontent.com/59083599/142296983-1a0bc8a9-4fbf-4b56-bc61-b3930f16034a.gif)](https://github.com/junguler/_image-manipulation/tree/main/G'mic(stylize))
 
-[![Gi2_banner](https://user-images.githubusercontent.com/59083599/168687357-23fea07d-8c26-4d0e-bc40-f511dca6cf3b.gif)](https://github.com/junguler/_image-manipulation/tree/main/G'mic-r2)
+[![Gi2_banner+](https://user-images.githubusercontent.com/59083599/168689875-686cd9e2-62a0-46b3-a976-a2b6a80793e6.gif)](https://github.com/junguler/_image-manipulation/tree/main/G'mic-r2)
