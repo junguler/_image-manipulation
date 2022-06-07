@@ -20,7 +20,6 @@ these two programs look somewhat the same in first glance but there are enough d
  * triangula tries to produce a more uniformed look with triangle sizes roughly the same size
  * triangula does not overlap these triangles and only push them to different directions
  * triangula wants to more closely recreate the image which makes it very slower than triangle
- * triangula comes with gui option in addition to cli but triangle does not
  * triangula has a two step process for recreating the image but triangle does it in 1 step
  * triangula output images that more closely resemble low poly art we see in pop culture
  * triangula's outputs are more cleaner and need less points to be able to make out the image
