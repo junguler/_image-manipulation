@@ -75,7 +75,7 @@ with this example you can clearly see that only the waves are the target of ebsy
 
 | raw | style |
 | --- | --- |
-| ![raw](examples/i-raw.jpg) | ![filter](examples/i-key.jpg) |
+| ![raw](examples/i-raw.png) | ![filter](examples/i-key.jpg) |
 
 https://user-images.githubusercontent.com/59083599/177348673-1621df76-1578-4506-959a-aaab44dacfbb.mp4
 
