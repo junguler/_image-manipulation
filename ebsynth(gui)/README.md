@@ -49,5 +49,18 @@ now find a clear frame out of that image sequence that doesn't have any motion t
 | --- | --- |
 | ![raw](examples/B-raw.jpg) | ![filter](examples/B-key.jpg) |
 
+## forth step, lets convert
+now that you have your keystroke and image sequence put them on their own folders for easy usage, i'm using key and seq as folder names but you can name yours what you want, open your file manager window and drag the "key" folder to the keyframes section and your "seq" window to the video section and click on run all and wait for the program to finish doing it's thing
+
+![filter]()
+
+ebsynth is going to make a new folder with the `out_` prefix and the first name of your image sequence, so my output folder is called `out_0001`
+
+## fifth step, convert the output image sequence to a clip
+```
+cat *.png | ffmpeg -framerate 20 -f image2pipe -i - -vf format=yuv420p ebsynth.mp4
+```
+
 https://user-images.githubusercontent.com/59083599/177346463-3c80a016-d009-4c5d-8975-e59bb6ce8953.mp4
 
+as you can see the face texture is curropted after a full turn, this is because ebsynth is incapable of drawing something that doesn't have an example for, this will come in handy in the glitch making process we will go over further down this markdown file but it's not good if you want to re-create a scene faithfully so lets show a few examples of the program working as intended next
