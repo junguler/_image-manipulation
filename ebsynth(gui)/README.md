@@ -4,7 +4,7 @@ ebsynth is a gui program that takes 1 or few images as style and applies them to
 <br>
 
 ### quick links
- * [The basics]([https://github.com/junguler/_image-manipulation/tree/main/G'mic(stylize)#basic-usage-using-built-in-styles](https://github.com/junguler/_image-manipulation/tree/main/ebsynth(gui)#the-basics)
+ * [The basics](https://github.com/junguler/_image-manipulation/tree/main/G'mic(stylize)#basic-usage-using-built-in-styles](https://github.com/junguler/_image-manipulation/tree/main/ebsynth(gui)#the-basics)
  * [1st step, download a video](https://github.com/junguler/_image-manipulation/tree/main/ebsynth(gui)#first-step-find-a-good-clip)
  * [2nd step, make a clip](https://github.com/junguler/_image-manipulation/tree/main/ebsynth(gui)#second-step-turn-the-clip-to-an-image-sequence)
  * [3rd step, make and image sequence](https://github.com/junguler/_image-manipulation/tree/main/ebsynth(gui)#third-step-choose-the-keystroke-and-apply-some-effects-to-it)
