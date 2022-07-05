@@ -79,3 +79,16 @@ with this example you can clearly see that only the waves are the target of ebsy
 
 https://user-images.githubusercontent.com/59083599/177348673-1621df76-1578-4506-959a-aaab44dacfbb.mp4
 
+## comparing ebsynth to other style transfers
+lets take a small clip and the same frame as keystroke for ebsynth and style for stylize(from G'mic) and see how both methods differ
+
+| raw | style |
+| --- | --- |
+| ![raw](examples/D-raw.jpg) | ![filter](examples/D-key.jpg) |
+
+https://user-images.githubusercontent.com/59083599/177350948-91888967-5c5d-4d5b-81f9-efbcaf394ac9.mp4
+
+https://user-images.githubusercontent.com/59083599/177351001-687672b4-2eb1-45f3-be96-9b7844a91555.mp4
+
+## glitch it
+examples on how to use ebsynth to make glitched videos coming soon
