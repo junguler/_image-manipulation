@@ -29,3 +29,5 @@ these markdown tutorials are also backed up as html pages on my blog [here](http
 [![STY_banner+](https://user-images.githubusercontent.com/59083599/142296983-1a0bc8a9-4fbf-4b56-bc61-b3930f16034a.gif)](https://github.com/junguler/_image-manipulation/tree/main/G'mic(stylize))
 
 [![Gi2_banner+](https://user-images.githubusercontent.com/59083599/168689875-686cd9e2-62a0-46b3-a976-a2b6a80793e6.gif)](https://github.com/junguler/_image-manipulation/tree/main/G'mic-r2)
+
+[![ebsynth_banner](https://user-images.githubusercontent.com/59083599/177424884-1acc877d-f7c9-40f8-8328-ab775b64d270.gif)](https://github.com/junguler/_image-manipulation/tree/main/ebsynth(gui))
