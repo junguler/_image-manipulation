@@ -131,4 +131,18 @@ https://user-images.githubusercontent.com/59083599/177351001-687672b4-2eb1-45f3-
 <br>
 
 ## glitch it
-examples on how to use ebsynth to make glitched videos coming soon
+making glitched videos is really easy, you just need to feed the wrong image as keystroke and ebsynth does it for you, i've uploaded the keystrokes and the raw video as well as the glitched videos so you can see what image was used for each video
+
+https://user-images.githubusercontent.com/59083599/177418432-54c7bf36-62df-43d6-a4da-b9c82ad285d9.mp4
+
+https://user-images.githubusercontent.com/59083599/177418477-a1bfb20a-0e8a-44f3-9d7a-17169f1fa44d.mp4
+
+https://user-images.githubusercontent.com/59083599/177418637-d7408e57-7902-4369-83e1-457487e02f23.mp4
+
+https://user-images.githubusercontent.com/59083599/177418713-b9df058b-929c-4c30-902e-60bde091d6c6.mp4
+
+https://user-images.githubusercontent.com/59083599/177418930-9d6f6f23-3934-4432-a7b6-21d0ba14aa6e.mp4
+
+https://user-images.githubusercontent.com/59083599/177419095-267b69e1-cf23-46fa-971f-3670eb4a3ba9.mp4
+
+https://user-images.githubusercontent.com/59083599/177419162-2d741aa4-3799-406f-ae19-b0c1d41f06d5.mp4
