@@ -62,3 +62,20 @@ cat *.png | ffmpeg -framerate 20 -f image2pipe -i - -vf format=yuv420p ebsynth.m
 https://user-images.githubusercontent.com/59083599/177346463-3c80a016-d009-4c5d-8975-e59bb6ce8953.mp4
 
 as you can see the face texture is curropted after a full turn, this is because ebsynth is incapable of drawing something that doesn't have an example for, this will come in handy in the glitch making process we will go over further down this markdown file but it's not good if you want to re-create a scene faithfully so lets show a few examples of the program working as intended next
+
+## more examples
+
+| raw | style |
+| --- | --- |
+| ![raw](examples/w-raw.jpg) | ![filter](examples/w-key.jpg) |
+
+https://user-images.githubusercontent.com/59083599/177348102-179e2f2b-4c36-471c-bb57-48faf51a2a74.mp4
+
+with this example you can clearly see that only the waves are the target of ebsynth and it leaves none-moving sections in-tact
+
+| raw | style |
+| --- | --- |
+| ![raw](examples/i-raw.jpg) | ![filter](examples/i-key.jpg) |
+
+https://user-images.githubusercontent.com/59083599/177348673-1621df76-1578-4506-959a-aaab44dacfbb.mp4
+
