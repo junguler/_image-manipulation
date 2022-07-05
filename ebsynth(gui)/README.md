@@ -6,8 +6,8 @@ ebsynth is a gui program that takes 1 or few images as style and applies them to
 ### quick links
  * [The basics](https://github.com/junguler/_image-manipulation/tree/main/ebsynth(gui)#the-basics)
  * [1st step, download a video](https://github.com/junguler/_image-manipulation/tree/main/ebsynth(gui)#first-step-find-a-good-clip)
- * [2nd step, make a clip](https://github.com/junguler/_image-manipulation/tree/main/ebsynth(gui)#second-step-turn-the-clip-to-an-image-sequence)
- * [3rd step, make and image sequence](https://github.com/junguler/_image-manipulation/tree/main/ebsynth(gui)#third-step-choose-the-keystroke-and-apply-some-effects-to-it)
+ * [2nd step, make a clip and image sequence](https://github.com/junguler/_image-manipulation/tree/main/ebsynth(gui)#second-step-turn-the-clip-to-an-image-sequence)
+ * [3rd step, choose a keystroke and apply filter](https://github.com/junguler/_image-manipulation/tree/main/ebsynth(gui)#third-step-choose-the-keystroke-and-apply-some-effects-to-it)
  * [4rd step, convert using ebsynth](https://github.com/junguler/_image-manipulation/tree/main/ebsynth(gui)#forth-step-lets-convert)
  * [final step, make a video](https://github.com/junguler/_image-manipulation/tree/main/ebsynth(gui)#fifth-step-convert-the-output-image-sequence-to-a-clip)
  * [More examples](https://github.com/junguler/_image-manipulation/tree/main/ebsynth(gui)#more-examples)
