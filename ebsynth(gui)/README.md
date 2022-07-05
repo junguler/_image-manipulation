@@ -52,8 +52,6 @@ now find a clear frame out of that image sequence that doesn't have any motion t
 ## forth step, lets convert
 now that you have your keystroke and image sequence put them on their own folders for easy usage, i'm using key and seq as folder names but you can name yours what you want, open your file manager window and drag the "key" folder to the keyframes section and your "seq" window to the video section and click on run all and wait for the program to finish doing it's thing
 
-![filter]()
-
 ebsynth is going to make a new folder with the `out_` prefix and the first name of your image sequence, so my output folder is called `out_0001`
 
 ## fifth step, convert the output image sequence to a clip
