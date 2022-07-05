@@ -41,3 +41,13 @@ ffmpeg -i boy.mp4 -ss 1 -to 4 -c copy boy2.mp4
 ```
 
 the above command starts the smaller clip at 1 second and stops and 4 seconds, for the sake of making the example shorter i'm going to use a small section of this image sequence
+
+## third step, choose the keystroke and apply some effects to it
+now find a clear frame out of that image sequence that doesn't have any motion to it and is a good average of the whole clip, apply a filter/effect to it, it can be anything and my repo is full of examples of this, here i've used the lineart filter from G'mic
+
+| raw | style |
+| --- | --- |
+| ![raw](examples/B-raw.jpg) | ![filter](examples/B-key.jpg) |
+
+https://user-images.githubusercontent.com/59083599/177346463-3c80a016-d009-4c5d-8975-e59bb6ce8953.mp4
+
