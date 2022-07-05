@@ -3,6 +3,19 @@ ebsynth is a gui program that takes 1 or few images as style and applies them to
 
 <br>
 
+### quick links
+ * [The basics]([https://github.com/junguler/_image-manipulation/tree/main/G'mic(stylize)#basic-usage-using-built-in-styles](https://github.com/junguler/_image-manipulation/tree/main/ebsynth(gui)#the-basics)
+ * [1st step, download a video](https://github.com/junguler/_image-manipulation/tree/main/ebsynth(gui)#first-step-find-a-good-clip)
+ * [2nd step, make a clip](https://github.com/junguler/_image-manipulation/tree/main/ebsynth(gui)#second-step-turn-the-clip-to-an-image-sequence)
+ * [3rd step, make and image sequence](https://github.com/junguler/_image-manipulation/tree/main/ebsynth(gui)#third-step-choose-the-keystroke-and-apply-some-effects-to-it)
+ * [4rd step, convert using ebsynth](https://github.com/junguler/_image-manipulation/tree/main/ebsynth(gui)#forth-step-lets-convert)
+ * [final step, make a video](https://github.com/junguler/_image-manipulation/tree/main/ebsynth(gui)#fifth-step-convert-the-output-image-sequence-to-a-clip)
+ * [More examples](https://github.com/junguler/_image-manipulation/tree/main/ebsynth(gui)#more-examples)
+ * [Comparing ebsyth to other style transfer programs](https://github.com/junguler/_image-manipulation/tree/main/ebsynth(gui)#comparing-ebsynth-to-other-style-transfers)
+ * [Glitch it(upcoming)](https://github.com/junguler/_image-manipulation/tree/main/ebsynth(gui)#glitch-it)
+
+<br>
+
 ## source material
 everything is taken from free, no copywright stock footage from youtube
 
@@ -109,6 +122,8 @@ lets take a small clip and the same frame as keystroke for ebsynth and style for
 | ![raw](examples/D-raw.jpg) | ![filter](examples/D-key.jpg) |
 
 https://user-images.githubusercontent.com/59083599/177350948-91888967-5c5d-4d5b-81f9-efbcaf394ac9.mp4
+
+<br>
 
 https://user-images.githubusercontent.com/59083599/177351001-687672b4-2eb1-45f3-be96-9b7844a91555.mp4
 
