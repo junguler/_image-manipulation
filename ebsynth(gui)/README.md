@@ -29,7 +29,7 @@ the easiest way to use the program is to provide a keyframe, an image sequence a
 <br>
 
 ## the basics
-this program has a few limitations that you need to know about to make life easier for yourself, the first thing is the keystroke(s) has to be in the same dimensions (width and height) at the output image sequence and it also needs to be named with the same number of leading zeros, so if i have my keystroke that is named img001.jpg and my image sequence that starts at img001.jpg and ends at img100.jpg the programs can easily understand what is going on
+this program has a few limitations that you need to know about to make life easier for yourself, the first thing is the keystroke(s) has to be in the same dimensions (width and height) at the output image sequence and it also needs to be named with the same number of leading zeros, so if i have my keystroke that is named `img001.jpg` and my image sequence that starts at `img001.jpg` and ends at `img100.jpg` the programs can easily understand what is going on
 
 this might seem like chore but i'll give some commandline on-liners to make your life easier especially when we are making an image sequence out of a video clip
 
