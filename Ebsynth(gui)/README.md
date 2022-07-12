@@ -13,6 +13,8 @@ ebsynth is a gui program that takes 1 or few images as style and applies them to
  * [More examples](https://github.com/junguler/_image-manipulation/tree/main/Ebsynth(gui)#more-examples)
  * [Comparing ebsyth to other style transfer programs](https://github.com/junguler/_image-manipulation/tree/main/Ebsynth(gui)#comparing-ebsynth-to-other-style-transfers)
  * [Glitch it](https://github.com/junguler/_image-manipulation/tree/main/Ebsynth(gui)#glitch-it)
+ * [Combine ebsynth with other programs](https://github.com/junguler/_image-manipulation/tree/main/Ebsynth(gui)#combine-ebsynth-with-other-programs)
+   * [with G'mic](https://github.com/junguler/_image-manipulation/tree/main/Ebsynth(gui)#with-gmic)
 
 <br>
 
