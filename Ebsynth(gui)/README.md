@@ -147,3 +147,28 @@ https://user-images.githubusercontent.com/59083599/177418930-9d6f6f23-3934-4432-
 https://user-images.githubusercontent.com/59083599/177419095-267b69e1-cf23-46fa-971f-3670eb4a3ba9.mp4
 
 https://user-images.githubusercontent.com/59083599/177419162-2d741aa4-3799-406f-ae19-b0c1d41f06d5.mp4
+
+<br>
+
+## combine ebsynth with other programs
+ebsynth is nothing without good looking keystrokes and image sequences, so here i'm going to link a series of videos made using different programs i've used in the whole repo, the raw videos and images of keystrokes are included in the examples folder
+
+#### with G'mic
+
+https://user-images.githubusercontent.com/59083599/178527787-bbcba1e6-7add-49ea-bd1a-15af3f16e5ce.mp4
+
+https://user-images.githubusercontent.com/59083599/178528257-c62b7138-0f8e-480c-93d4-6d87bd6ae852.mp4
+
+https://user-images.githubusercontent.com/59083599/178529293-e6683e83-9063-401b-b327-9d8d26394857.mp4
+
+https://user-images.githubusercontent.com/59083599/178532463-a9a53e1f-bc00-4696-97b0-6d1c6de797b3.mp4
+
+https://user-images.githubusercontent.com/59083599/178531837-da295af4-716a-44e6-b651-e99873b2ae21.mp4
+
+https://user-images.githubusercontent.com/59083599/178532983-3805e32a-0200-4e0f-b94a-f50e37435fdb.mp4
+
+https://user-images.githubusercontent.com/59083599/178527222-40de78c5-8d7b-4323-b350-1e833de9748f.mp4
+
+https://user-images.githubusercontent.com/59083599/178533201-59dc3219-ec05-4035-876f-bf0592116b05.mp4
+
+###### more examples coming soon
