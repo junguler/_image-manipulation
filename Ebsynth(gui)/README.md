@@ -173,4 +173,16 @@ https://user-images.githubusercontent.com/59083599/178527222-40de78c5-8d7b-4323-
 
 https://user-images.githubusercontent.com/59083599/178533201-59dc3219-ec05-4035-876f-bf0592116b05.mp4
 
+#### with primitive
+
+https://user-images.githubusercontent.com/59083599/178753950-82beadfa-9f7f-4df7-8b92-2e1bcf1c50ec.mp4
+
+#### with geometrize
+
+https://user-images.githubusercontent.com/59083599/178754028-e3e16748-632e-401c-94fd-61a1e0ebddfa.mp4
+
+#### with triangle
+
+https://user-images.githubusercontent.com/59083599/178754391-29ee3256-a38c-442d-8823-d4ec8ac9404d.mp4
+
 ###### more examples coming soon
