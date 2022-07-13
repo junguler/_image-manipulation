@@ -18,6 +18,7 @@ ebsynth is a gui program that takes 1 or few images as style and applies them to
    * [with Primitive](https://github.com/junguler/_image-manipulation/tree/main/Ebsynth(gui)#with-primitive)
    * [with Geometrize](https://github.com/junguler/_image-manipulation/tree/main/Ebsynth(gui)#with-geometrize)
    * [with Triangle](https://github.com/junguler/_image-manipulation/tree/main/Ebsynth(gui)#with-triangle)
+   * [with Tiler](https://github.com/junguler/_image-manipulation/tree/main/Ebsynth(gui)#with-tiler)
 
 <br>
 
