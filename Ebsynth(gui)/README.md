@@ -195,4 +195,15 @@ https://user-images.githubusercontent.com/59083599/178807400-e977aac4-b07c-4fb9-
 
 https://user-images.githubusercontent.com/59083599/178806598-f651c87f-ab96-44b5-8b9b-b57e2ac6b357.mp4
 
+<br>
+
+## make glitches videos by feeding the program the wrong info
+so far what we have done is to apply some sort of filer to a keyframe with the same name from the image sequence, what happens if we take a different frame and rename it? the program thinks it's from a different part the image sequence and it results in glitched video
+
+here is a video of a man jogging in the beach, the last few frames of the image sequence doesn't have him in the view and only the beach is shown, now i'll rename the frame 0381.jpg to 0007.jpg which is our first frame of the image sequence and make ebsynth confused
+
+https://user-images.githubusercontent.com/59083599/179356033-f8110860-bf5d-47ad-9520-428194b1b73f.mp4
+
+<br>
+
 ###### more examples coming soon
