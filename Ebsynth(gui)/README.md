@@ -203,7 +203,17 @@ so far what we have done is to apply some sort of filer to a keyframe with the s
 
 here is a video of a man jogging on a beach, the last few frames of the image sequence doesn't have him in the view and only the beach is shown, now i'll rename the frame `0381.jpg` to `0007.jpg` which is our first frame of the image sequence and make ebsynth confused
 
+| raw | style |
+| --- | --- |
+| ![raw](examples/man.jpg) | ![filter](examples/invisible_man.jpg) |
+
 https://user-images.githubusercontent.com/59083599/179356033-f8110860-bf5d-47ad-9520-428194b1b73f.mp4
+
+<br>
+
+lets take this example a bit further, here i have a video of a construction worker face that i will apply a keyframe from a matrix number rain to, just rename your completely unrelated image to the first name of this image sequence
+
+https://user-images.githubusercontent.com/59083599/179357323-c386cf7c-f5eb-4aa8-80c3-90038a02ffb1.mp4
 
 <br>
 
