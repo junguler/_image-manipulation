@@ -221,4 +221,10 @@ https://user-images.githubusercontent.com/59083599/179357323-c386cf7c-f5eb-4aa8-
 
 <br>
 
-###### more examples coming soon
+and of course lets take this even further and apply it to a green screen video of a man dancing, note that this clip was taken from a longer clip and that's why the first frame is not exactly like the keystroke, you can also set the name of the keystroke to a frame in middle of the image sequence to get the same effect
+
+| raw | style |
+| --- | --- |
+| ![raw](examples/dancing.gif) | ![filter](examples/stars.jpg) |
+
+https://user-images.githubusercontent.com/59083599/179401299-3893f1e9-91c5-4b53-a908-2fa34b02edaf.mp4
